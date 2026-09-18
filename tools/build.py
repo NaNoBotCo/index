@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Render docs/ from data/assets.json + data/counts.json: index.html, index.txt, assets.json,
 catalog.jsonld, llms.txt, robots.txt, sitemap.xml."""
-import json, os, html, datetime
+import json
+import shutil, os, html, datetime
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 A = json.load(open(os.path.join(HERE, "data", "assets.json")))
 C = json.load(open(os.path.join(HERE, "data", "counts.json")))
@@ -34,6 +35,8 @@ totals = {"corpora": len(rows), "records": tot_records, "sites": len(sites), "pa
 merged = {"title": A["title"], "one_line": A["one_line"], "byline": A["byline"], "publisher": A["publisher"], "contact": A["contact"],
           "home": HOME, "read": TODAY, "price": A["price"], "sponsor": A["sponsor"], "totals": totals, "corpora": rows, "sites": sites, "repos": repos}
 json.dump(merged, open(os.path.join(DOCS, "assets.json"), "w"), ensure_ascii=False, indent=1)
+# the roster every other site points at
+shutil.copyfile(os.path.join(HERE, "data", "fleet.json"), os.path.join(DOCS, "fleet.json"))
 
 # ---- JSON-LD: a DataCatalog whose parts are the corpora ----
 def ds(r):
@@ -114,7 +117,7 @@ td:nth-child(2){{white-space:nowrap}} footer{{margin-top:3rem;color:var(--mute);
 </style></head><body>
 <h1>{E(A['title'])}</h1>
 <p class="lead">{E(A['one_line'])}</p>
-<p class="meta">Counted {TODAY} · {E(A['byline'])} · <a href="index.txt">text</a> · <a href="assets.json">JSON</a> · <a href="catalog.jsonld">JSON-LD</a> · <a href="llms.txt">llms.txt</a> · <a href="https://github.com/NaNoBotCo/index">source</a></p>
+<p class="meta">Counted {TODAY} · {E(A['byline'])} · <a href="index.txt">text</a> · <a href="assets.json">JSON</a> · <a href="catalog.jsonld">JSON-LD</a> · <a href="fleet.json">fleet.json</a> · <a href="llms.txt">llms.txt</a> · <a href="https://github.com/NaNoBotCo/index">source</a></p>
 <div class="totals">
 <div><b>{fmt(tot_records)}</b>records in {totals['corpora']} corpora</div><div><b>{fmt(tot_pages)}</b>pages on {totals['sites']} sites</div><div><b>{totals['repos']}</b>public repositories</div>
 <div><b>{fmt(tot_cloners)}</b>machines cloned, 14 days</div><div><b>{fmt(tot_clones)}</b>clones, 14 days</div><div><b>{fmt(tot_viewers)}</b>human viewers, 14 days</div><div><b>{fmt(tot_downloads)}</b>dataset downloads</div>
@@ -134,6 +137,6 @@ Counts come from the sources named in <a href="assets.json">assets.json</a>; a b
 """
 open(os.path.join(DOCS, "index.html"), "w").write(page)
 open(os.path.join(DOCS, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {HOME}sitemap.xml\n")
-open(os.path.join(DOCS, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{HOME}{p}</loc><lastmod>{TODAY}</lastmod></url>\n" for p in ["", "index.txt", "assets.json", "catalog.jsonld", "llms.txt"]) + "</urlset>\n")
+open(os.path.join(DOCS, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{HOME}{p}</loc><lastmod>{TODAY}</lastmod></url>\n" for p in ["", "index.txt", "assets.json", "catalog.jsonld", "llms.txt", "fleet.json"]) + "</urlset>\n")
 open(os.path.join(DOCS, ".nojekyll"), "w").write("")
 print(f"built · records {fmt(tot_records)} · pages {fmt(tot_pages)} · repos {len(repos)} · cloners {fmt(tot_cloners)} · downloads {fmt(tot_downloads)}")
