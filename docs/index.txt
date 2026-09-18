@@ -1,10 +1,10 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-09-18 · Peacock, Nan · nan@motdang.net
+Counted 2026-09-19 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 301,750 · sites 20 · pages 102,462 · repositories 49
+  corpora 18 · records 301,744 · sites 20 · pages 102,629 · repositories 49
   fourteen days: 959 clones by 500 machines · 20 human viewers · dataset downloads 156
 
 PRICE
@@ -22,7 +22,7 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,251 place records · 84,908 pages
+    88,245 place records · 84,908 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
@@ -36,14 +36,14 @@ CORPORA
 
   Thai trade words, Chiang Mai
     signage compounds and trade terms with glosses and readings, plus administrative names
-    2,185 rows · 35 downloads
+    2,185 rows (last read 2026-09-19) · 35 downloads (last read 2026-09-19)
     https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai
     provenance: read from signage and registers; every term glossed and read
     licence: CC BY 4.0 · DOI: none yet
 
   Thai RTGS romanisation lexicon
     irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription
-    694 rows · 38 downloads
+    694 rows (last read 2026-09-19) · 38 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon
     provenance: hand-listed exceptions to the rules, each with its class
     licence: CC BY 4.0 · DOI: none yet
@@ -146,11 +146,11 @@ SITES
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
   wichaa.net                   15,939 pages   the hub   https://wichaa.net
-  defiant.to                        — pages   the company   https://defiant.to
+  defiant.to                      147 pages   the company   https://defiant.to
   hongdam.net                       2 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
-  offrampt.net                      8 pages   offramp   https://offrampt.net
-  nanobotco.github.io               5 pages   portal and the HODIE ledger   https://nanobotco.github.io
+  offrampt.net                      9 pages   offramp   https://offrampt.net
+  nanobotco.github.io              14 pages   portal and the HODIE ledger   https://nanobotco.github.io
   basque-tables                   206 pages   Basque dining rooms   https://nanobotco.github.io/basque-tables
   carolina-barbecue               199 pages   NC and SC barbecue   https://nanobotco.github.io/carolina-barbecue
   pinot-noir                      164 pages   Pinot Country   https://nanobotco.github.io/pinot-noir
@@ -158,9 +158,9 @@ SITES
   pink-box                        156 pages   donut shops   https://nanobotco.github.io/pink-box
   care-abroad                     365 pages   cross-border care   https://nanobotco.github.io/care-abroad
   amulet-atlas                    310 pages   world amulets   https://nanobotco.github.io/amulet-atlas
-  thairoots                         — pages   Thai Roots   https://nanobotco.github.io/thairoots
+  thairoots                         4 pages   Thai Roots   https://nanobotco.github.io/thairoots
   uptake                           15 pages   the manual   https://nanobotco.github.io/uptake
-  index                             — pages   this page   https://nanobotco.github.io/index
+  index                             6 pages   this page   https://nanobotco.github.io/index
 
 REPOSITORIES — fourteen days of traffic
 ------------------------------------------------------------------------------

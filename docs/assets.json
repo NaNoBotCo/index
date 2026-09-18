@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-09-18",
+ "read": "2026-09-19",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 301750,
+  "records": 301744,
   "sites": 20,
-  "pages": 102462,
+  "pages": 102629,
   "repos": 49,
   "clones_14d": 959,
   "cloners_14d": 500,
   "viewers_14d": 20,
   "downloads": 156,
-  "read": "2026-09-18"
+  "read": "2026-09-19"
  },
  "corpora": [
   {
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88251,
+     "value": 88245,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -103,14 +103,14 @@
     {
      "label": "rows",
      "value": 2185,
-     "stale": null,
+     "stale": "2026-09-19",
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
      "value": 35,
-     "stale": null,
+     "stale": "2026-09-19",
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
     }
@@ -127,7 +127,7 @@
     {
      "label": "rows",
      "value": 694,
-     "stale": null,
+     "stale": "2026-09-19",
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_rows"
     },
@@ -374,21 +374,21 @@
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
    "pages": null,
-   "stale": "2026-09-18"
+   "stale": "2026-09-19"
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
    "pages": null,
-   "stale": "2026-09-18"
+   "stale": "2026-09-19"
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
    "pages": null,
-   "stale": "2026-09-18"
+   "stale": "2026-09-19"
   },
   {
    "name": "wichaa.net",
@@ -401,8 +401,8 @@
    "name": "defiant.to",
    "url": "https://defiant.to",
    "note": "the company",
-   "pages": null,
-   "stale": "2026-09-18"
+   "pages": 147,
+   "stale": null
   },
   {
    "name": "hongdam.net",
@@ -416,20 +416,20 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-09-18"
+   "stale": "2026-09-19"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
-   "pages": 8,
+   "pages": 9,
    "stale": null
   },
   {
    "name": "nanobotco.github.io",
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
-   "pages": 5,
+   "pages": 14,
    "stale": null
   },
   {
@@ -485,8 +485,8 @@
    "name": "thairoots",
    "url": "https://nanobotco.github.io/thairoots",
    "note": "Thai Roots",
-   "pages": null,
-   "stale": "2026-09-18"
+   "pages": 4,
+   "stale": null
   },
   {
    "name": "uptake",
@@ -499,8 +499,8 @@
    "name": "index",
    "url": "https://nanobotco.github.io/index",
    "note": "this page",
-   "pages": null,
-   "stale": "2026-09-18"
+   "pages": 6,
+   "stale": null
   }
  ],
  "repos": [

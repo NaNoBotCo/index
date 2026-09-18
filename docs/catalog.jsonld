@@ -12,7 +12,7 @@
   "@type": "Organization",
   "name": "NaNoBotCo"
  },
- "dateModified": "2026-09-18",
+ "dateModified": "2026-09-19",
  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
  "dataset": [
   {
@@ -31,7 +31,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "6,986 manuscripts"
   },
   {
@@ -50,8 +50,8 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
-   "size": "88,251 place records"
+   "dateModified": "2026-09-19",
+   "size": "88,245 place records"
   },
   {
    "@type": "Dataset",
@@ -69,7 +69,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "17,473 listings"
   },
   {
@@ -88,7 +88,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "2,185 rows"
   },
   {
@@ -107,7 +107,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "694 rows"
   },
   {
@@ -126,7 +126,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "153,948 rows"
   },
   {
@@ -145,7 +145,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "42 downloads"
   },
   {
@@ -164,7 +164,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "179 places"
   },
   {
@@ -183,7 +183,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "158 places"
   },
   {
@@ -202,7 +202,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "29 dining rooms"
   },
   {
@@ -221,7 +221,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "10,686 shops"
   },
   {
@@ -240,7 +240,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "3,055 cellars"
   },
   {
@@ -259,7 +259,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "17,543 facilities"
   },
   {
@@ -278,7 +278,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "286 entries"
   },
   {
@@ -297,7 +297,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "18 sections"
   },
   {
@@ -316,7 +316,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "177 mapped shrines"
   },
   {
@@ -335,7 +335,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18",
+   "dateModified": "2026-09-19",
    "size": "82 kinds"
   },
   {
@@ -354,7 +354,7 @@
    },
    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
    "isAccessibleForFree": true,
-   "dateModified": "2026-09-18"
+   "dateModified": "2026-09-19"
   }
  ]
 }
