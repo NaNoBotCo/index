@@ -1,426 +1,426 @@
 {
-  "title": "The index",
-  "one_line": "Everything NaNoBotCo holds, counted once, at one address.",
-  "byline": "Peacock, Nan",
-  "publisher": "NaNoBotCo",
-  "contact": "nan@motdang.net",
-  "home": "https://nanobotco.github.io/index/",
-  "price": {
-    "share_alike": "free, with attribution and the same licence on adaptations",
-    "commercial": "by contact, for a use share-alike does not fit: a corpus, a product, a model"
-  },
-  "sponsor": {
-    "ko_fi": "https://ko-fi.com/defiantchiangmai",
-    "patreon": "https://www.patreon.com/nanobotco"
-  },
-  "corpora": [
+ "title": "The index",
+ "one_line": "Everything NaNoBotCo holds, counted once, at one address.",
+ "byline": "Peacock, Nan",
+ "publisher": "NaNoBotCo",
+ "contact": "nan@motdang.net",
+ "home": "https://nanobotco.github.io/index/",
+ "price": {
+  "attribution": "free, with attribution — name the work and link back",
+  "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
+ },
+ "sponsor": {
+  "ko_fi": "https://ko-fi.com/defiantchiangmai",
+  "patreon": "https://www.patreon.com/nanobotco"
+ },
+ "corpora": [
+  {
+   "id": "lanna-manuscripts",
+   "name": "Lanna manuscripts",
+   "what": "Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki",
+   "where": "https://wichaa.net/",
+   "repo": "manuscript-wiki",
+   "provenance": "each manuscript names its source library and shelfmark; page images served from R2",
+   "counts": [
     {
-      "id": "lanna-manuscripts",
-      "name": "Lanna manuscripts",
-      "what": "Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki",
-      "where": "https://wichaa.net/",
-      "repo": "manuscript-wiki",
-      "provenance": "each manuscript names its source library and shelfmark; page images served from R2",
-      "counts": [
-        {
-          "label": "manuscripts",
-          "method": "sqlite",
-          "path": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-          "sql": "select count(*) from manuscripts"
-        },
-        {
-          "label": "page images",
-          "method": "sqlite",
-          "path": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-          "sql": "select count(*) from images"
-        }
-      ]
+     "label": "manuscripts",
+     "method": "sqlite",
+     "path": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+     "sql": "select count(*) from manuscripts"
     },
     {
-      "id": "motdang",
-      "name": "Mot Dang",
-      "what": "Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages",
-      "where": "https://motdang.net/",
-      "repo": "mot-dang",
-      "provenance": "record-level sources on every place; field-level provenance in the Hugging Face export",
-      "counts": [
-        {
-          "label": "place records",
-          "method": "local_json_len",
-          "paths": [
-            "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json",
-            "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json"
-          ]
-        },
-        {
-          "label": "pages",
-          "method": "sitemap",
-          "url": "https://motdang.net/sitemap.xml"
-        }
-      ]
-    },
-    {
-      "id": "amulet-market",
-      "name": "Amulet market",
-      "what": "Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry",
-      "where": "https://wichaa.net/",
-      "repo": "amulet-market-api",
-      "provenance": "each item keeps its source id and the search page it came from",
-      "counts": [
-        {
-          "label": "listings",
-          "method": "sqlite",
-          "path": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-          "sql": "select count(*) from items"
-        }
-      ]
-    },
-    {
-      "id": "hf-trade-words",
-      "name": "Thai trade words, Chiang Mai",
-      "what": "signage compounds and trade terms with glosses and readings, plus administrative names",
-      "where": "https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai",
-      "repo": "mot-dang",
-      "provenance": "read from signage and registers; every term glossed and read",
-      "counts": [
-        {
-          "label": "rows",
-          "method": "hf_rows",
-          "dataset": "NaNoBotCo/thai-trade-words-chiang-mai"
-        },
-        {
-          "label": "downloads",
-          "method": "hf_downloads",
-          "dataset": "NaNoBotCo/thai-trade-words-chiang-mai"
-        }
-      ]
-    },
-    {
-      "id": "hf-rtgs-lexicon",
-      "name": "Thai RTGS romanisation lexicon",
-      "what": "irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription",
-      "where": "https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon",
-      "repo": "mot-dang",
-      "provenance": "hand-listed exceptions to the rules, each with its class",
-      "counts": [
-        {
-          "label": "rows",
-          "method": "hf_rows",
-          "dataset": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
-        },
-        {
-          "label": "downloads",
-          "method": "hf_downloads",
-          "dataset": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
-        }
-      ]
-    },
-    {
-      "id": "hf-romanisation-benchmark",
-      "name": "Thai place-name romanisation benchmark",
-      "what": "place-name words scored twice by translit.py, with the lexicon and by rules alone",
-      "where": "https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark",
-      "repo": "mot-dang",
-      "provenance": "words from the Mot Dang register; scores from the published tool",
-      "counts": [
-        {
-          "label": "rows",
-          "method": "hf_rows",
-          "dataset": "NaNoBotCo/thai-place-name-romanisation-benchmark"
-        },
-        {
-          "label": "downloads",
-          "method": "hf_downloads",
-          "dataset": "NaNoBotCo/thai-place-name-romanisation-benchmark"
-        }
-      ]
-    },
-    {
-      "id": "hf-motdang-export",
-      "name": "Mot Dang export, Chiang Mai and Chiang Rai",
-      "what": "the directory as a dataset, with provenance, fields stated and fields derived on each row",
-      "where": "https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
-      "repo": "mot-dang",
-      "provenance": "per-field provenance table on most rows",
-      "counts": [
-        {
-          "label": "downloads",
-          "method": "hf_downloads",
-          "dataset": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai"
-        }
-      ]
-    },
-    {
-      "id": "carolina-barbecue",
-      "name": "Carolina Barbecue",
-      "what": "North and South Carolina barbecue places, wood, sauce and pig, with sources on every tag",
-      "where": "https://nanobotco.github.io/carolina-barbecue/",
-      "repo": "carolina-barbecue",
-      "provenance": "a tag names its evidence",
-      "counts": [
-        {
-          "label": "places",
-          "method": "json_key",
-          "url": "https://nanobotco.github.io/carolina-barbecue/api/nodes.json",
-          "key": "count"
-        }
-      ]
-    },
-    {
-      "id": "buffalo-wings",
-      "name": "Wing Country",
-      "what": "chicken wing places across the United States",
-      "where": "https://nanobotco.github.io/buffalo-wings/",
-      "repo": "buffalo-wings",
-      "provenance": "same toolchain as Carolina Barbecue",
-      "counts": [
-        {
-          "label": "places",
-          "method": "json_key",
-          "url": "https://nanobotco.github.io/buffalo-wings/api/nodes.json",
-          "key": "count"
-        }
-      ]
-    },
-    {
-      "id": "basque-tables",
-      "name": "Basque Tables",
-      "what": "Basque dining rooms of California, Nevada and Idaho, in English and Basque",
-      "where": "https://nanobotco.github.io/basque-tables/",
-      "repo": "basque-tables",
-      "provenance": "curated rooms with their sources",
-      "counts": [
-        {
-          "label": "dining rooms",
-          "method": "json_len",
-          "url": "https://nanobotco.github.io/basque-tables/api/places.json"
-        }
-      ]
-    },
-    {
-      "id": "pink-box",
-      "name": "Pink Box",
-      "what": "donut shops of the United States, chains and independents told apart",
-      "where": "https://nanobotco.github.io/pink-box/",
-      "repo": "pink-box",
-      "provenance": "OpenStreetMap harvest plus curated rows; the counts page explains the split",
-      "counts": [
-        {
-          "label": "shops",
-          "method": "json_key",
-          "url": "https://nanobotco.github.io/pink-box/api/places.json",
-          "key": "count"
-        }
-      ]
-    },
-    {
-      "id": "pinot-country",
-      "name": "Pinot Country",
-      "what": "Pinot Noir cellars with their AVAs and the dates they were established",
-      "where": "https://nanobotco.github.io/pinot-noir/",
-      "repo": "pinot-noir",
-      "provenance": "AVA dates from 27 CFR part 9; cellars from OpenStreetMap and curation",
-      "counts": [
-        {
-          "label": "cellars",
-          "method": "json_key",
-          "url": "https://nanobotco.github.io/pinot-noir/api/cellars.json",
-          "key": "count"
-        }
-      ]
-    },
-    {
-      "id": "care-abroad",
-      "name": "Care Abroad",
-      "what": "cross-border care: facilities in the countries people travel to for treatment",
-      "where": "https://nanobotco.github.io/care-abroad/",
-      "repo": "care-abroad",
-      "provenance": "OpenStreetMap harvest plus curated rows",
-      "counts": [
-        {
-          "label": "facilities",
-          "method": "json_key",
-          "url": "https://nanobotco.github.io/care-abroad/api/facilities.json",
-          "key": "count"
-        }
-      ]
-    },
-    {
-      "id": "amulet-atlas",
-      "name": "Amulet Atlas",
-      "what": "amulets of the world, by tradition and place, the global companion to the Thai catalogue",
-      "where": "https://nanobotco.github.io/amulet-atlas/",
-      "repo": "amulet-atlas",
-      "provenance": "each entry names its sources",
-      "counts": [
-        {
-          "label": "entries",
-          "method": "json_key",
-          "url": "https://nanobotco.github.io/amulet-atlas/api/nodes.json",
-          "key": "count"
-        }
-      ]
-    },
-    {
-      "id": "uptake",
-      "name": "Uptake, the manual",
-      "what": "publishing for machines that copy: the clone-versus-click measurement and the practice built on it",
-      "where": "https://nanobotco.github.io/uptake/",
-      "repo": "uptake",
-      "provenance": "54 sources keyed in the text; the traffic data ships beside it",
-      "counts": [
-        {
-          "label": "sections",
-          "method": "jsonl_lines",
-          "url": "https://nanobotco.github.io/uptake/corpus.jsonl"
-        }
-      ]
-    },
-    {
-      "id": "st-expedite",
-      "name": "St. Expedite",
-      "what": "a wiki on one saint through three worlds, with a shrine map and a public-domain image harvest",
-      "where": "https://github.com/NaNoBotCo/st-expedite-wiki",
-      "repo": "st-expedite-wiki",
-      "provenance": "every claim carries a reliability tag",
-      "counts": [
-        {
-          "label": "mapped shrines",
-          "method": "local_geojson_features",
-          "paths": [
-            "/Users/annikapeacock/Developer/claude code projects/st-expedite-wiki/geo/shrines.geojson"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "amulet-essentials",
-      "name": "Amulet essentials",
-      "what": "the Thai amulet catalogue by kind, with price charts",
-      "where": "https://github.com/NaNoBotCo/amulet-essentials",
-      "repo": "amulet-essentials",
-      "provenance": "kinds from the market corpus",
-      "counts": [
-        {
-          "label": "kinds",
-          "method": "local_json_key",
-          "paths": [
-            "/Users/annikapeacock/Developer/claude code projects/amulet-essentials/build/api/kinds.json"
-          ],
-          "key": "count"
-        }
-      ]
-    },
-    {
-      "id": "thairoots",
-      "name": "Thai Roots",
-      "what": "a Thai dictionary read by roots, as an offline web app",
-      "where": "https://nanobotco.github.io/thairoots/",
-      "repo": "thairoots",
-      "provenance": "dictionary dumps in the repo's downloads folder",
-      "counts": []
+     "label": "page images",
+     "method": "sqlite",
+     "path": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+     "sql": "select count(*) from images"
     }
-  ],
-  "sites": [
+   ]
+  },
+  {
+   "id": "motdang",
+   "name": "Mot Dang",
+   "what": "Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages",
+   "where": "https://motdang.net/",
+   "repo": "mot-dang",
+   "provenance": "record-level sources on every place; field-level provenance in the Hugging Face export",
+   "counts": [
     {
-      "name": "motdang.net",
-      "url": "https://motdang.net",
-      "note": "directory"
+     "label": "place records",
+     "method": "local_json_len",
+     "paths": [
+      "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json",
+      "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json"
+     ]
     },
     {
-      "name": "ask.motdang.net",
-      "url": "https://ask.motdang.net",
-      "note": "reader assistant"
-    },
-    {
-      "name": "ai.motdang.net",
-      "url": "https://ai.motdang.net",
-      "note": "white-label-ai, seats"
-    },
-    {
-      "name": "demo.motdang.net",
-      "url": "https://demo.motdang.net",
-      "note": "white-label-ai, guest demo"
-    },
-    {
-      "name": "wichaa.net",
-      "url": "https://wichaa.net",
-      "note": "the hub"
-    },
-    {
-      "name": "defiant.to",
-      "url": "https://defiant.to",
-      "note": "the company"
-    },
-    {
-      "name": "hongdam.net",
-      "url": "https://hongdam.net",
-      "note": "cards"
-    },
-    {
-      "name": "hakfarang.net",
-      "url": "https://hakfarang.net",
-      "note": "ฮักฝรั่ง"
-    },
-    {
-      "name": "offrampt.net",
-      "url": "https://offrampt.net",
-      "note": "offramp"
-    },
-    {
-      "name": "nanobotco.github.io",
-      "url": "https://nanobotco.github.io",
-      "note": "portal and the HODIE ledger"
-    },
-    {
-      "name": "basque-tables",
-      "url": "https://nanobotco.github.io/basque-tables",
-      "note": "Basque dining rooms"
-    },
-    {
-      "name": "carolina-barbecue",
-      "url": "https://nanobotco.github.io/carolina-barbecue",
-      "note": "NC and SC barbecue"
-    },
-    {
-      "name": "pinot-noir",
-      "url": "https://nanobotco.github.io/pinot-noir",
-      "note": "Pinot Country"
-    },
-    {
-      "name": "buffalo-wings",
-      "url": "https://nanobotco.github.io/buffalo-wings",
-      "note": "Wing Country"
-    },
-    {
-      "name": "pink-box",
-      "url": "https://nanobotco.github.io/pink-box",
-      "note": "donut shops"
-    },
-    {
-      "name": "care-abroad",
-      "url": "https://nanobotco.github.io/care-abroad",
-      "note": "cross-border care"
-    },
-    {
-      "name": "amulet-atlas",
-      "url": "https://nanobotco.github.io/amulet-atlas",
-      "note": "world amulets"
-    },
-    {
-      "name": "thairoots",
-      "url": "https://nanobotco.github.io/thairoots",
-      "note": "Thai Roots"
-    },
-    {
-      "name": "uptake",
-      "url": "https://nanobotco.github.io/uptake",
-      "note": "the manual"
-    },
-    {
-      "name": "index",
-      "url": "https://nanobotco.github.io/index",
-      "note": "this page"
+     "label": "pages",
+     "method": "sitemap",
+     "url": "https://motdang.net/sitemap.xml"
     }
-  ]
+   ]
+  },
+  {
+   "id": "amulet-market",
+   "name": "Amulet market",
+   "what": "Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry",
+   "where": "https://wichaa.net/",
+   "repo": "amulet-market-api",
+   "provenance": "each item keeps its source id and the search page it came from",
+   "counts": [
+    {
+     "label": "listings",
+     "method": "sqlite",
+     "path": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+     "sql": "select count(*) from items"
+    }
+   ]
+  },
+  {
+   "id": "hf-trade-words",
+   "name": "Thai trade words, Chiang Mai",
+   "what": "signage compounds and trade terms with glosses and readings, plus administrative names",
+   "where": "https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai",
+   "repo": "mot-dang",
+   "provenance": "read from signage and registers; every term glossed and read",
+   "counts": [
+    {
+     "label": "rows",
+     "method": "hf_rows",
+     "dataset": "NaNoBotCo/thai-trade-words-chiang-mai"
+    },
+    {
+     "label": "downloads",
+     "method": "hf_downloads",
+     "dataset": "NaNoBotCo/thai-trade-words-chiang-mai"
+    }
+   ]
+  },
+  {
+   "id": "hf-rtgs-lexicon",
+   "name": "Thai RTGS romanisation lexicon",
+   "what": "irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription",
+   "where": "https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon",
+   "repo": "mot-dang",
+   "provenance": "hand-listed exceptions to the rules, each with its class",
+   "counts": [
+    {
+     "label": "rows",
+     "method": "hf_rows",
+     "dataset": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
+    },
+    {
+     "label": "downloads",
+     "method": "hf_downloads",
+     "dataset": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
+    }
+   ]
+  },
+  {
+   "id": "hf-romanisation-benchmark",
+   "name": "Thai place-name romanisation benchmark",
+   "what": "place-name words scored twice by translit.py, with the lexicon and by rules alone",
+   "where": "https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark",
+   "repo": "mot-dang",
+   "provenance": "words from the Mot Dang register; scores from the published tool",
+   "counts": [
+    {
+     "label": "rows",
+     "method": "hf_rows",
+     "dataset": "NaNoBotCo/thai-place-name-romanisation-benchmark"
+    },
+    {
+     "label": "downloads",
+     "method": "hf_downloads",
+     "dataset": "NaNoBotCo/thai-place-name-romanisation-benchmark"
+    }
+   ]
+  },
+  {
+   "id": "hf-motdang-export",
+   "name": "Mot Dang export, Chiang Mai and Chiang Rai",
+   "what": "the directory as a dataset, with provenance, fields stated and fields derived on each row",
+   "where": "https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
+   "repo": "mot-dang",
+   "provenance": "per-field provenance table on most rows",
+   "counts": [
+    {
+     "label": "downloads",
+     "method": "hf_downloads",
+     "dataset": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai"
+    }
+   ]
+  },
+  {
+   "id": "carolina-barbecue",
+   "name": "Carolina Barbecue",
+   "what": "North and South Carolina barbecue places, wood, sauce and pig, with sources on every tag",
+   "where": "https://nanobotco.github.io/carolina-barbecue/",
+   "repo": "carolina-barbecue",
+   "provenance": "a tag names its evidence",
+   "counts": [
+    {
+     "label": "places",
+     "method": "json_key",
+     "url": "https://nanobotco.github.io/carolina-barbecue/api/nodes.json",
+     "key": "count"
+    }
+   ]
+  },
+  {
+   "id": "buffalo-wings",
+   "name": "Wing Country",
+   "what": "chicken wing places across the United States",
+   "where": "https://nanobotco.github.io/buffalo-wings/",
+   "repo": "buffalo-wings",
+   "provenance": "same toolchain as Carolina Barbecue",
+   "counts": [
+    {
+     "label": "places",
+     "method": "json_key",
+     "url": "https://nanobotco.github.io/buffalo-wings/api/nodes.json",
+     "key": "count"
+    }
+   ]
+  },
+  {
+   "id": "basque-tables",
+   "name": "Basque Tables",
+   "what": "Basque dining rooms of California, Nevada and Idaho, in English and Basque",
+   "where": "https://nanobotco.github.io/basque-tables/",
+   "repo": "basque-tables",
+   "provenance": "curated rooms with their sources",
+   "counts": [
+    {
+     "label": "dining rooms",
+     "method": "json_len",
+     "url": "https://nanobotco.github.io/basque-tables/api/places.json"
+    }
+   ]
+  },
+  {
+   "id": "pink-box",
+   "name": "Pink Box",
+   "what": "donut shops of the United States, chains and independents told apart",
+   "where": "https://nanobotco.github.io/pink-box/",
+   "repo": "pink-box",
+   "provenance": "OpenStreetMap harvest plus curated rows; the counts page explains the split",
+   "counts": [
+    {
+     "label": "shops",
+     "method": "json_key",
+     "url": "https://nanobotco.github.io/pink-box/api/places.json",
+     "key": "count"
+    }
+   ]
+  },
+  {
+   "id": "pinot-country",
+   "name": "Pinot Country",
+   "what": "Pinot Noir cellars with their AVAs and the dates they were established",
+   "where": "https://nanobotco.github.io/pinot-noir/",
+   "repo": "pinot-noir",
+   "provenance": "AVA dates from 27 CFR part 9; cellars from OpenStreetMap and curation",
+   "counts": [
+    {
+     "label": "cellars",
+     "method": "json_key",
+     "url": "https://nanobotco.github.io/pinot-noir/api/cellars.json",
+     "key": "count"
+    }
+   ]
+  },
+  {
+   "id": "care-abroad",
+   "name": "Care Abroad",
+   "what": "cross-border care: facilities in the countries people travel to for treatment",
+   "where": "https://nanobotco.github.io/care-abroad/",
+   "repo": "care-abroad",
+   "provenance": "OpenStreetMap harvest plus curated rows",
+   "counts": [
+    {
+     "label": "facilities",
+     "method": "json_key",
+     "url": "https://nanobotco.github.io/care-abroad/api/facilities.json",
+     "key": "count"
+    }
+   ]
+  },
+  {
+   "id": "amulet-atlas",
+   "name": "Amulet Atlas",
+   "what": "amulets of the world, by tradition and place, the global companion to the Thai catalogue",
+   "where": "https://nanobotco.github.io/amulet-atlas/",
+   "repo": "amulet-atlas",
+   "provenance": "each entry names its sources",
+   "counts": [
+    {
+     "label": "entries",
+     "method": "json_key",
+     "url": "https://nanobotco.github.io/amulet-atlas/api/nodes.json",
+     "key": "count"
+    }
+   ]
+  },
+  {
+   "id": "uptake",
+   "name": "Uptake, the manual",
+   "what": "publishing for machines that copy: the clone-versus-click measurement and the practice built on it",
+   "where": "https://nanobotco.github.io/uptake/",
+   "repo": "uptake",
+   "provenance": "54 sources keyed in the text; the traffic data ships beside it",
+   "counts": [
+    {
+     "label": "sections",
+     "method": "jsonl_lines",
+     "url": "https://nanobotco.github.io/uptake/corpus.jsonl"
+    }
+   ]
+  },
+  {
+   "id": "st-expedite",
+   "name": "St. Expedite",
+   "what": "a wiki on one saint through three worlds, with a shrine map and a public-domain image harvest",
+   "where": "https://github.com/NaNoBotCo/st-expedite-wiki",
+   "repo": "st-expedite-wiki",
+   "provenance": "every claim carries a reliability tag",
+   "counts": [
+    {
+     "label": "mapped shrines",
+     "method": "local_geojson_features",
+     "paths": [
+      "/Users/annikapeacock/Developer/claude code projects/st-expedite-wiki/geo/shrines.geojson"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "amulet-essentials",
+   "name": "Amulet essentials",
+   "what": "the Thai amulet catalogue by kind, with price charts",
+   "where": "https://github.com/NaNoBotCo/amulet-essentials",
+   "repo": "amulet-essentials",
+   "provenance": "kinds from the market corpus",
+   "counts": [
+    {
+     "label": "kinds",
+     "method": "local_json_key",
+     "paths": [
+      "/Users/annikapeacock/Developer/claude code projects/amulet-essentials/build/api/kinds.json"
+     ],
+     "key": "count"
+    }
+   ]
+  },
+  {
+   "id": "thairoots",
+   "name": "Thai Roots",
+   "what": "a Thai dictionary read by roots, as an offline web app",
+   "where": "https://nanobotco.github.io/thairoots/",
+   "repo": "thairoots",
+   "provenance": "dictionary dumps in the repo's downloads folder",
+   "counts": []
+  }
+ ],
+ "sites": [
+  {
+   "name": "motdang.net",
+   "url": "https://motdang.net",
+   "note": "directory"
+  },
+  {
+   "name": "ask.motdang.net",
+   "url": "https://ask.motdang.net",
+   "note": "reader assistant"
+  },
+  {
+   "name": "ai.motdang.net",
+   "url": "https://ai.motdang.net",
+   "note": "white-label-ai, seats"
+  },
+  {
+   "name": "demo.motdang.net",
+   "url": "https://demo.motdang.net",
+   "note": "white-label-ai, guest demo"
+  },
+  {
+   "name": "wichaa.net",
+   "url": "https://wichaa.net",
+   "note": "the hub"
+  },
+  {
+   "name": "defiant.to",
+   "url": "https://defiant.to",
+   "note": "the company"
+  },
+  {
+   "name": "hongdam.net",
+   "url": "https://hongdam.net",
+   "note": "cards"
+  },
+  {
+   "name": "hakfarang.net",
+   "url": "https://hakfarang.net",
+   "note": "ฮักฝรั่ง"
+  },
+  {
+   "name": "offrampt.net",
+   "url": "https://offrampt.net",
+   "note": "offramp"
+  },
+  {
+   "name": "nanobotco.github.io",
+   "url": "https://nanobotco.github.io",
+   "note": "portal and the HODIE ledger"
+  },
+  {
+   "name": "basque-tables",
+   "url": "https://nanobotco.github.io/basque-tables",
+   "note": "Basque dining rooms"
+  },
+  {
+   "name": "carolina-barbecue",
+   "url": "https://nanobotco.github.io/carolina-barbecue",
+   "note": "NC and SC barbecue"
+  },
+  {
+   "name": "pinot-noir",
+   "url": "https://nanobotco.github.io/pinot-noir",
+   "note": "Pinot Country"
+  },
+  {
+   "name": "buffalo-wings",
+   "url": "https://nanobotco.github.io/buffalo-wings",
+   "note": "Wing Country"
+  },
+  {
+   "name": "pink-box",
+   "url": "https://nanobotco.github.io/pink-box",
+   "note": "donut shops"
+  },
+  {
+   "name": "care-abroad",
+   "url": "https://nanobotco.github.io/care-abroad",
+   "note": "cross-border care"
+  },
+  {
+   "name": "amulet-atlas",
+   "url": "https://nanobotco.github.io/amulet-atlas",
+   "note": "world amulets"
+  },
+  {
+   "name": "thairoots",
+   "url": "https://nanobotco.github.io/thairoots",
+   "note": "Thai Roots"
+  },
+  {
+   "name": "uptake",
+   "url": "https://nanobotco.github.io/uptake",
+   "note": "the manual"
+  },
+  {
+   "name": "index",
+   "url": "https://nanobotco.github.io/index",
+   "note": "this page"
+  }
+ ]
 }

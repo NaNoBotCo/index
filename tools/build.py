@@ -59,11 +59,11 @@ t = [A["title"].upper(), A["one_line"], f"Counted {TODAY} · {A['byline']} · {A
      "TOTALS",
      f"  corpora {totals['corpora']} · records {fmt(tot_records)} · sites {totals['sites']} · pages {fmt(tot_pages)} · repositories {totals['repos']}",
      f"  fourteen days: {fmt(tot_clones)} clones by {fmt(tot_cloners)} machines · {fmt(tot_viewers)} human viewers · dataset downloads {fmt(tot_downloads)}",
-     "", "PRICE", f"  share-alike: {A['price']['share_alike']}", f"  commercial: {A['price']['commercial']} · {A['contact']}", "",
+     "", "PRICE", f"  attribution: {A['price']['attribution']}", f"  commercial: {A['price']['commercial']} · {A['contact']}", "",
      "CORPORA", line()]
 for r in rows:
     cs = " · ".join(f"{fmt(c['value'])} {c['label']}" + (f" (last read {c['stale']})" if c["stale"] and c["value"] is not None else "") for c in r["counts"]) or "count: not yet measured"
-    t += [f"  {r['name']}", f"    {r['what']}", f"    {cs}", f"    {r['where']}", f"    provenance: {r['provenance']}", f"    licence: share-alike · DOI: none yet", ""]
+    t += [f"  {r['name']}", f"    {r['what']}", f"    {cs}", f"    {r['where']}", f"    provenance: {r['provenance']}", f"    licence: CC BY 4.0 · DOI: none yet", ""]
 t += ["SITES", line()]
 for s in sites:
     t.append(f"  {s['name']:26s} {fmt(s['pages']):>8} pages   {s['note']}   {s['url']}")
@@ -83,7 +83,7 @@ for r in rows:
     l.append(f"- [{r['name']}]({r['where']}): {r['what']}. {c0}.")
 l += ["", "## Sites", ""] + [f"- [{s['name']}]({s['url']}): {s['note']}" for s in sites]
 l += ["", "## Repositories", ""] + [f"- [{r['name']}]({r['url']}): {r['description'] or ''}".rstrip(": ") for r in repos]
-l += ["", "## Terms", "", f"Share-alike: {A['price']['share_alike']}. Commercial licence: {A['price']['commercial']}; write to {A['contact']}."]
+l += ["", "## Terms", "", f"Attribution: {A['price']['attribution']}. Commercial use: {A['price']['commercial']} Questions to {A['contact']}."]
 open(os.path.join(DOCS, "llms.txt"), "w").write("\n".join(l) + "\n")
 
 # ---- HTML ----
@@ -93,7 +93,7 @@ def td(*cells): return "<tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>
 corp = ""
 for r in rows:
     cs = "<br>".join(f"<b>{fmt(c['value'])}</b> {E(c['label'])}" + (f" <small>last read {c['stale']}</small>" if c["stale"] and c["value"] is not None else "") for c in r["counts"]) or "<small>not yet measured</small>"
-    corp += td(f"<a href=\"{E(r['where'])}\">{E(r['name'])}</a><br><small>{E(r['what'])}</small>", cs, f"<small>{E(r['provenance'])}</small>", "share-alike<br><small>DOI: none yet</small>")
+    corp += td(f"<a href=\"{E(r['where'])}\">{E(r['name'])}</a><br><small>{E(r['what'])}</small>", cs, f"<small>{E(r['provenance'])}</small>", "CC BY 4.0<br><small>DOI: none yet</small>")
 site_rows = "".join(td(f"<a href=\"{E(s['url'])}\">{E(s['name'])}</a>", fmt(s["pages"]), E(s["note"])) for s in sites)
 repo_rows = "".join(td(f"<a href=\"{E(r['url'])}\">{E(r['name'])}</a>" + (f" · <a href=\"{E(r['pages'])}\">site</a>" if r.get("pages") else ""), fmt(r.get("cloners_14d")), fmt(r.get("clones_14d")), fmt(r.get("viewers_14d")), E(r.get("license") or "—"), f"<small>{E(r['description'])}</small>") for r in repos)
 page = f"""<!doctype html>
@@ -124,7 +124,7 @@ td:nth-child(2){{white-space:nowrap}} footer{{margin-top:3rem;color:var(--mute);
 <div><b>{fmt(tot_cloners)}</b>machines cloned, 14 days</div><div><b>{fmt(tot_clones)}</b>clones, 14 days</div><div><b>{fmt(tot_viewers)}</b>human viewers, 14 days</div><div><b>{fmt(tot_downloads)}</b>dataset downloads</div>
 </div>
 <h2>Price</h2>
-<p><b>Share-alike:</b> {E(A['price']['share_alike'])}.<br><b>Commercial licence:</b> {E(A['price']['commercial'])}. Write to <a href="mailto:{E(A['contact'])}">{E(A['contact'])}</a>.</p>
+<p><b>Attribution:</b> {E(A['price']['attribution'])}.<br><b>Commercial use:</b> {E(A['price']['commercial'])} Write to <a href="mailto:{E(A['contact'])}">{E(A['contact'])}</a>.</p>
 <h2>Corpora</h2>
 <div class="wrap"><table>{th("what", "count", "provenance", "licence")}{corp}</table></div>
 <h2>Sites</h2>
