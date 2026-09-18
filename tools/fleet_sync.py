@@ -31,7 +31,8 @@ TARGETS = {
     "basque-tables": "basque-tables",
 }
 
-CSS = '.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}'
+CSS = ('.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}'
+       '.support{margin:.45rem 0 0}.support a{margin-right:.5rem}')
 
 
 def patch(repo: Path, sid: str, check: bool) -> list[str]:
@@ -49,6 +50,11 @@ def patch(repo: Path, sid: str, check: bool) -> list[str]:
     if "fleet.row_html" not in src:
         src = src.replace("\n</footer>", '\n{fleet.row_html("%s")}\n</footer>' % sid, 1)
         done.append("footer")
+
+    if "fleet.support_html" not in src:
+        src = src.replace('{fleet.row_html("%s")}' % sid,
+                          '{fleet.row_html("%s")}\n{fleet.support_html()}' % sid, 1)
+        done.append("sponsor")
 
     if "fleet.publisher_ld" not in src and '"creator": AUTHOR,' in src:
         src = src.replace('"creator": AUTHOR,',

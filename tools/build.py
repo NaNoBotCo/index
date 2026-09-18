@@ -2,6 +2,7 @@
 """Render docs/ from data/assets.json + data/counts.json: index.html, index.txt, assets.json,
 catalog.jsonld, llms.txt, robots.txt, sitemap.xml."""
 import json
+import sys
 import shutil, os, html, datetime
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 A = json.load(open(os.path.join(HERE, "data", "assets.json")))
@@ -136,7 +137,12 @@ Counts come from the sources named in <a href="assets.json">assets.json</a>; a b
 </body></html>
 """
 open(os.path.join(DOCS, "index.html"), "w").write(page)
-open(os.path.join(DOCS, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {HOME}sitemap.xml\n")
+sys.path.insert(0, os.path.join(HERE, "tools"))
+import fleet  # noqa: E402
+_R = fleet.load(os.path.join(HERE, "data", "fleet.json"))
+open(os.path.join(DOCS, "robots.txt"), "w").write(
+    f"User-agent: *\nAllow: /\nSitemap: {HOME}sitemap.xml\n\n"
+    + fleet.MARK + "\n" + fleet.robots_lines("index", roster=_R))
 open(os.path.join(DOCS, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{HOME}{p}</loc><lastmod>{TODAY}</lastmod></url>\n" for p in ["", "index.txt", "assets.json", "catalog.jsonld", "llms.txt", "fleet.json"]) + "</urlset>\n")
 open(os.path.join(DOCS, ".nojekyll"), "w").write("")
 print(f"built · records {fmt(tot_records)} · pages {fmt(tot_pages)} · repos {len(repos)} · cloners {fmt(tot_cloners)} · downloads {fmt(tot_downloads)}")
