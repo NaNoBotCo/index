@@ -1,0 +1,360 @@
+{
+ "@context": "https://schema.org",
+ "@type": "DataCatalog",
+ "name": "The index",
+ "description": "Everything NaNoBotCo holds, counted once, at one address.",
+ "url": "https://nanobotco.github.io/index/",
+ "creator": {
+  "@type": "Person",
+  "name": "Nan Peacock"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "NaNoBotCo"
+ },
+ "dateModified": "2026-09-18",
+ "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+ "dataset": [
+  {
+   "@type": "Dataset",
+   "name": "Lanna manuscripts",
+   "description": "Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki",
+   "url": "https://wichaa.net/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "6,986 manuscripts"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Mot Dang",
+   "description": "Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages",
+   "url": "https://motdang.net/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "88,251 place records"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Amulet market",
+   "description": "Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry",
+   "url": "https://wichaa.net/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "17,473 listings"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Thai trade words, Chiang Mai",
+   "description": "signage compounds and trade terms with glosses and readings, plus administrative names",
+   "url": "https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "2,185 rows"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Thai RTGS romanisation lexicon",
+   "description": "irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription",
+   "url": "https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "694 rows"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Thai place-name romanisation benchmark",
+   "description": "place-name words scored twice by translit.py, with the lexicon and by rules alone",
+   "url": "https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "153,948 rows"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Mot Dang export, Chiang Mai and Chiang Rai",
+   "description": "the directory as a dataset, with provenance, fields stated and fields derived on each row",
+   "url": "https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "42 downloads"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Carolina Barbecue",
+   "description": "North and South Carolina barbecue places, wood, sauce and pig, with sources on every tag",
+   "url": "https://nanobotco.github.io/carolina-barbecue/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "179 places"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Wing Country",
+   "description": "chicken wing places across the United States",
+   "url": "https://nanobotco.github.io/buffalo-wings/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "158 places"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Basque Tables",
+   "description": "Basque dining rooms of California, Nevada and Idaho, in English and Basque",
+   "url": "https://nanobotco.github.io/basque-tables/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "29 dining rooms"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Pink Box",
+   "description": "donut shops of the United States, chains and independents told apart",
+   "url": "https://nanobotco.github.io/pink-box/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "10,686 shops"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Pinot Country",
+   "description": "Pinot Noir cellars with their AVAs and the dates they were established",
+   "url": "https://nanobotco.github.io/pinot-noir/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "3,055 cellars"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Care Abroad",
+   "description": "cross-border care: facilities in the countries people travel to for treatment",
+   "url": "https://nanobotco.github.io/care-abroad/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "17,543 facilities"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Amulet Atlas",
+   "description": "amulets of the world, by tradition and place, the global companion to the Thai catalogue",
+   "url": "https://nanobotco.github.io/amulet-atlas/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "286 entries"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Uptake, the manual",
+   "description": "publishing for machines that copy: the clone-versus-click measurement and the practice built on it",
+   "url": "https://nanobotco.github.io/uptake/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "18 sections"
+  },
+  {
+   "@type": "Dataset",
+   "name": "St. Expedite",
+   "description": "a wiki on one saint through three worlds, with a shrine map and a public-domain image harvest",
+   "url": "https://github.com/NaNoBotCo/st-expedite-wiki",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "177 mapped shrines"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Amulet essentials",
+   "description": "the Thai amulet catalogue by kind, with price charts",
+   "url": "https://github.com/NaNoBotCo/amulet-essentials",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18",
+   "size": "82 kinds"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Thai Roots",
+   "description": "a Thai dictionary read by roots, as an offline web app",
+   "url": "https://nanobotco.github.io/thairoots/",
+   "creator": {
+    "@type": "Person",
+    "name": "Nan Peacock"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "NaNoBotCo",
+    "url": "https://github.com/NaNoBotCo"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "isAccessibleForFree": true,
+   "dateModified": "2026-09-18"
+  }
+ ]
+}

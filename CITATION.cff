@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it as below."
+title: "The index: everything NaNoBotCo holds, counted once"
+abstract: >-
+  A catalogue of the corpora, sites and repositories published by NaNoBotCo, with a
+  count for each read from a named source, its provenance, its licence and its terms.
+  Served as HTML, text, JSON, JSON-LD and llms.txt and re-counted nightly.
+type: dataset
+version: "1.0.0"
+date-released: 2026-09-18
+license: CC-BY-SA-4.0
+url: "https://nanobotco.github.io/index/"
+repository-code: "https://github.com/NaNoBotCo/index"
+authors:
+  - family-names: Peacock
+    given-names: Nan
+  - name: "NaNoBotCo"
+    website: "https://github.com/NaNoBotCo"
+keywords:
+  - data catalog
+  - open data
+  - provenance
+  - share-alike
+  - Lanna manuscripts
+  - Chiang Mai
+  - Thai amulets

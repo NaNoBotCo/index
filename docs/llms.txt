@@ -1,0 +1,107 @@
+# The index
+
+> Everything NaNoBotCo holds, counted once, at one address. Counted 2026-09-18. Peacock, Nan.
+
+- Machine copy (JSON): https://nanobotco.github.io/index/assets.json
+- Catalog (JSON-LD): https://nanobotco.github.io/index/catalog.jsonld
+- Text: https://nanobotco.github.io/index/index.txt
+
+## Corpora
+
+- [Lanna manuscripts](https://wichaa.net/): Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki. 6,986 manuscripts.
+- [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,251 place records.
+- [Amulet market](https://wichaa.net/): Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry. 17,473 listings.
+- [Thai trade words, Chiang Mai](https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai): signage compounds and trade terms with glosses and readings, plus administrative names. 2,185 rows.
+- [Thai RTGS romanisation lexicon](https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon): irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription. 694 rows.
+- [Thai place-name romanisation benchmark](https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark): place-name words scored twice by translit.py, with the lexicon and by rules alone. 153,948 rows.
+- [Mot Dang export, Chiang Mai and Chiang Rai](https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai): the directory as a dataset, with provenance, fields stated and fields derived on each row. 42 downloads.
+- [Carolina Barbecue](https://nanobotco.github.io/carolina-barbecue/): North and South Carolina barbecue places, wood, sauce and pig, with sources on every tag. 179 places.
+- [Wing Country](https://nanobotco.github.io/buffalo-wings/): chicken wing places across the United States. 158 places.
+- [Basque Tables](https://nanobotco.github.io/basque-tables/): Basque dining rooms of California, Nevada and Idaho, in English and Basque. 29 dining rooms.
+- [Pink Box](https://nanobotco.github.io/pink-box/): donut shops of the United States, chains and independents told apart. 10,686 shops.
+- [Pinot Country](https://nanobotco.github.io/pinot-noir/): Pinot Noir cellars with their AVAs and the dates they were established. 3,055 cellars.
+- [Care Abroad](https://nanobotco.github.io/care-abroad/): cross-border care: facilities in the countries people travel to for treatment. 17,543 facilities.
+- [Amulet Atlas](https://nanobotco.github.io/amulet-atlas/): amulets of the world, by tradition and place, the global companion to the Thai catalogue. 286 entries.
+- [Uptake, the manual](https://nanobotco.github.io/uptake/): publishing for machines that copy: the clone-versus-click measurement and the practice built on it. 18 sections.
+- [St. Expedite](https://github.com/NaNoBotCo/st-expedite-wiki): a wiki on one saint through three worlds, with a shrine map and a public-domain image harvest. 177 mapped shrines.
+- [Amulet essentials](https://github.com/NaNoBotCo/amulet-essentials): the Thai amulet catalogue by kind, with price charts. 82 kinds.
+- [Thai Roots](https://nanobotco.github.io/thairoots/): a Thai dictionary read by roots, as an offline web app. count not yet measured.
+
+## Sites
+
+- [motdang.net](https://motdang.net): directory
+- [ask.motdang.net](https://ask.motdang.net): reader assistant
+- [ai.motdang.net](https://ai.motdang.net): white-label-ai, seats
+- [demo.motdang.net](https://demo.motdang.net): white-label-ai, guest demo
+- [wichaa.net](https://wichaa.net): the hub
+- [defiant.to](https://defiant.to): the company
+- [hongdam.net](https://hongdam.net): cards
+- [hakfarang.net](https://hakfarang.net): ฮักฝรั่ง
+- [offrampt.net](https://offrampt.net): offramp
+- [nanobotco.github.io](https://nanobotco.github.io): portal and the HODIE ledger
+- [basque-tables](https://nanobotco.github.io/basque-tables): Basque dining rooms
+- [carolina-barbecue](https://nanobotco.github.io/carolina-barbecue): NC and SC barbecue
+- [pinot-noir](https://nanobotco.github.io/pinot-noir): Pinot Country
+- [buffalo-wings](https://nanobotco.github.io/buffalo-wings): Wing Country
+- [pink-box](https://nanobotco.github.io/pink-box): donut shops
+- [care-abroad](https://nanobotco.github.io/care-abroad): cross-border care
+- [amulet-atlas](https://nanobotco.github.io/amulet-atlas): world amulets
+- [thairoots](https://nanobotco.github.io/thairoots): Thai Roots
+- [uptake](https://nanobotco.github.io/uptake): the manual
+- [index](https://nanobotco.github.io/index): this page
+
+## Repositories
+
+- [amulet-atlas](https://github.com/NaNoBotCo/amulet-atlas): Amulets, charms and talismans worldwide — one JSON record per node, every field carrying where it came from. Equal Earth maps, a deep timeline, the signs drawn.
+- [amulet-essentials](https://github.com/NaNoBotCo/amulet-essentials): A pan-Southeast-Asian amulet catalogue: 87 kinds in their own languages, 637 free pictures with verified licences, on-device photo identification, and a price analysis of 15,300 listings. Live at wichaa.net/amulets
+- [amulet-market-api](https://github.com/NaNoBotCo/amulet-market-api): JSON API over thousands of real Lazada amulet-commerce listings
+- [amulet-reference](https://github.com/NaNoBotCo/amulet-reference): Bilingual Thai and Lanna amulet reference and treatise
+- [baanstaff](https://github.com/NaNoBotCo/baanstaff): Household-staff marketplace and white-label kit for Chiang Mai (homematch's predecessor)
+- [basque-tables](https://github.com/NaNoBotCo/basque-tables): A sourced directory of Basque dining rooms in California, Nevada and Idaho — seating, prices, published days and the Picon Punch, every field naming where it came from.
+- [blinking-twelve](https://github.com/NaNoBotCo/blinking-twelve): blinky1200 — a skeuomorphic puzzle: set the blinking 12:00, eleven levels, 1987 to 2026
+- [blinky-fidget](https://github.com/NaNoBotCo/blinky-fidget): A VCR to fiddle with — no goal, just the click of buttons and static
+- [buffalo-wings](https://github.com/NaNoBotCo/buffalo-wings): Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from.
+- [care-abroad](https://github.com/NaNoBotCo/care-abroad): A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance.
+- [carolina-barbecue](https://github.com/NaNoBotCo/carolina-barbecue): A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it.
+- [cm-womens-health](https://github.com/NaNoBotCo/cm-womens-health): Finder for women's health facilities across Chiang Mai
+- [dead-mans-switch](https://github.com/NaNoBotCo/dead-mans-switch): Local, offline check-in switch — fires a payload once if you ever stop checking in
+- [defiant-site](https://github.com/NaNoBotCo/defiant-site): defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map.
+- [feed-detox](https://github.com/NaNoBotCo/feed-detox): A done-with-you social-feed cleanup — personalized playbook, customer keeps their own login
+- [flighthelper](https://github.com/NaNoBotCo/flighthelper): Comfort-scored flight search with price-drop alerts
+- [food-pantry](https://github.com/NaNoBotCo/food-pantry): OCR pipeline for food-pantry intake forms
+- [hak-farang](https://github.com/NaNoBotCo/hak-farang): Thai-first guide for Thai partners of farang — money, visas, family
+- [homematch](https://github.com/NaNoBotCo/homematch): Negotiation-first household-services matchmaking for Chiang Mai
+- [jovilabe](https://github.com/NaNoBotCo/jovilabe): A modeled antique geared instrument for Jupiter's four Galilean moons
+- [kali-yantra](https://github.com/NaNoBotCo/kali-yantra): Generative yantra geometry, rendered by script
+- [Lanna](https://github.com/NaNoBotCo/Lanna): The crawler — harvests Lanna manuscript archives into a structured catalog
+- [lanna-almanac](https://github.com/NaNoBotCo/lanna-almanac): One-file Northern-reckoning Lanna almanac widget
+- [manuscript-transcribe](https://github.com/NaNoBotCo/manuscript-transcribe): Transcription pipeline for Lanna manuscript page images
+- [manuscript-wiki](https://github.com/NaNoBotCo/manuscript-wiki): Read-only wiki over the Lanna manuscript catalog — facets, OCR, image store
+- [moat-game](https://github.com/NaNoBotCo/moat-game): A text game about an amulet smuggler crossing Chiang Mai checkpoints in 2076
+- [moat-stardew](https://github.com/NaNoBotCo/moat-stardew): Charms of Chiang Mai — a Stardew Valley SMAPI mod set in the Moat world
+- [mot-dang](https://github.com/NaNoBotCo/mot-dang): มดแดง Mot Dang — Chiang Mai · Chiang Rai city directory, the 1997 way. รู้ทุกซอย เหมือนมดแดง
+- [muak-yant-site](https://github.com/NaNoBotCo/muak-yant-site): Site for sacred yantra work on motorcycle helmets
+- [mueang-map](https://github.com/NaNoBotCo/mueang-map): Niche-lens participatory map of Chiang Mai
+- [NaNoBotCo](https://github.com/NaNoBotCo/NaNoBotCo): Profile README and project directory
+- [nanobotco.github.io](https://github.com/NaNoBotCo/nanobotco.github.io): NaN — คุณแนน. Personal portal. It gets done today.
+- [neurovizr-decoded](https://github.com/NaNoBotCo/neurovizr-decoded): Stdlib FFT teardown of a light and sound neurostimulation device
+- [offramp](https://github.com/NaNoBotCo/offramp): The manual for getting paid in crypto and spending it locally without a local bank account
+- [pdf-tool](https://github.com/NaNoBotCo/pdf-tool): A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract
+- [pink-box](https://github.com/NaNoBotCo/pink-box): Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two
+- [pinot-noir](https://github.com/NaNoBotCo/pinot-noir): A directory of pinot noir: the vine, the ground, the cellars, the words — and a deep dive on Santa Maria tri-tip. One JSON record per node, with per-field provenance.
+- [poplucky](https://github.com/NaNoBotCo/poplucky): Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know.
+- [skipdjt](https://github.com/NaNoBotCo/skipdjt): Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked.
+- [st-expedite-wiki](https://github.com/NaNoBotCo/st-expedite-wiki): Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory
+- [stocktake](https://github.com/NaNoBotCo/stocktake): Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it
+- [swanbot](https://github.com/NaNoBotCo/swanbot): A black-swan-aware trading and agent utility
+- [taoist-oracle](https://github.com/NaNoBotCo/taoist-oracle): Stdlib Chinese and Taoist divination engine — I Ching, Plum Blossom, Wen Wang Gua, Bazi
+- [thai-answers](https://github.com/NaNoBotCo/thai-answers): Evergreen answers to real Facebook-group questions, over a venue catalog
+- [thairoots](https://github.com/NaNoBotCo/thairoots)
+- [traffic-eye](https://github.com/NaNoBotCo/traffic-eye): Who is asking for your pages — people, AI crawlers, search engines, scrapers — across all your sites, in one place
+- [uptake](https://github.com/NaNoBotCo/uptake): Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0.
+- [visa-desk](https://github.com/NaNoBotCo/visa-desk): The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence.
+- [wichaa-vault](https://github.com/NaNoBotCo/wichaa-vault): Obsidian authoring vault behind the wichaa knowledge base
+
+## Terms
+
+Share-alike: free, with attribution and the same licence on adaptations. Commercial licence: by contact, for a use share-alike does not fit: a corpus, a product, a model; write to nan@motdang.net.
