@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-09-19 · Peacock, Nan · nan@motdang.net
+Counted 2026-09-20 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 301,744 · sites 20 · pages 102,629 · repositories 49
-  fourteen days: 959 clones by 500 machines · 20 human viewers · dataset downloads 156
+  corpora 18 · records 301,750 · sites 20 · pages 102,631 · repositories 49
+  fourteen days: 959 clones by 500 machines · 20 human viewers · dataset downloads 158
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -22,7 +22,7 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,245 place records · 84,908 pages
+    88,251 place records · 84,908 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
@@ -36,21 +36,21 @@ CORPORA
 
   Thai trade words, Chiang Mai
     signage compounds and trade terms with glosses and readings, plus administrative names
-    2,185 rows (last read 2026-09-19) · 35 downloads (last read 2026-09-19)
+    2,185 rows · 35 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai
     provenance: read from signage and registers; every term glossed and read
     licence: CC BY 4.0 · DOI: none yet
 
   Thai RTGS romanisation lexicon
     irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription
-    694 rows (last read 2026-09-19) · 38 downloads
+    694 rows · 38 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon
     provenance: hand-listed exceptions to the rules, each with its class
     licence: CC BY 4.0 · DOI: none yet
 
   Thai place-name romanisation benchmark
     place-name words scored twice by translit.py, with the lexicon and by rules alone
-    153,948 rows · 41 downloads
+    153,948 rows · 43 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark
     provenance: words from the Mot Dang register; scores from the published tool
     licence: CC BY 4.0 · DOI: none yet
@@ -145,7 +145,7 @@ SITES
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
-  wichaa.net                   15,939 pages   the hub   https://wichaa.net
+  wichaa.net                   15,941 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
   hongdam.net                       2 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net

@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-09-19",
+ "read": "2026-09-20",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 301744,
+  "records": 301750,
   "sites": 20,
-  "pages": 102629,
+  "pages": 102631,
   "repos": 49,
   "clones_14d": 959,
   "cloners_14d": 500,
   "viewers_14d": 20,
-  "downloads": 156,
-  "read": "2026-09-19"
+  "downloads": 158,
+  "read": "2026-09-20"
  },
  "corpora": [
   {
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88245,
+     "value": 88251,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -103,14 +103,14 @@
     {
      "label": "rows",
      "value": 2185,
-     "stale": "2026-09-19",
+     "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
      "value": 35,
-     "stale": "2026-09-19",
+     "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
     }
@@ -127,7 +127,7 @@
     {
      "label": "rows",
      "value": 694,
-     "stale": "2026-09-19",
+     "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_rows"
     },
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 41,
+     "value": 43,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -374,27 +374,27 @@
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
    "pages": null,
-   "stale": "2026-09-19"
+   "stale": "2026-09-20"
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
    "pages": null,
-   "stale": "2026-09-19"
+   "stale": "2026-09-20"
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
    "pages": null,
-   "stale": "2026-09-19"
+   "stale": "2026-09-20"
   },
   {
    "name": "wichaa.net",
    "url": "https://wichaa.net",
    "note": "the hub",
-   "pages": 15939,
+   "pages": 15941,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-09-19"
+   "stale": "2026-09-20"
   },
   {
    "name": "offrampt.net",
