@@ -22,6 +22,8 @@ ROOT = HERE.parent
 
 # repo directory -> id in data/fleet.json
 TARGETS = {
+    "mhs-loop": "mae-hong-son-loop",
+    "muay-thai": "muay-thai",
     "carolina-barbecue": "carolina-barbecue",
     "buffalo-wings": "buffalo-wings",
     "pink-box": "pink-box",
@@ -56,6 +58,23 @@ def patch(repo: Path, sid: str, check: bool) -> list[str]:
         src = src.replace('{fleet.row_html("%s")}' % sid,
                           '{fleet.row_html("%s")}\n{fleet.support_html()}' % sid, 1)
         done.append("sponsor")
+
+    # The studio byline, in the footer beside the sponsor line. Client asked for it on
+    # 2026-09-19: these sites are all built at hongdam.net in Chiang Rai and should say so.
+    # It takes the `support` class, so no stylesheet in any repo has to change.
+    if "fleet.maker_html" not in src:
+        for call in ('{fleet.support_html(roster=ROSTER)}', '{fleet.support_html()}'):
+            if call in src:
+                arg = "roster=ROSTER, " if "ROSTER" in call else ""
+                # Only the bilingual sites have a `lang` in scope at the footer. Read
+                # it off page()'s own signature, not off whether the word appears
+                # somewhere above — "<html lang=\"en\">" is not a variable.
+                sig = re.search(r"(?ms)^def page\((.*?)\)\s*(?:->[^:]*)?:", src)
+                lang = "lang=lang" if sig and re.search(r"\blang\b\s*[:=,)]", sig.group(1)) else ""
+                sep = ", " if arg and lang else ""
+                src = src.replace(call, call + "\n{fleet.maker_html(%s%s%s)}" % (arg, sep, lang), 1)
+                done.append("maker")
+                break
 
     if "fleet.publisher_ld" not in src and '"creator": AUTHOR,' in src:
         src = src.replace('"creator": AUTHOR,',
@@ -102,7 +121,12 @@ def patch_readme(repo: Path, sid: str, check: bool) -> str:
 
 def main() -> int:
     check = "--check" in sys.argv
+    # Names after the flags narrow the run to those repositories. A roster change that
+    # only some sites are being rebuilt for should not leave the others dirty.
+    want = [a for a in sys.argv[1:] if not a.startswith("-")]
     for name, sid in TARGETS.items():
+        if want and name not in want:
+            continue
         repo = ROOT / name
         if not repo.is_dir():
             print(f"{name:20} MISSING"); continue

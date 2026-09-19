@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18",
+ "generated": "2026-09-19",
  "canonical": "https://nanobotco.github.io/index/fleet.json",
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
@@ -24,6 +24,16 @@
    "lane": "directory",
    "audience": "th",
    "sitemap": "https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml"
+  },
+  {
+   "id": "muay-thai",
+   "name": "Muay Thai",
+   "th": "มวยไทย",
+   "url": "https://motdang.net/muay-thai/",
+   "note": "the eight limbs, the thirty named techniques, the ceremony, and every gym on the map",
+   "lane": "directory",
+   "audience": "th",
+   "sitemap": "https://motdang.net/muay-thai/sitemap.xml"
   },
   {
    "id": "wichaa",
@@ -211,5 +221,14 @@
    "lane": "support",
    "audience": "all"
   }
- ]
+ ],
+ "maker": {
+  "name": "Hongdam",
+  "url": "https://hongdam.net/",
+  "city": "Chiang Rai",
+  "country": "TH",
+  "note": "the studio these sites are built in",
+  "th": "หงส์ดำ",
+  "city_th": "เชียงราย"
+ }
 }
