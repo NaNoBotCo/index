@@ -29,6 +29,7 @@ TARGETS = {
     "medical-tourism": "care-abroad",
     "amulet-atlas": "amulet-atlas",
     "basque-tables": "basque-tables",
+    "hand-poke": "hand-poke",
 }
 
 CSS = ('.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}'
