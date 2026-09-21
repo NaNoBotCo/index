@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-09-20",
+ "read": "2026-09-21",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,7 +16,7 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 301750,
+  "records": 301774,
   "sites": 20,
   "pages": 102631,
   "repos": 49,
@@ -24,7 +24,7 @@
   "cloners_14d": 500,
   "viewers_14d": 20,
   "downloads": 158,
-  "read": "2026-09-20"
+  "read": "2026-09-21"
  },
  "corpora": [
   {
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88251,
+     "value": 88275,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -69,7 +69,7 @@
     {
      "label": "pages",
      "value": 84908,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
     }
@@ -103,14 +103,14 @@
     {
      "label": "rows",
      "value": 2185,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
      "value": 35,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
     }
@@ -127,14 +127,14 @@
     {
      "label": "rows",
      "value": 694,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
      "value": 38,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
     }
@@ -151,14 +151,14 @@
     {
      "label": "rows",
      "value": 153948,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
      "value": 43,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
     }
@@ -175,7 +175,7 @@
     {
      "label": "downloads",
      "value": 42,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
     }
@@ -192,7 +192,7 @@
     {
      "label": "places",
      "value": 179,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/carolina-barbecue/api/nodes.json",
      "method": "json_key"
     }
@@ -209,7 +209,7 @@
     {
      "label": "places",
      "value": 158,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/buffalo-wings/api/nodes.json",
      "method": "json_key"
     }
@@ -226,7 +226,7 @@
     {
      "label": "dining rooms",
      "value": 29,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/basque-tables/api/places.json",
      "method": "json_len"
     }
@@ -243,7 +243,7 @@
     {
      "label": "shops",
      "value": 10686,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/pink-box/api/places.json",
      "method": "json_key"
     }
@@ -260,7 +260,7 @@
     {
      "label": "cellars",
      "value": 3055,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/pinot-noir/api/cellars.json",
      "method": "json_key"
     }
@@ -277,7 +277,7 @@
     {
      "label": "facilities",
      "value": 17543,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/care-abroad/api/facilities.json",
      "method": "json_key"
     }
@@ -294,7 +294,7 @@
     {
      "label": "entries",
      "value": 286,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/amulet-atlas/api/nodes.json",
      "method": "json_key"
     }
@@ -311,7 +311,7 @@
     {
      "label": "sections",
      "value": 18,
-     "stale": null,
+     "stale": "2026-09-21",
      "source": "https://nanobotco.github.io/uptake/corpus.jsonl",
      "method": "jsonl_lines"
     }
@@ -367,140 +367,140 @@
    "url": "https://motdang.net",
    "note": "directory",
    "pages": 84908,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "ask.motdang.net",
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
    "pages": null,
-   "stale": "2026-09-20"
+   "stale": "2026-09-21"
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
    "pages": null,
-   "stale": "2026-09-20"
+   "stale": "2026-09-21"
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
    "pages": null,
-   "stale": "2026-09-20"
+   "stale": "2026-09-21"
   },
   {
    "name": "wichaa.net",
    "url": "https://wichaa.net",
    "note": "the hub",
    "pages": 15941,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "defiant.to",
    "url": "https://defiant.to",
    "note": "the company",
    "pages": 147,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
    "pages": 2,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "hakfarang.net",
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-09-20"
+   "stale": "2026-09-21"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
    "pages": 9,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "nanobotco.github.io",
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
    "pages": 14,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "basque-tables",
    "url": "https://nanobotco.github.io/basque-tables",
    "note": "Basque dining rooms",
    "pages": 206,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "carolina-barbecue",
    "url": "https://nanobotco.github.io/carolina-barbecue",
    "note": "NC and SC barbecue",
    "pages": 199,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "pinot-noir",
    "url": "https://nanobotco.github.io/pinot-noir",
    "note": "Pinot Country",
    "pages": 164,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "buffalo-wings",
    "url": "https://nanobotco.github.io/buffalo-wings",
    "note": "Wing Country",
    "pages": 185,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "pink-box",
    "url": "https://nanobotco.github.io/pink-box",
    "note": "donut shops",
    "pages": 156,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "care-abroad",
    "url": "https://nanobotco.github.io/care-abroad",
    "note": "cross-border care",
    "pages": 365,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "amulet-atlas",
    "url": "https://nanobotco.github.io/amulet-atlas",
    "note": "world amulets",
    "pages": 310,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "thairoots",
    "url": "https://nanobotco.github.io/thairoots",
    "note": "Thai Roots",
    "pages": 4,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "uptake",
    "url": "https://nanobotco.github.io/uptake",
    "note": "the manual",
    "pages": 15,
-   "stale": null
+   "stale": "2026-09-21"
   },
   {
    "name": "index",
    "url": "https://nanobotco.github.io/index",
    "note": "this page",
    "pages": 6,
-   "stale": null
+   "stale": "2026-09-21"
   }
  ],
  "repos": [
