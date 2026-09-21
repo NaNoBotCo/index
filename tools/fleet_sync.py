@@ -24,6 +24,7 @@ ROOT = HERE.parent
 TARGETS = {
     "mhs-loop": "mae-hong-son-loop",
     "muay-thai": "muay-thai",
+    "chiang-mai-roads": "chiang-mai-roads",
     "carolina-barbecue": "carolina-barbecue",
     "buffalo-wings": "buffalo-wings",
     "pink-box": "pink-box",
