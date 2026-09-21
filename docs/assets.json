@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-09-21",
+ "read": "2026-09-22",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 301774,
+  "records": 301806,
   "sites": 20,
-  "pages": 102631,
-  "repos": 49,
-  "clones_14d": 959,
-  "cloners_14d": 500,
-  "viewers_14d": 20,
-  "downloads": 158,
-  "read": "2026-09-21"
+  "pages": 105196,
+  "repos": 56,
+  "clones_14d": 4244,
+  "cloners_14d": 2249,
+  "viewers_14d": 31,
+  "downloads": 162,
+  "read": "2026-09-22"
  },
  "corpora": [
   {
@@ -61,15 +61,15 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88275,
+     "value": 88307,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 84908,
-     "stale": "2026-09-21",
+     "value": 86081,
+     "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
     }
@@ -103,14 +103,14 @@
     {
      "label": "rows",
      "value": 2185,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
-     "value": 35,
-     "stale": "2026-09-21",
+     "value": 36,
+     "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
     }
@@ -127,14 +127,14 @@
     {
      "label": "rows",
      "value": 694,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
-     "value": 38,
-     "stale": "2026-09-21",
+     "value": 39,
+     "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
     }
@@ -151,14 +151,14 @@
     {
      "label": "rows",
      "value": 153948,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
-     "value": 43,
-     "stale": "2026-09-21",
+     "value": 44,
+     "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
     }
@@ -174,8 +174,8 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 42,
-     "stale": "2026-09-21",
+     "value": 43,
+     "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
     }
@@ -192,7 +192,7 @@
     {
      "label": "places",
      "value": 179,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/carolina-barbecue/api/nodes.json",
      "method": "json_key"
     }
@@ -209,7 +209,7 @@
     {
      "label": "places",
      "value": 158,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/buffalo-wings/api/nodes.json",
      "method": "json_key"
     }
@@ -226,7 +226,7 @@
     {
      "label": "dining rooms",
      "value": 29,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/basque-tables/api/places.json",
      "method": "json_len"
     }
@@ -243,7 +243,7 @@
     {
      "label": "shops",
      "value": 10686,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/pink-box/api/places.json",
      "method": "json_key"
     }
@@ -260,7 +260,7 @@
     {
      "label": "cellars",
      "value": 3055,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/pinot-noir/api/cellars.json",
      "method": "json_key"
     }
@@ -277,7 +277,7 @@
     {
      "label": "facilities",
      "value": 17543,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/care-abroad/api/facilities.json",
      "method": "json_key"
     }
@@ -294,7 +294,7 @@
     {
      "label": "entries",
      "value": 286,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/amulet-atlas/api/nodes.json",
      "method": "json_key"
     }
@@ -311,7 +311,7 @@
     {
      "label": "sections",
      "value": 18,
-     "stale": "2026-09-21",
+     "stale": null,
      "source": "https://nanobotco.github.io/uptake/corpus.jsonl",
      "method": "jsonl_lines"
     }
@@ -366,141 +366,141 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 84908,
-   "stale": "2026-09-21"
+   "pages": 86081,
+   "stale": null
   },
   {
    "name": "ask.motdang.net",
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
    "pages": null,
-   "stale": "2026-09-21"
+   "stale": "2026-09-22"
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
    "pages": null,
-   "stale": "2026-09-21"
+   "stale": "2026-09-22"
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
    "pages": null,
-   "stale": "2026-09-21"
+   "stale": "2026-09-22"
   },
   {
    "name": "wichaa.net",
    "url": "https://wichaa.net",
    "note": "the hub",
-   "pages": 15941,
-   "stale": "2026-09-21"
+   "pages": 17022,
+   "stale": null
   },
   {
    "name": "defiant.to",
    "url": "https://defiant.to",
    "note": "the company",
    "pages": 147,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
    "pages": 2,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "hakfarang.net",
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-09-21"
+   "stale": "2026-09-22"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
    "pages": 9,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "nanobotco.github.io",
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
-   "pages": 14,
-   "stale": "2026-09-21"
+   "pages": 325,
+   "stale": null
   },
   {
    "name": "basque-tables",
    "url": "https://nanobotco.github.io/basque-tables",
    "note": "Basque dining rooms",
    "pages": 206,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "carolina-barbecue",
    "url": "https://nanobotco.github.io/carolina-barbecue",
    "note": "NC and SC barbecue",
    "pages": 199,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "pinot-noir",
    "url": "https://nanobotco.github.io/pinot-noir",
    "note": "Pinot Country",
    "pages": 164,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "buffalo-wings",
    "url": "https://nanobotco.github.io/buffalo-wings",
    "note": "Wing Country",
    "pages": 185,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "pink-box",
    "url": "https://nanobotco.github.io/pink-box",
    "note": "donut shops",
    "pages": 156,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "care-abroad",
    "url": "https://nanobotco.github.io/care-abroad",
    "note": "cross-border care",
    "pages": 365,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "amulet-atlas",
    "url": "https://nanobotco.github.io/amulet-atlas",
    "note": "world amulets",
    "pages": 310,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "thairoots",
    "url": "https://nanobotco.github.io/thairoots",
    "note": "Thai Roots",
    "pages": 4,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "uptake",
    "url": "https://nanobotco.github.io/uptake",
    "note": "the manual",
    "pages": 15,
-   "stale": "2026-09-21"
+   "stale": null
   },
   {
    "name": "index",
    "url": "https://nanobotco.github.io/index",
    "note": "this page",
    "pages": 6,
-   "stale": "2026-09-21"
+   "stale": null
   }
  ],
  "repos": [
@@ -508,13 +508,13 @@
    "name": "amulet-atlas",
    "url": "https://github.com/NaNoBotCo/amulet-atlas",
    "description": "Amulets, charms and talismans worldwide — one JSON record per node, every field carrying where it came from. Equal Earth maps, a deep timeline, the signs drawn.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-19",
    "pages": "https://nanobotco.github.io/amulet-atlas/",
-   "license": "NOASSERTION",
-   "clones_14d": 16,
-   "cloners_14d": 9,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "license": "CC-BY-4.0",
+   "clones_14d": 82,
+   "cloners_14d": 40,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "amulet-essentials",
@@ -522,9 +522,9 @@
    "description": "A pan-Southeast-Asian amulet catalogue: 87 kinds in their own languages, 637 free pictures with verified licences, on-device photo identification, and a price analysis of 15,300 listings. Live at wichaa.net/amulets",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 0,
-   "cloners_14d": 0,
+   "license": "CC-BY-4.0",
+   "clones_14d": 75,
+   "cloners_14d": 51,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -534,9 +534,9 @@
    "description": "JSON API over thousands of real Lazada amulet-commerce listings",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 54,
+   "cloners_14d": 39,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -546,9 +546,9 @@
    "description": "Bilingual Thai and Lanna amulet reference and treatise",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 42,
+   "cloners_14d": 26,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -558,9 +558,9 @@
    "description": "Household-staff marketplace and white-label kit for Chiang Mai (homematch's predecessor)",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 3,
-   "cloners_14d": 3,
+   "license": "CC-BY-4.0",
+   "clones_14d": 24,
+   "cloners_14d": 13,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -568,11 +568,11 @@
    "name": "basque-tables",
    "url": "https://github.com/NaNoBotCo/basque-tables",
    "description": "A sourced directory of Basque dining rooms in California, Nevada and Idaho — seating, prices, published days and the Picon Punch, every field naming where it came from.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-19",
    "pages": "https://nanobotco.github.io/basque-tables/",
-   "license": "NOASSERTION",
-   "clones_14d": 32,
-   "cloners_14d": 20,
+   "license": "CC-BY-4.0",
+   "clones_14d": 200,
+   "cloners_14d": 105,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -582,9 +582,9 @@
    "description": "blinky1200 — a skeuomorphic puzzle: set the blinking 12:00, eleven levels, 1987 to 2026",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 41,
+   "cloners_14d": 26,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -594,9 +594,9 @@
    "description": "A VCR to fiddle with — no goal, just the click of buttons and static",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 79,
+   "cloners_14d": 47,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -604,11 +604,11 @@
    "name": "buffalo-wings",
    "url": "https://github.com/NaNoBotCo/buffalo-wings",
    "description": "Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-19",
    "pages": "https://nanobotco.github.io/buffalo-wings/",
-   "license": "NOASSERTION",
-   "clones_14d": 50,
-   "cloners_14d": 35,
+   "license": "CC-BY-4.0",
+   "clones_14d": 143,
+   "cloners_14d": 79,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -618,23 +618,35 @@
    "description": "A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance.",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/care-abroad/",
-   "license": "NOASSERTION",
-   "clones_14d": 16,
-   "cloners_14d": 13,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "license": "CC-BY-4.0",
+   "clones_14d": 92,
+   "cloners_14d": 53,
+   "views_14d": 2,
+   "viewers_14d": 1
   },
   {
    "name": "carolina-barbecue",
    "url": "https://github.com/NaNoBotCo/carolina-barbecue",
    "description": "A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-19",
    "pages": "https://nanobotco.github.io/carolina-barbecue/",
-   "license": "NOASSERTION",
-   "clones_14d": 132,
-   "cloners_14d": 71,
-   "views_14d": 4,
-   "viewers_14d": 3
+   "license": "CC-BY-4.0",
+   "clones_14d": 237,
+   "cloners_14d": 112,
+   "views_14d": 5,
+   "viewers_14d": 4
+  },
+  {
+   "name": "chiang-mai-roads",
+   "url": "https://github.com/NaNoBotCo/chiang-mai-roads",
+   "description": "Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map.",
+   "pushed": "2026-09-21",
+   "pages": "https://nanobotco.github.io/chiang-mai-roads/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
   },
   {
    "name": "cm-womens-health",
@@ -642,9 +654,9 @@
    "description": "Finder for women's health facilities across Chiang Mai",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 6,
-   "cloners_14d": 6,
+   "license": "CC-BY-4.0",
+   "clones_14d": 40,
+   "cloners_14d": 29,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -654,9 +666,9 @@
    "description": "Local, offline check-in switch — fires a payload once if you ever stop checking in",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 20,
-   "cloners_14d": 15,
+   "license": "CC-BY-4.0",
+   "clones_14d": 83,
+   "cloners_14d": 49,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -666,9 +678,9 @@
    "description": "defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map.",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/defiant-site/",
-   "license": "NOASSERTION",
-   "clones_14d": 20,
-   "cloners_14d": 17,
+   "license": "CC-BY-4.0",
+   "clones_14d": 69,
+   "cloners_14d": 42,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -678,9 +690,9 @@
    "description": "A done-with-you social-feed cleanup — personalized playbook, customer keeps their own login",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 29,
+   "cloners_14d": 17,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -690,9 +702,9 @@
    "description": "Comfort-scored flight search with price-drop alerts",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 66,
+   "cloners_14d": 40,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -702,23 +714,35 @@
    "description": "OCR pipeline for food-pantry intake forms",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": null,
-   "clones_14d": 4,
-   "cloners_14d": 4,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "license": "MIT",
+   "clones_14d": 21,
+   "cloners_14d": 14,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "hak-farang",
    "url": "https://github.com/NaNoBotCo/hak-farang",
    "description": "Thai-first guide for Thai partners of farang — money, visas, family",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-19",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 44,
+   "cloners_14d": 27,
    "views_14d": 1,
    "viewers_14d": 1
+  },
+  {
+   "name": "hand-poke",
+   "url": "https://github.com/NaNoBotCo/hand-poke",
+   "description": "Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced.",
+   "pushed": "2026-09-21",
+   "pages": "https://nanobotco.github.io/hand-poke/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 70,
+   "cloners_14d": 34,
+   "views_14d": 0,
+   "viewers_14d": 0
   },
   {
    "name": "homematch",
@@ -726,11 +750,23 @@
    "description": "Negotiation-first household-services matchmaking for Chiang Mai",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 54,
+   "cloners_14d": 34,
    "views_14d": 0,
    "viewers_14d": 0
+  },
+  {
+   "name": "index",
+   "url": "https://github.com/NaNoBotCo/index",
+   "description": "Everything NaNoBotCo holds, counted once, at one address",
+   "pushed": "2026-09-21",
+   "pages": "https://nanobotco.github.io/index/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 125,
+   "cloners_14d": 61,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "jovilabe",
@@ -738,9 +774,9 @@
    "description": "A modeled antique geared instrument for Jupiter's four Galilean moons",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 11,
-   "cloners_14d": 8,
+   "license": "CC-BY-4.0",
+   "clones_14d": 55,
+   "cloners_14d": 32,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -750,9 +786,9 @@
    "description": "Generative yantra geometry, rendered by script",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 58,
+   "cloners_14d": 35,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -762,11 +798,11 @@
    "description": "The crawler — harvests Lanna manuscript archives into a structured catalog",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/Lanna/",
-   "license": "NOASSERTION",
-   "clones_14d": 250,
-   "cloners_14d": 32,
-   "views_14d": 3,
-   "viewers_14d": 3
+   "license": "CC-BY-4.0",
+   "clones_14d": 225,
+   "cloners_14d": 28,
+   "views_14d": 6,
+   "viewers_14d": 5
   },
   {
    "name": "lanna-almanac",
@@ -774,9 +810,21 @@
    "description": "One-file Northern-reckoning Lanna almanac widget",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 36,
+   "cloners_14d": 22,
+   "views_14d": 4,
+   "viewers_14d": 2
+  },
+  {
+   "name": "mae-hong-son-loop",
+   "url": "https://github.com/NaNoBotCo/mae-hong-son-loop",
+   "description": "Motorcycling the Mae Hong Son loop: 600 km, the curves actually counted from OpenStreetMap geometry, four burning seasons of PM2.5, English and Thai on every page.",
+   "pushed": "2026-09-19",
+   "pages": "https://nanobotco.github.io/mae-hong-son-loop/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 216,
+   "cloners_14d": 109,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -786,10 +834,10 @@
    "description": "Transcription pipeline for Lanna manuscript page images",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 6,
-   "cloners_14d": 6,
-   "views_14d": 7,
+   "license": "CC-BY-4.0",
+   "clones_14d": 35,
+   "cloners_14d": 24,
+   "views_14d": 12,
    "viewers_14d": 1
   },
   {
@@ -798,11 +846,11 @@
    "description": "Read-only wiki over the Lanna manuscript catalog — facets, OCR, image store",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 8,
-   "cloners_14d": 7,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "license": "CC-BY-4.0",
+   "clones_14d": 54,
+   "cloners_14d": 37,
+   "views_14d": 3,
+   "viewers_14d": 1
   },
   {
    "name": "moat-game",
@@ -810,9 +858,9 @@
    "description": "A text game about an amulet smuggler crossing Chiang Mai checkpoints in 2076",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 7,
-   "cloners_14d": 7,
+   "license": "CC-BY-4.0",
+   "clones_14d": 42,
+   "cloners_14d": 24,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -822,9 +870,9 @@
    "description": "Charms of Chiang Mai — a Stardew Valley SMAPI mod set in the Moat world",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 60,
+   "cloners_14d": 40,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -834,11 +882,11 @@
    "description": "มดแดง Mot Dang — Chiang Mai · Chiang Rai city directory, the 1997 way. รู้ทุกซอย เหมือนมดแดง",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/mot-dang/",
-   "license": "NOASSERTION",
-   "clones_14d": 54,
-   "cloners_14d": 28,
-   "views_14d": 9,
-   "viewers_14d": 4
+   "license": "CC-BY-4.0",
+   "clones_14d": 81,
+   "cloners_14d": 45,
+   "views_14d": 8,
+   "viewers_14d": 3
   },
   {
    "name": "muak-yant-site",
@@ -846,9 +894,21 @@
    "description": "Site for sacred yantra work on motorcycle helmets",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 3,
-   "cloners_14d": 3,
+   "license": "CC-BY-4.0",
+   "clones_14d": 69,
+   "cloners_14d": 40,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "muay-thai",
+   "url": "https://github.com/NaNoBotCo/muay-thai",
+   "description": "The eight limbs, the thirty named techniques, the ceremony, and every gym on the map. Bilingual English and Thai, every claim tiered and sourced.",
+   "pushed": "2026-09-19",
+   "pages": "https://nanobotco.github.io/muay-thai/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 68,
+   "cloners_14d": 33,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -858,9 +918,9 @@
    "description": "Niche-lens participatory map of Chiang Mai",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 47,
+   "cloners_14d": 31,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -870,9 +930,9 @@
    "description": "Profile README and project directory",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 47,
-   "cloners_14d": 27,
+   "license": "CC-BY-4.0",
+   "clones_14d": 88,
+   "cloners_14d": 50,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -880,13 +940,13 @@
    "name": "nanobotco.github.io",
    "url": "https://github.com/NaNoBotCo/nanobotco.github.io",
    "description": "NaN — คุณแนน. Personal portal. It gets done today.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-21",
    "pages": "https://nanobotco.github.io/nanobotco.github.io/",
-   "license": "NOASSERTION",
-   "clones_14d": 82,
-   "cloners_14d": 34,
-   "views_14d": 2,
-   "viewers_14d": 1
+   "license": "CC-BY-4.0",
+   "clones_14d": 196,
+   "cloners_14d": 70,
+   "views_14d": 0,
+   "viewers_14d": 0
   },
   {
    "name": "neurovizr-decoded",
@@ -894,9 +954,9 @@
    "description": "Stdlib FFT teardown of a light and sound neurostimulation device",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 4,
-   "cloners_14d": 4,
+   "license": "CC-BY-4.0",
+   "clones_14d": 80,
+   "cloners_14d": 46,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -906,9 +966,9 @@
    "description": "The manual for getting paid in crypto and spending it locally without a local bank account",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/offramp/",
-   "license": "NOASSERTION",
-   "clones_14d": 6,
-   "cloners_14d": 6,
+   "license": "CC-BY-4.0",
+   "clones_14d": 44,
+   "cloners_14d": 26,
    "views_14d": 4,
    "viewers_14d": 2
   },
@@ -918,9 +978,21 @@
    "description": "A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 54,
+   "cloners_14d": 33,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "pike-place-market",
+   "url": "https://github.com/NaNoBotCo/pike-place-market",
+   "description": "A directory and GIS map of the Pike Place Market Historical District, Seattle — 12.83 acres, 153 licensed businesses, and the dates the city has on them.",
+   "pushed": "2026-09-19",
+   "pages": "https://nanobotco.github.io/pike-place-market/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 63,
+   "cloners_14d": 30,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -928,25 +1000,25 @@
    "name": "pink-box",
    "url": "https://github.com/NaNoBotCo/pink-box",
    "description": "Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-19",
    "pages": "https://nanobotco.github.io/pink-box/",
-   "license": "NOASSERTION",
-   "clones_14d": 24,
-   "cloners_14d": 15,
+   "license": "CC-BY-4.0",
+   "clones_14d": 143,
+   "cloners_14d": 74,
    "views_14d": 0,
    "viewers_14d": 0
   },
   {
    "name": "pinot-noir",
    "url": "https://github.com/NaNoBotCo/pinot-noir",
-   "description": "A directory of pinot noir: the vine, the ground, the cellars, the words — and a deep dive on Santa Maria tri-tip. One JSON record per node, with per-field provenance.",
-   "pushed": "2026-09-18",
+   "description": "A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance.",
+   "pushed": "2026-09-19",
    "pages": "https://nanobotco.github.io/pinot-noir/",
-   "license": "NOASSERTION",
-   "clones_14d": 28,
-   "cloners_14d": 15,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "license": "CC-BY-4.0",
+   "clones_14d": 132,
+   "cloners_14d": 64,
+   "views_14d": 3,
+   "viewers_14d": 1
   },
   {
    "name": "poplucky",
@@ -954,9 +1026,21 @@
    "description": "Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know.",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/poplucky/",
-   "license": "NOASSERTION",
-   "clones_14d": 6,
-   "cloners_14d": 6,
+   "license": "CC-BY-4.0",
+   "clones_14d": 47,
+   "cloners_14d": 31,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "scanner",
+   "url": "https://github.com/NaNoBotCo/scanner",
+   "description": "A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF.",
+   "pushed": "2026-09-19",
+   "pages": "https://nanobotco.github.io/scanner/",
+   "license": "MIT",
+   "clones_14d": 16,
+   "cloners_14d": 12,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -966,9 +1050,9 @@
    "description": "Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked.",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/skipdjt/",
-   "license": "NOASSERTION",
-   "clones_14d": 14,
-   "cloners_14d": 6,
+   "license": "CC-BY-4.0",
+   "clones_14d": 46,
+   "cloners_14d": 22,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -978,9 +1062,9 @@
    "description": "Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 3,
-   "cloners_14d": 3,
+   "license": "CC-BY-4.0",
+   "clones_14d": 63,
+   "cloners_14d": 44,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -990,9 +1074,9 @@
    "description": "Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 6,
-   "cloners_14d": 6,
+   "license": "CC-BY-4.0",
+   "clones_14d": 45,
+   "cloners_14d": 30,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -1002,9 +1086,9 @@
    "description": "A black-swan-aware trading and agent utility",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 7,
-   "cloners_14d": 6,
+   "license": "CC-BY-4.0",
+   "clones_14d": 33,
+   "cloners_14d": 20,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -1014,9 +1098,9 @@
    "description": "Stdlib Chinese and Taoist divination engine — I Ching, Plum Blossom, Wen Wang Gua, Bazi",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 27,
+   "cloners_14d": 17,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -1026,21 +1110,21 @@
    "description": "Evergreen answers to real Facebook-group questions, over a venue catalog",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 55,
+   "cloners_14d": 34,
    "views_14d": 1,
    "viewers_14d": 1
   },
   {
    "name": "thairoots",
    "url": "https://github.com/NaNoBotCo/thairoots",
-   "description": "",
+   "description": "รากศัพท์ Thai Roots — a Hans Wehr-style root dictionary of Thai: Pali/Sanskrit roots, native morpheme families, sound-change keys, and a word decomposer.",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/thairoots/",
-   "license": "NOASSERTION",
-   "clones_14d": 3,
-   "cloners_14d": 3,
+   "license": "CC-BY-4.0",
+   "clones_14d": 77,
+   "cloners_14d": 34,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -1050,11 +1134,11 @@
    "description": "Who is asking for your pages — people, AI crawlers, search engines, scrapers — across all your sites, in one place",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 18,
-   "cloners_14d": 12,
-   "views_14d": 2,
-   "viewers_14d": 1
+   "license": "CC-BY-4.0",
+   "clones_14d": 79,
+   "cloners_14d": 43,
+   "views_14d": 3,
+   "viewers_14d": 2
   },
   {
    "name": "uptake",
@@ -1062,9 +1146,9 @@
    "description": "Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0.",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/uptake/",
-   "license": "NOASSERTION",
-   "clones_14d": 0,
-   "cloners_14d": 0,
+   "license": "CC-BY-SA-4.0",
+   "clones_14d": 100,
+   "cloners_14d": 53,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -1075,10 +1159,10 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "NOASSERTION",
-   "clones_14d": 0,
-   "cloners_14d": 0,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "clones_14d": 76,
+   "cloners_14d": 39,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "wichaa-vault",
@@ -1086,9 +1170,9 @@
    "description": "Obsidian authoring vault behind the wichaa knowledge base",
    "pushed": "2026-09-18",
    "pages": null,
-   "license": "NOASSERTION",
-   "clones_14d": 5,
-   "cloners_14d": 5,
+   "license": "CC-BY-4.0",
+   "clones_14d": 64,
+   "cloners_14d": 39,
    "views_14d": 0,
    "viewers_14d": 0
   }

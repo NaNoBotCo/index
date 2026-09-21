@@ -36,6 +36,16 @@
    "sitemap": "https://motdang.net/muay-thai/sitemap.xml"
   },
   {
+   "id": "chiang-mai-roads",
+   "name": "Roads of Chiang Mai",
+   "th": "ถนนหนทางเจียงใหม่",
+   "url": "https://motdang.net/roads/",
+   "note": "the square of 1296, four rings, and what each one did to the city — counted from the map",
+   "lane": "directory",
+   "audience": "th",
+   "sitemap": "https://motdang.net/roads/sitemap.xml"
+  },
+  {
    "id": "wichaa",
    "name": "wichaa",
    "th": "วิชา",

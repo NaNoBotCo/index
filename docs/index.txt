@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-09-21 · Peacock, Nan · nan@motdang.net
+Counted 2026-09-22 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 301,774 · sites 20 · pages 102,631 · repositories 49
-  fourteen days: 959 clones by 500 machines · 20 human viewers · dataset downloads 158
+  corpora 18 · records 301,806 · sites 20 · pages 105,196 · repositories 56
+  fourteen days: 4,244 clones by 2,249 machines · 31 human viewers · dataset downloads 162
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -22,7 +22,7 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,275 place records · 84,908 pages (last read 2026-09-21)
+    88,307 place records · 86,081 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
@@ -36,84 +36,84 @@ CORPORA
 
   Thai trade words, Chiang Mai
     signage compounds and trade terms with glosses and readings, plus administrative names
-    2,185 rows (last read 2026-09-21) · 35 downloads (last read 2026-09-21)
+    2,185 rows · 36 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai
     provenance: read from signage and registers; every term glossed and read
     licence: CC BY 4.0 · DOI: none yet
 
   Thai RTGS romanisation lexicon
     irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription
-    694 rows (last read 2026-09-21) · 38 downloads (last read 2026-09-21)
+    694 rows · 39 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon
     provenance: hand-listed exceptions to the rules, each with its class
     licence: CC BY 4.0 · DOI: none yet
 
   Thai place-name romanisation benchmark
     place-name words scored twice by translit.py, with the lexicon and by rules alone
-    153,948 rows (last read 2026-09-21) · 43 downloads (last read 2026-09-21)
+    153,948 rows · 44 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark
     provenance: words from the Mot Dang register; scores from the published tool
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang export, Chiang Mai and Chiang Rai
     the directory as a dataset, with provenance, fields stated and fields derived on each row
-    42 downloads (last read 2026-09-21)
+    43 downloads
     https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai
     provenance: per-field provenance table on most rows
     licence: CC BY 4.0 · DOI: none yet
 
   Carolina Barbecue
     North and South Carolina barbecue places, wood, sauce and pig, with sources on every tag
-    179 places (last read 2026-09-21)
+    179 places
     https://nanobotco.github.io/carolina-barbecue/
     provenance: a tag names its evidence
     licence: CC BY 4.0 · DOI: none yet
 
   Wing Country
     chicken wing places across the United States
-    158 places (last read 2026-09-21)
+    158 places
     https://nanobotco.github.io/buffalo-wings/
     provenance: same toolchain as Carolina Barbecue
     licence: CC BY 4.0 · DOI: none yet
 
   Basque Tables
     Basque dining rooms of California, Nevada and Idaho, in English and Basque
-    29 dining rooms (last read 2026-09-21)
+    29 dining rooms
     https://nanobotco.github.io/basque-tables/
     provenance: curated rooms with their sources
     licence: CC BY 4.0 · DOI: none yet
 
   Pink Box
     donut shops of the United States, chains and independents told apart
-    10,686 shops (last read 2026-09-21)
+    10,686 shops
     https://nanobotco.github.io/pink-box/
     provenance: OpenStreetMap harvest plus curated rows; the counts page explains the split
     licence: CC BY 4.0 · DOI: none yet
 
   Pinot Country
     Pinot Noir cellars with their AVAs and the dates they were established
-    3,055 cellars (last read 2026-09-21)
+    3,055 cellars
     https://nanobotco.github.io/pinot-noir/
     provenance: AVA dates from 27 CFR part 9; cellars from OpenStreetMap and curation
     licence: CC BY 4.0 · DOI: none yet
 
   Care Abroad
     cross-border care: facilities in the countries people travel to for treatment
-    17,543 facilities (last read 2026-09-21)
+    17,543 facilities
     https://nanobotco.github.io/care-abroad/
     provenance: OpenStreetMap harvest plus curated rows
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet Atlas
     amulets of the world, by tradition and place, the global companion to the Thai catalogue
-    286 entries (last read 2026-09-21)
+    286 entries
     https://nanobotco.github.io/amulet-atlas/
     provenance: each entry names its sources
     licence: CC BY 4.0 · DOI: none yet
 
   Uptake, the manual
     publishing for machines that copy: the clone-versus-click measurement and the practice built on it
-    18 sections (last read 2026-09-21)
+    18 sections
     https://nanobotco.github.io/uptake/
     provenance: 54 sources keyed in the text; the traffic data ships beside it
     licence: CC BY 4.0 · DOI: none yet
@@ -141,16 +141,16 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  84,908 pages   directory   https://motdang.net
+  motdang.net                  86,081 pages   directory   https://motdang.net
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
-  wichaa.net                   15,941 pages   the hub   https://wichaa.net
+  wichaa.net                   17,022 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
   hongdam.net                       2 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
   offrampt.net                      9 pages   offramp   https://offrampt.net
-  nanobotco.github.io              14 pages   portal and the HODIE ledger   https://nanobotco.github.io
+  nanobotco.github.io             325 pages   portal and the HODIE ledger   https://nanobotco.github.io
   basque-tables                   206 pages   Basque dining rooms   https://nanobotco.github.io/basque-tables
   carolina-barbecue               199 pages   NC and SC barbecue   https://nanobotco.github.io/carolina-barbecue
   pinot-noir                      164 pages   Pinot Country   https://nanobotco.github.io/pinot-noir
@@ -164,55 +164,62 @@ SITES
 
 REPOSITORIES — fourteen days of traffic
 ------------------------------------------------------------------------------
-  amulet-atlas                         9 machines ·    16 clones ·   0 viewers · NOASSERTION
-  amulet-essentials                    0 machines ·     0 clones ·   0 viewers · NOASSERTION
-  amulet-market-api                    5 machines ·     5 clones ·   0 viewers · NOASSERTION
-  amulet-reference                     4 machines ·     4 clones ·   1 viewers · NOASSERTION
-  baanstaff                            3 machines ·     3 clones ·   0 viewers · NOASSERTION
-  basque-tables                       20 machines ·    32 clones ·   0 viewers · NOASSERTION
-  blinking-twelve                      4 machines ·     4 clones ·   0 viewers · NOASSERTION
-  blinky-fidget                        4 machines ·     4 clones ·   0 viewers · NOASSERTION
-  buffalo-wings                       35 machines ·    50 clones ·   0 viewers · NOASSERTION
-  care-abroad                         13 machines ·    16 clones ·   0 viewers · NOASSERTION
-  carolina-barbecue                   71 machines ·   132 clones ·   3 viewers · NOASSERTION
-  cm-womens-health                     6 machines ·     6 clones ·   0 viewers · NOASSERTION
-  dead-mans-switch                    15 machines ·    20 clones ·   0 viewers · NOASSERTION
-  defiant-site                        17 machines ·    20 clones ·   0 viewers · NOASSERTION
-  feed-detox                           5 machines ·     5 clones ·   0 viewers · NOASSERTION
-  flighthelper                         5 machines ·     5 clones ·   0 viewers · NOASSERTION
-  food-pantry                          4 machines ·     4 clones ·   0 viewers · —
-  hak-farang                           5 machines ·     5 clones ·   1 viewers · NOASSERTION
-  homematch                            4 machines ·     4 clones ·   0 viewers · NOASSERTION
-  jovilabe                             8 machines ·    11 clones ·   0 viewers · NOASSERTION
-  kali-yantra                          5 machines ·     5 clones ·   0 viewers · NOASSERTION
-  Lanna                               32 machines ·   250 clones ·   3 viewers · NOASSERTION
-  lanna-almanac                        4 machines ·     4 clones ·   0 viewers · NOASSERTION
-  manuscript-transcribe                6 machines ·     6 clones ·   1 viewers · NOASSERTION
-  manuscript-wiki                      7 machines ·     8 clones ·   0 viewers · NOASSERTION
-  moat-game                            7 machines ·     7 clones ·   0 viewers · NOASSERTION
-  moat-stardew                         4 machines ·     4 clones ·   0 viewers · NOASSERTION
-  mot-dang                            28 machines ·    54 clones ·   4 viewers · NOASSERTION
-  muak-yant-site                       3 machines ·     3 clones ·   0 viewers · NOASSERTION
-  mueang-map                           4 machines ·     4 clones ·   0 viewers · NOASSERTION
-  NaNoBotCo                           27 machines ·    47 clones ·   0 viewers · NOASSERTION
-  nanobotco.github.io                 34 machines ·    82 clones ·   1 viewers · NOASSERTION
-  neurovizr-decoded                    4 machines ·     4 clones ·   1 viewers · NOASSERTION
-  offramp                              6 machines ·     6 clones ·   2 viewers · NOASSERTION
-  pdf-tool                             5 machines ·     5 clones ·   0 viewers · NOASSERTION
-  pink-box                            15 machines ·    24 clones ·   0 viewers · NOASSERTION
-  pinot-noir                          15 machines ·    28 clones ·   0 viewers · NOASSERTION
-  poplucky                             6 machines ·     6 clones ·   0 viewers · NOASSERTION
-  skipdjt                              6 machines ·    14 clones ·   0 viewers · NOASSERTION
-  st-expedite-wiki                     3 machines ·     3 clones ·   0 viewers · NOASSERTION
-  stocktake                            6 machines ·     6 clones ·   0 viewers · NOASSERTION
-  swanbot                              6 machines ·     7 clones ·   0 viewers · NOASSERTION
-  taoist-oracle                        5 machines ·     5 clones ·   1 viewers · NOASSERTION
-  thai-answers                         5 machines ·     5 clones ·   1 viewers · NOASSERTION
-  thairoots                            3 machines ·     3 clones ·   0 viewers · NOASSERTION
-  traffic-eye                         12 machines ·    18 clones ·   1 viewers · NOASSERTION
-  uptake                               0 machines ·     0 clones ·   0 viewers · NOASSERTION
-  visa-desk                            0 machines ·     0 clones ·   0 viewers · NOASSERTION
-  wichaa-vault                         5 machines ·     5 clones ·   0 viewers · NOASSERTION
+  amulet-atlas                        40 machines ·    82 clones ·   1 viewers · CC-BY-4.0
+  amulet-essentials                   51 machines ·    75 clones ·   0 viewers · CC-BY-4.0
+  amulet-market-api                   39 machines ·    54 clones ·   0 viewers · CC-BY-4.0
+  amulet-reference                    26 machines ·    42 clones ·   1 viewers · CC-BY-4.0
+  baanstaff                           13 machines ·    24 clones ·   0 viewers · CC-BY-4.0
+  basque-tables                      105 machines ·   200 clones ·   0 viewers · CC-BY-4.0
+  blinking-twelve                     26 machines ·    41 clones ·   0 viewers · CC-BY-4.0
+  blinky-fidget                       47 machines ·    79 clones ·   0 viewers · CC-BY-4.0
+  buffalo-wings                       79 machines ·   143 clones ·   0 viewers · CC-BY-4.0
+  care-abroad                         53 machines ·    92 clones ·   1 viewers · CC-BY-4.0
+  carolina-barbecue                  112 machines ·   237 clones ·   4 viewers · CC-BY-4.0
+  chiang-mai-roads                     0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
+  cm-womens-health                    29 machines ·    40 clones ·   0 viewers · CC-BY-4.0
+  dead-mans-switch                    49 machines ·    83 clones ·   0 viewers · CC-BY-4.0
+  defiant-site                        42 machines ·    69 clones ·   0 viewers · CC-BY-4.0
+  feed-detox                          17 machines ·    29 clones ·   0 viewers · CC-BY-4.0
+  flighthelper                        40 machines ·    66 clones ·   0 viewers · CC-BY-4.0
+  food-pantry                         14 machines ·    21 clones ·   1 viewers · MIT
+  hak-farang                          27 machines ·    44 clones ·   1 viewers · CC-BY-4.0
+  hand-poke                           34 machines ·    70 clones ·   0 viewers · CC-BY-4.0
+  homematch                           34 machines ·    54 clones ·   0 viewers · CC-BY-4.0
+  index                               61 machines ·   125 clones ·   1 viewers · CC-BY-4.0
+  jovilabe                            32 machines ·    55 clones ·   0 viewers · CC-BY-4.0
+  kali-yantra                         35 machines ·    58 clones ·   0 viewers · CC-BY-4.0
+  Lanna                               28 machines ·   225 clones ·   5 viewers · CC-BY-4.0
+  lanna-almanac                       22 machines ·    36 clones ·   2 viewers · CC-BY-4.0
+  mae-hong-son-loop                  109 machines ·   216 clones ·   0 viewers · CC-BY-4.0
+  manuscript-transcribe               24 machines ·    35 clones ·   1 viewers · CC-BY-4.0
+  manuscript-wiki                     37 machines ·    54 clones ·   1 viewers · CC-BY-4.0
+  moat-game                           24 machines ·    42 clones ·   0 viewers · CC-BY-4.0
+  moat-stardew                        40 machines ·    60 clones ·   0 viewers · CC-BY-4.0
+  mot-dang                            45 machines ·    81 clones ·   3 viewers · CC-BY-4.0
+  muak-yant-site                      40 machines ·    69 clones ·   0 viewers · CC-BY-4.0
+  muay-thai                           33 machines ·    68 clones ·   0 viewers · CC-BY-4.0
+  mueang-map                          31 machines ·    47 clones ·   0 viewers · CC-BY-4.0
+  NaNoBotCo                           50 machines ·    88 clones ·   0 viewers · CC-BY-4.0
+  nanobotco.github.io                 70 machines ·   196 clones ·   0 viewers · CC-BY-4.0
+  neurovizr-decoded                   46 machines ·    80 clones ·   1 viewers · CC-BY-4.0
+  offramp                             26 machines ·    44 clones ·   2 viewers · CC-BY-4.0
+  pdf-tool                            33 machines ·    54 clones ·   0 viewers · CC-BY-4.0
+  pike-place-market                   30 machines ·    63 clones ·   0 viewers · CC-BY-4.0
+  pink-box                            74 machines ·   143 clones ·   0 viewers · CC-BY-4.0
+  pinot-noir                          64 machines ·   132 clones ·   1 viewers · CC-BY-4.0
+  poplucky                            31 machines ·    47 clones ·   0 viewers · CC-BY-4.0
+  scanner                             12 machines ·    16 clones ·   0 viewers · MIT
+  skipdjt                             22 machines ·    46 clones ·   0 viewers · CC-BY-4.0
+  st-expedite-wiki                    44 machines ·    63 clones ·   0 viewers · CC-BY-4.0
+  stocktake                           30 machines ·    45 clones ·   0 viewers · CC-BY-4.0
+  swanbot                             20 machines ·    33 clones ·   0 viewers · CC-BY-4.0
+  taoist-oracle                       17 machines ·    27 clones ·   1 viewers · CC-BY-4.0
+  thai-answers                        34 machines ·    55 clones ·   1 viewers · CC-BY-4.0
+  thairoots                           34 machines ·    77 clones ·   0 viewers · CC-BY-4.0
+  traffic-eye                         43 machines ·    79 clones ·   2 viewers · CC-BY-4.0
+  uptake                              53 machines ·   100 clones ·   0 viewers · CC-BY-SA-4.0
+  visa-desk                           39 machines ·    76 clones ·   1 viewers · NOASSERTION
+  wichaa-vault                        39 machines ·    64 clones ·   0 viewers · CC-BY-4.0
 
 ==============================================================================
 Machine copies: https://nanobotco.github.io/index/assets.json · https://nanobotco.github.io/index/catalog.jsonld · https://nanobotco.github.io/index/llms.txt

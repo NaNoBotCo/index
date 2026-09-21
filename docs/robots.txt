@@ -6,6 +6,7 @@ Sitemap: https://nanobotco.github.io/index/sitemap.xml
 Sitemap: https://motdang.net/sitemap.xml
 Sitemap: https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml
 Sitemap: https://motdang.net/muay-thai/sitemap.xml
+Sitemap: https://motdang.net/roads/sitemap.xml
 Sitemap: https://wichaa.net/sitemap.xml
 Sitemap: https://nanobotco.github.io/hand-poke/sitemap.xml
 Sitemap: https://nanobotco.github.io/amulet-atlas/sitemap.xml

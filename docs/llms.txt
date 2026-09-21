@@ -1,6 +1,6 @@
 # The index
 
-> Everything NaNoBotCo holds, counted once, at one address. Counted 2026-09-21. Peacock, Nan.
+> Everything NaNoBotCo holds, counted once, at one address. Counted 2026-09-22. Peacock, Nan.
 
 - Machine copy (JSON): https://nanobotco.github.io/index/assets.json
 - Catalog (JSON-LD): https://nanobotco.github.io/index/catalog.jsonld
@@ -9,12 +9,12 @@
 ## Corpora
 
 - [Lanna manuscripts](https://wichaa.net/): Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki. 6,986 manuscripts.
-- [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,275 place records.
+- [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,307 place records.
 - [Amulet market](https://wichaa.net/): Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry. 17,473 listings.
 - [Thai trade words, Chiang Mai](https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai): signage compounds and trade terms with glosses and readings, plus administrative names. 2,185 rows.
 - [Thai RTGS romanisation lexicon](https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon): irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription. 694 rows.
 - [Thai place-name romanisation benchmark](https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark): place-name words scored twice by translit.py, with the lexicon and by rules alone. 153,948 rows.
-- [Mot Dang export, Chiang Mai and Chiang Rai](https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai): the directory as a dataset, with provenance, fields stated and fields derived on each row. 42 downloads.
+- [Mot Dang export, Chiang Mai and Chiang Rai](https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai): the directory as a dataset, with provenance, fields stated and fields derived on each row. 43 downloads.
 - [Carolina Barbecue](https://nanobotco.github.io/carolina-barbecue/): North and South Carolina barbecue places, wood, sauce and pig, with sources on every tag. 179 places.
 - [Wing Country](https://nanobotco.github.io/buffalo-wings/): chicken wing places across the United States. 158 places.
 - [Basque Tables](https://nanobotco.github.io/basque-tables/): Basque dining rooms of California, Nevada and Idaho, in English and Basque. 29 dining rooms.
@@ -63,6 +63,7 @@
 - [buffalo-wings](https://github.com/NaNoBotCo/buffalo-wings): Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from.
 - [care-abroad](https://github.com/NaNoBotCo/care-abroad): A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance.
 - [carolina-barbecue](https://github.com/NaNoBotCo/carolina-barbecue): A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it.
+- [chiang-mai-roads](https://github.com/NaNoBotCo/chiang-mai-roads): Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map.
 - [cm-womens-health](https://github.com/NaNoBotCo/cm-womens-health): Finder for women's health facilities across Chiang Mai
 - [dead-mans-switch](https://github.com/NaNoBotCo/dead-mans-switch): Local, offline check-in switch — fires a payload once if you ever stop checking in
 - [defiant-site](https://github.com/NaNoBotCo/defiant-site): defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map.
@@ -70,33 +71,39 @@
 - [flighthelper](https://github.com/NaNoBotCo/flighthelper): Comfort-scored flight search with price-drop alerts
 - [food-pantry](https://github.com/NaNoBotCo/food-pantry): OCR pipeline for food-pantry intake forms
 - [hak-farang](https://github.com/NaNoBotCo/hak-farang): Thai-first guide for Thai partners of farang — money, visas, family
+- [hand-poke](https://github.com/NaNoBotCo/hand-poke): Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced.
 - [homematch](https://github.com/NaNoBotCo/homematch): Negotiation-first household-services matchmaking for Chiang Mai
+- [index](https://github.com/NaNoBotCo/index): Everything NaNoBotCo holds, counted once, at one address
 - [jovilabe](https://github.com/NaNoBotCo/jovilabe): A modeled antique geared instrument for Jupiter's four Galilean moons
 - [kali-yantra](https://github.com/NaNoBotCo/kali-yantra): Generative yantra geometry, rendered by script
 - [Lanna](https://github.com/NaNoBotCo/Lanna): The crawler — harvests Lanna manuscript archives into a structured catalog
 - [lanna-almanac](https://github.com/NaNoBotCo/lanna-almanac): One-file Northern-reckoning Lanna almanac widget
+- [mae-hong-son-loop](https://github.com/NaNoBotCo/mae-hong-son-loop): Motorcycling the Mae Hong Son loop: 600 km, the curves actually counted from OpenStreetMap geometry, four burning seasons of PM2.5, English and Thai on every page.
 - [manuscript-transcribe](https://github.com/NaNoBotCo/manuscript-transcribe): Transcription pipeline for Lanna manuscript page images
 - [manuscript-wiki](https://github.com/NaNoBotCo/manuscript-wiki): Read-only wiki over the Lanna manuscript catalog — facets, OCR, image store
 - [moat-game](https://github.com/NaNoBotCo/moat-game): A text game about an amulet smuggler crossing Chiang Mai checkpoints in 2076
 - [moat-stardew](https://github.com/NaNoBotCo/moat-stardew): Charms of Chiang Mai — a Stardew Valley SMAPI mod set in the Moat world
 - [mot-dang](https://github.com/NaNoBotCo/mot-dang): มดแดง Mot Dang — Chiang Mai · Chiang Rai city directory, the 1997 way. รู้ทุกซอย เหมือนมดแดง
 - [muak-yant-site](https://github.com/NaNoBotCo/muak-yant-site): Site for sacred yantra work on motorcycle helmets
+- [muay-thai](https://github.com/NaNoBotCo/muay-thai): The eight limbs, the thirty named techniques, the ceremony, and every gym on the map. Bilingual English and Thai, every claim tiered and sourced.
 - [mueang-map](https://github.com/NaNoBotCo/mueang-map): Niche-lens participatory map of Chiang Mai
 - [NaNoBotCo](https://github.com/NaNoBotCo/NaNoBotCo): Profile README and project directory
 - [nanobotco.github.io](https://github.com/NaNoBotCo/nanobotco.github.io): NaN — คุณแนน. Personal portal. It gets done today.
 - [neurovizr-decoded](https://github.com/NaNoBotCo/neurovizr-decoded): Stdlib FFT teardown of a light and sound neurostimulation device
 - [offramp](https://github.com/NaNoBotCo/offramp): The manual for getting paid in crypto and spending it locally without a local bank account
 - [pdf-tool](https://github.com/NaNoBotCo/pdf-tool): A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract
+- [pike-place-market](https://github.com/NaNoBotCo/pike-place-market): A directory and GIS map of the Pike Place Market Historical District, Seattle — 12.83 acres, 153 licensed businesses, and the dates the city has on them.
 - [pink-box](https://github.com/NaNoBotCo/pink-box): Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two
-- [pinot-noir](https://github.com/NaNoBotCo/pinot-noir): A directory of pinot noir: the vine, the ground, the cellars, the words — and a deep dive on Santa Maria tri-tip. One JSON record per node, with per-field provenance.
+- [pinot-noir](https://github.com/NaNoBotCo/pinot-noir): A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance.
 - [poplucky](https://github.com/NaNoBotCo/poplucky): Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know.
+- [scanner](https://github.com/NaNoBotCo/scanner): A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF.
 - [skipdjt](https://github.com/NaNoBotCo/skipdjt): Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked.
 - [st-expedite-wiki](https://github.com/NaNoBotCo/st-expedite-wiki): Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory
 - [stocktake](https://github.com/NaNoBotCo/stocktake): Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it
 - [swanbot](https://github.com/NaNoBotCo/swanbot): A black-swan-aware trading and agent utility
 - [taoist-oracle](https://github.com/NaNoBotCo/taoist-oracle): Stdlib Chinese and Taoist divination engine — I Ching, Plum Blossom, Wen Wang Gua, Bazi
 - [thai-answers](https://github.com/NaNoBotCo/thai-answers): Evergreen answers to real Facebook-group questions, over a venue catalog
-- [thairoots](https://github.com/NaNoBotCo/thairoots)
+- [thairoots](https://github.com/NaNoBotCo/thairoots): รากศัพท์ Thai Roots — a Hans Wehr-style root dictionary of Thai: Pali/Sanskrit roots, native morpheme families, sound-change keys, and a word decomposer.
 - [traffic-eye](https://github.com/NaNoBotCo/traffic-eye): Who is asking for your pages — people, AI crawlers, search engines, scrapers — across all your sites, in one place
 - [uptake](https://github.com/NaNoBotCo/uptake): Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0.
 - [visa-desk](https://github.com/NaNoBotCo/visa-desk): The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence.
