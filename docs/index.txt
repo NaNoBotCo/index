@@ -1,10 +1,10 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-09-22 · Peacock, Nan · nan@motdang.net
+Counted 2026-09-23 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 301,806 · sites 20 · pages 105,196 · repositories 56
+  corpora 18 · records 301,812 · sites 20 · pages 105,195 · repositories 56
   fourteen days: 4,244 clones by 2,249 machines · 31 human viewers · dataset downloads 162
 
 PRICE
@@ -22,7 +22,7 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,307 place records · 86,081 pages
+    88,313 place records · 86,080 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
@@ -141,7 +141,7 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  86,081 pages   directory   https://motdang.net
+  motdang.net                  86,080 pages   directory   https://motdang.net
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net

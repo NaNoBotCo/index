@@ -66,6 +66,43 @@
    "sitemap": "https://nanobotco.github.io/hand-poke/sitemap.xml"
   },
   {
+   "id": "black-holes",
+   "name": "Black Holes, Drawn",
+   "url": "https://nanobotco.github.io/black-holes/",
+   "note": "black holes modelled and drawn from the equations — generators, the past, present and future, the legends",
+   "lane": "directory",
+   "audience": "world",
+   "sitemap": "https://nanobotco.github.io/black-holes/sitemap.xml"
+  },
+  {
+   "id": "quantum-computing",
+   "name": "Quantum Computing, plainly",
+   "th": "ควอนตัมคอมพิวติง",
+   "url": "https://nanobotco.github.io/quantum-computing/",
+   "note": "the history and theory of quantum computing in plain words, with demos; refreshed weekly",
+   "lane": "directory",
+   "audience": "en",
+   "sitemap": "https://nanobotco.github.io/quantum-computing/sitemap.xml"
+  },
+  {
+   "id": "goin-fast",
+   "name": "Goin' Fast",
+   "url": "https://nanobotco.github.io/goin-fast/",
+   "note": "a dirt-simple explainer about speed — twenty measured speeds from the ground under the house to light, and what each one costs",
+   "lane": "directory",
+   "audience": "en",
+   "sitemap": "https://nanobotco.github.io/goin-fast/sitemap.xml"
+  },
+  {
+   "id": "three-body",
+   "name": "The Three-Body Problem",
+   "url": "https://nanobotco.github.io/three-body/",
+   "note": "the mathematics of the three-body problem in plain words, with the orbits found rather than copied",
+   "lane": "directory",
+   "audience": "en",
+   "sitemap": "https://nanobotco.github.io/three-body/sitemap.xml"
+  },
+  {
    "id": "amulet-atlas",
    "name": "Amulet Atlas",
    "url": "https://nanobotco.github.io/amulet-atlas/",

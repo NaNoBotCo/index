@@ -1,6 +1,6 @@
 # The index
 
-> Everything NaNoBotCo holds, counted once, at one address. Counted 2026-09-22. Peacock, Nan.
+> Everything NaNoBotCo holds, counted once, at one address. Counted 2026-09-23. Peacock, Nan.
 
 - Machine copy (JSON): https://nanobotco.github.io/index/assets.json
 - Catalog (JSON-LD): https://nanobotco.github.io/index/catalog.jsonld
@@ -9,7 +9,7 @@
 ## Corpora
 
 - [Lanna manuscripts](https://wichaa.net/): Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki. 6,986 manuscripts.
-- [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,307 place records.
+- [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,313 place records.
 - [Amulet market](https://wichaa.net/): Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry. 17,473 listings.
 - [Thai trade words, Chiang Mai](https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai): signage compounds and trade terms with glosses and readings, plus administrative names. 2,185 rows.
 - [Thai RTGS romanisation lexicon](https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon): irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription. 694 rows.
