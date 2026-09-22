@@ -33,6 +33,10 @@ TARGETS = {
     "amulet-atlas": "amulet-atlas",
     "basque-tables": "basque-tables",
     "hand-poke": "hand-poke",
+    "black-holes": "black-holes",
+    "quantum-computing": "quantum-computing",
+    "three-body": "three-body",
+    "goin-fast": "goin-fast",
 }
 
 CSS = ('.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}'
@@ -40,7 +44,16 @@ CSS = ('.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;whi
 
 
 def patch(repo: Path, sid: str, check: bool) -> list[str]:
-    done, sp = [], repo / "tools" / "site.py"
+    # Most repos build their pages in tools/site.py; the drawn ones (three-body,
+    # quantum-computing) do it in tools/build.py. A repo with neither takes the roster
+    # files and no patch.
+    done = []
+    for name in ("site.py", "build.py"):
+        sp = repo / "tools" / name
+        if sp.is_file():
+            break
+    else:
+        return ["roster copied, no page builder to patch"]
     src = old = sp.read_text(encoding="utf-8")
 
     if "import fleet" not in src:
@@ -48,8 +61,13 @@ def patch(repo: Path, sid: str, check: bool) -> list[str]:
         done.append("import")
 
     if ".fleet{" not in src:
-        src = src.replace('.bots a{margin-right:.7rem}', '.bots a{margin-right:.7rem}' + CSS, 1)
-        done.append("css")
+        # the anchor only exists in the repos whose stylesheet lives in site.py; the
+        # rest keep theirs in tools/css.py, and reporting "css" for them read as a
+        # change that was not made
+        after = src.replace('.bots a{margin-right:.7rem}', '.bots a{margin-right:.7rem}' + CSS, 1)
+        if after != src:
+            src = after
+            done.append("css")
 
     if "fleet.row_html" not in src:
         src = src.replace("\n</footer>", '\n{fleet.row_html("%s")}\n</footer>' % sid, 1)
@@ -87,9 +105,22 @@ def patch(repo: Path, sid: str, check: bool) -> list[str]:
         if m:
             ind = m.group(1)
             # after the last top-level write in that block, before the closing report
-            anchor = re.search(r'(?m)^%s\(SITE / "humans\.txt"\)\.write_text\(.*\n' % re.escape(ind), src) or \
-                     re.search(r'(?m)^%s\(SITE / "llms\.txt"\)\.write_text\(.*\n' % re.escape(ind), src)
-            src = src[:anchor.end()] + f'{ind}fleet.decorate(SITE, "{sid}")\n' + src[anchor.end():]
+            anchor = re.search(r'(?m)^%s\(SITE / "humans\.txt"\)\.write_text\(' % re.escape(ind), src) or \
+                     re.search(r'(?m)^%s\(SITE / "llms\.txt"\)\.write_text\(' % re.escape(ind), src)
+            # Walk to the end of that call before inserting. Matching the first line
+            # alone put the new statement INSIDE a multi-line write_text( … ) and left
+            # the repository with a site.py that would not parse (goin-fast, 2026-09-22).
+            at, depth = anchor.end() - 1, 0
+            while at < len(src):
+                if src[at] == "(":
+                    depth += 1
+                elif src[at] == ")":
+                    depth -= 1
+                    if depth == 0:
+                        break
+                at += 1
+            at = src.find("\n", at) + 1
+            src = src[:at] + f'{ind}fleet.decorate(SITE, "{sid}")\n' + src[at:]
             done.append("decorate")
 
     if src != old and not check:
