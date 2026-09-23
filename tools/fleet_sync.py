@@ -37,6 +37,7 @@ TARGETS = {
     "quantum-computing": "quantum-computing",
     "three-body": "three-body",
     "goin-fast": "goin-fast",
+    "exceptional-magic": "exceptional-magic",
 }
 
 CSS = ('.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}'
@@ -94,6 +95,14 @@ def patch(repo: Path, sid: str, check: bool) -> list[str]:
                 src = src.replace(call, call + "\n{fleet.maker_html(%s%s%s)}" % (arg, sep, lang), 1)
                 done.append("maker")
                 break
+
+    # The source link (client 2026-09-23): support_html names the site's own repository
+    # when it knows which site it is on.
+    if "fleet.support_html(" in src and "self_id=" not in src:
+        src = re.sub(r"fleet\.support_html\(\s*\)", 'fleet.support_html(self_id="%s")' % sid, src)
+        if "self_id=" not in src:
+            src = re.sub(r"fleet\.support_html\((?=[^)])", 'fleet.support_html(self_id="%s", ' % sid, src)
+        done.append("source")
 
     if "fleet.publisher_ld" not in src and '"creator": AUTHOR,' in src:
         src = src.replace('"creator": AUTHOR,',
