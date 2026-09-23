@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-09-23",
+ "read": "2026-09-24",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 301812,
+  "records": 301960,
   "sites": 20,
-  "pages": 105195,
+  "pages": 98254,
   "repos": 56,
   "clones_14d": 4244,
   "cloners_14d": 2249,
   "viewers_14d": 31,
   "downloads": 162,
-  "read": "2026-09-23"
+  "read": "2026-09-24"
  },
  "corpora": [
   {
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88313,
+     "value": 88461,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 86080,
+     "value": 86298,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 86080,
+   "pages": 86298,
    "stale": null
   },
   {
@@ -374,27 +374,27 @@
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
    "pages": null,
-   "stale": "2026-09-23"
+   "stale": "2026-09-24"
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
    "pages": null,
-   "stale": "2026-09-23"
+   "stale": "2026-09-24"
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
    "pages": null,
-   "stale": "2026-09-23"
+   "stale": "2026-09-24"
   },
   {
    "name": "wichaa.net",
    "url": "https://wichaa.net",
    "note": "the hub",
-   "pages": 17022,
+   "pages": 9840,
    "stale": null
   },
   {
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 2,
+   "pages": 4,
    "stale": null
   },
   {
@@ -416,13 +416,13 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-09-23"
+   "stale": "2026-09-24"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
-   "pages": 9,
+   "pages": 30,
    "stale": null
   },
   {
