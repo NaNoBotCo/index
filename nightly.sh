@@ -12,4 +12,4 @@ cd "${0:A:h}" || exit 1
 git add -A
 git diff --cached --quiet && { echo "nothing changed"; exit 0; }
 git commit -q -m "Nightly count $(date +%F)" || exit 1
-/usr/bin/python3 "/Users/annikapeacock/Developer/claude code projects/bot-tower/tower.py" wrap github-push --patience 30 -- git push -q origin HEAD
+/usr/bin/python3 "/Users/annikapeacock/Developer/claude code projects/bot-tower/tower.py" wrap github-push --patience 30 -- "$HOME/.claude/bin/pr-push" . "Nightly count $(date +%F)"
