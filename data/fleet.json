@@ -122,6 +122,15 @@
       "repo": "https://github.com/NaNoBotCo/exceptional-magic"
     },
     {
+      "id": "factoring",
+      "name": "Big Numbers, Split",
+      "lane": "directory",
+      "audience": "world",
+      "note": "factoring from Eratosthenes to Shor — the records, the Riemann Hypothesis, and what it means for a bitcoin wallet; a hundred zeta zeros computed, every claim beside what it did",
+      "url": "https://nanobotco.github.io/factoring/",
+      "sitemap": "https://nanobotco.github.io/factoring/sitemap.xml"
+    },
+    {
       "id": "amulet-atlas",
       "name": "Amulet Atlas",
       "url": "https://nanobotco.github.io/amulet-atlas/",

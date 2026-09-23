@@ -38,6 +38,7 @@ TARGETS = {
     "three-body": "three-body",
     "goin-fast": "goin-fast",
     "exceptional-magic": "exceptional-magic",
+    "factoring": "factoring",
 }
 
 CSS = ('.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}'
