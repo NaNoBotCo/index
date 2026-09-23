@@ -97,7 +97,7 @@ for r in rows:
 site_rows = "".join(td(f"<a href=\"{E(s['url'])}\">{E(s['name'])}</a>", fmt(s["pages"]), E(s["note"])) for s in sites)
 repo_rows = "".join(td(f"<a href=\"{E(r['url'])}\">{E(r['name'])}</a>" + (f" · <a href=\"{E(r['pages'])}\">site</a>" if r.get("pages") else ""), fmt(r.get("cloners_14d")), fmt(r.get("clones_14d")), fmt(r.get("viewers_14d")), E(r.get("license") or "—"), f"<small>{E(r['description'])}</small>") for r in repos)
 page = f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en" translate="no" class="notranslate"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(A['title'])} — NaNoBotCo</title>
 <meta name="description" content="{E(A['one_line'])}">
 <meta name="citation_title" content="{E(A['title'])}"><meta name="citation_author" content="{E(A['byline'])}"><meta name="citation_publication_date" content="{TODAY}"><meta name="DC.publisher" content="NaNoBotCo">
@@ -115,7 +115,11 @@ a{{color:var(--link)}} small{{color:var(--mute);font-size:.85rem}}
 .totals div{{border:1px solid var(--rule);border-top:3px solid var(--gold);padding:.6rem .8rem}} .totals b{{display:block;font-size:1.7rem}}
 .wrap{{overflow-x:auto}} table{{border-collapse:collapse;width:100%;font-size:1rem}} th,td{{text-align:left;vertical-align:top;padding:.55rem .6rem;border-bottom:1px solid var(--rule)}} th{{color:var(--mute);font-weight:normal}}
 td:nth-child(2){{white-space:nowrap}} footer{{margin-top:3rem;color:var(--mute);font-size:.95rem}}
-</style></head><body>
+</style>
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
+</head><body>
 <h1>{E(A['title'])}</h1>
 <p class="lead">{E(A['one_line'])}</p>
 <p class="meta">Counted {TODAY} · {E(A['byline'])} · <a href="index.txt">text</a> · <a href="assets.json">JSON</a> · <a href="catalog.jsonld">JSON-LD</a> · <a href="fleet.json">fleet.json</a> · <a href="llms.txt">llms.txt</a> · <a href="https://github.com/NaNoBotCo/index">source</a></p>
