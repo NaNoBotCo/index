@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-09-24 · Peacock, Nan · nan@motdang.net
+Counted 2026-09-25 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 301,960 · sites 20 · pages 98,254 · repositories 56
-  fourteen days: 4,244 clones by 2,249 machines · 31 human viewers · dataset downloads 162
+  corpora 18 · records 301,954 · sites 20 · pages 98,262 · repositories 56
+  fourteen days: 4,244 clones by 2,249 machines · 31 human viewers · dataset downloads 164
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -15,21 +15,21 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts · 120,178 page images
+    6,986 manuscripts (last read 2026-09-25) · 120,178 page images (last read 2026-09-25)
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,461 place records · 86,298 pages
+    88,455 place records · 86,306 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,473 listings
+    17,473 listings (last read 2026-09-25)
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -43,14 +43,14 @@ CORPORA
 
   Thai RTGS romanisation lexicon
     irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription
-    694 rows · 39 downloads
+    694 rows · 40 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon
     provenance: hand-listed exceptions to the rules, each with its class
     licence: CC BY 4.0 · DOI: none yet
 
   Thai place-name romanisation benchmark
     place-name words scored twice by translit.py, with the lexicon and by rules alone
-    153,948 rows · 44 downloads
+    153,948 rows · 45 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark
     provenance: words from the Mot Dang register; scores from the published tool
     licence: CC BY 4.0 · DOI: none yet
@@ -141,7 +141,7 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  86,298 pages   directory   https://motdang.net
+  motdang.net                  86,306 pages   directory   https://motdang.net
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
