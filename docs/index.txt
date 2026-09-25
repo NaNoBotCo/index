@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-09-25 · Peacock, Nan · nan@motdang.net
+Counted 2026-09-26 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 301,954 · sites 20 · pages 98,262 · repositories 56
-  fourteen days: 4,244 clones by 2,249 machines · 31 human viewers · dataset downloads 164
+  corpora 18 · records 302,275 · sites 20 · pages 99,189 · repositories 56
+  fourteen days: 4,244 clones by 2,249 machines · 31 human viewers · dataset downloads 167
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -15,21 +15,21 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts (last read 2026-09-25) · 120,178 page images (last read 2026-09-25)
+    6,986 manuscripts (last read 2026-09-26) · 120,178 page images (last read 2026-09-26)
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,455 place records · 86,306 pages
+    88,776 place records · 87,232 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,473 listings (last read 2026-09-25)
+    17,473 listings (last read 2026-09-26)
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -57,7 +57,7 @@ CORPORA
 
   Mot Dang export, Chiang Mai and Chiang Rai
     the directory as a dataset, with provenance, fields stated and fields derived on each row
-    43 downloads
+    46 downloads
     https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai
     provenance: per-field provenance table on most rows
     licence: CC BY 4.0 · DOI: none yet
@@ -141,13 +141,13 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  86,306 pages   directory   https://motdang.net
+  motdang.net                  87,232 pages   directory   https://motdang.net
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
   wichaa.net                    9,840 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
-  hongdam.net                       4 pages   cards   https://hongdam.net
+  hongdam.net                       5 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
   offrampt.net                     30 pages   offramp   https://offrampt.net
   nanobotco.github.io             325 pages   portal and the HODIE ledger   https://nanobotco.github.io

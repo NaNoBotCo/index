@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-09-25",
+ "read": "2026-09-26",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 301954,
+  "records": 302275,
   "sites": 20,
-  "pages": 98262,
+  "pages": 99189,
   "repos": 56,
   "clones_14d": 4244,
   "cloners_14d": 2249,
   "viewers_14d": 31,
-  "downloads": 164,
-  "read": "2026-09-25"
+  "downloads": 167,
+  "read": "2026-09-26"
  },
  "corpora": [
   {
@@ -38,14 +38,14 @@
     {
      "label": "manuscripts",
      "value": 6986,
-     "stale": "2026-09-25",
+     "stale": "2026-09-26",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     },
     {
      "label": "page images",
      "value": 120178,
-     "stale": "2026-09-25",
+     "stale": "2026-09-26",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88455,
+     "value": 88776,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 86306,
+     "value": 87232,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -86,7 +86,7 @@
     {
      "label": "listings",
      "value": 17473,
-     "stale": "2026-09-25",
+     "stale": "2026-09-26",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 43,
+     "value": 46,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 86306,
+   "pages": 87232,
    "stale": null
   },
   {
@@ -374,21 +374,21 @@
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
    "pages": null,
-   "stale": "2026-09-25"
+   "stale": "2026-09-26"
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
    "pages": null,
-   "stale": "2026-09-25"
+   "stale": "2026-09-26"
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
    "pages": null,
-   "stale": "2026-09-25"
+   "stale": "2026-09-26"
   },
   {
    "name": "wichaa.net",
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 4,
+   "pages": 5,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-09-25"
+   "stale": "2026-09-26"
   },
   {
    "name": "offrampt.net",
