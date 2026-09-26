@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-09-26",
+ "read": "2026-09-27",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,7 +16,7 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 302404,
+  "records": 302400,
   "sites": 20,
   "pages": 99600,
   "repos": 75,
@@ -24,7 +24,7 @@
   "cloners_14d": 3134,
   "viewers_14d": 46,
   "downloads": 168,
-  "read": "2026-09-26"
+  "read": "2026-09-27"
  },
  "corpora": [
   {
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88892,
+     "value": 88888,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -374,21 +374,21 @@
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
    "pages": null,
-   "stale": "2026-09-26"
+   "stale": "2026-09-27"
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
    "pages": null,
-   "stale": "2026-09-26"
+   "stale": "2026-09-27"
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
    "pages": null,
-   "stale": "2026-09-26"
+   "stale": "2026-09-27"
   },
   {
    "name": "wichaa.net",
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-09-26"
+   "stale": "2026-09-27"
   },
   {
    "name": "offrampt.net",
