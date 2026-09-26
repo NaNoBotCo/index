@@ -4,8 +4,8 @@ Counted 2026-09-26 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 302,275 · sites 20 · pages 99,189 · repositories 56
-  fourteen days: 4,244 clones by 2,249 machines · 31 human viewers · dataset downloads 167
+  corpora 18 · records 302,383 · sites 20 · pages 99,187 · repositories 67
+  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 167
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -22,7 +22,7 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,776 place records · 87,232 pages
+    88,884 place records · 87,230 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
@@ -141,7 +141,7 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  87,232 pages   directory   https://motdang.net
+  motdang.net                  87,230 pages   directory   https://motdang.net
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
@@ -164,62 +164,73 @@ SITES
 
 REPOSITORIES — fourteen days of traffic
 ------------------------------------------------------------------------------
-  amulet-atlas                        40 machines ·    82 clones ·   1 viewers · CC-BY-4.0
-  amulet-essentials                   51 machines ·    75 clones ·   0 viewers · CC-BY-4.0
-  amulet-market-api                   39 machines ·    54 clones ·   0 viewers · CC-BY-4.0
-  amulet-reference                    26 machines ·    42 clones ·   1 viewers · CC-BY-4.0
-  baanstaff                           13 machines ·    24 clones ·   0 viewers · CC-BY-4.0
-  basque-tables                      105 machines ·   200 clones ·   0 viewers · CC-BY-4.0
-  blinking-twelve                     26 machines ·    41 clones ·   0 viewers · CC-BY-4.0
-  blinky-fidget                       47 machines ·    79 clones ·   0 viewers · CC-BY-4.0
-  buffalo-wings                       79 machines ·   143 clones ·   0 viewers · CC-BY-4.0
-  care-abroad                         53 machines ·    92 clones ·   1 viewers · CC-BY-4.0
-  carolina-barbecue                  112 machines ·   237 clones ·   4 viewers · CC-BY-4.0
-  chiang-mai-roads                     0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
-  cm-womens-health                    29 machines ·    40 clones ·   0 viewers · CC-BY-4.0
-  dead-mans-switch                    49 machines ·    83 clones ·   0 viewers · CC-BY-4.0
-  defiant-site                        42 machines ·    69 clones ·   0 viewers · CC-BY-4.0
-  feed-detox                          17 machines ·    29 clones ·   0 viewers · CC-BY-4.0
-  flighthelper                        40 machines ·    66 clones ·   0 viewers · CC-BY-4.0
-  food-pantry                         14 machines ·    21 clones ·   1 viewers · MIT
-  hak-farang                          27 machines ·    44 clones ·   1 viewers · CC-BY-4.0
-  hand-poke                           34 machines ·    70 clones ·   0 viewers · CC-BY-4.0
-  homematch                           34 machines ·    54 clones ·   0 viewers · CC-BY-4.0
-  index                               61 machines ·   125 clones ·   1 viewers · CC-BY-4.0
-  jovilabe                            32 machines ·    55 clones ·   0 viewers · CC-BY-4.0
-  kali-yantra                         35 machines ·    58 clones ·   0 viewers · CC-BY-4.0
-  Lanna                               28 machines ·   225 clones ·   5 viewers · CC-BY-4.0
-  lanna-almanac                       22 machines ·    36 clones ·   2 viewers · CC-BY-4.0
-  mae-hong-son-loop                  109 machines ·   216 clones ·   0 viewers · CC-BY-4.0
-  manuscript-transcribe               24 machines ·    35 clones ·   1 viewers · CC-BY-4.0
-  manuscript-wiki                     37 machines ·    54 clones ·   1 viewers · CC-BY-4.0
+  amulet-atlas                        74 machines ·   154 clones ·   2 viewers · CC-BY-4.0
+  amulet-essentials                   60 machines ·    87 clones ·   0 viewers · CC-BY-4.0
+  amulet-market-api                   45 machines ·    64 clones ·   0 viewers · CC-BY-4.0
+  amulet-reference                    30 machines ·    50 clones ·   1 viewers · CC-BY-4.0
+  baanstaff                           19 machines ·    34 clones ·   0 viewers · CC-BY-4.0
+  basque-tables                      136 machines ·   267 clones ·   0 viewers · CC-BY-4.0
+  black-holes                         59 machines ·   120 clones ·   1 viewers · CC-BY-4.0
+  blinking-twelve                     35 machines ·    62 clones ·   0 viewers · CC-BY-4.0
+  blinky-fidget                       54 machines ·    91 clones ·   0 viewers · CC-BY-4.0
+  buffalo-wings                      108 machines ·   203 clones ·   0 viewers · CC-BY-4.0
+  care-abroad                         85 machines ·   149 clones ·   2 viewers · CC-BY-4.0
+  carolina-barbecue                  137 machines ·   289 clones ·   4 viewers · CC-BY-4.0
+  chaos                                0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
+  chiang-mai-roads                    26 machines ·    39 clones ·   1 viewers · CC-BY-4.0
+  cm-womens-health                    32 machines ·    43 clones ·   1 viewers · CC-BY-4.0
+  dead-mans-switch                    52 machines ·    86 clones ·   0 viewers · CC-BY-4.0
+  defiant-site                        53 machines ·    96 clones ·   0 viewers · CC-BY-4.0
+  exceptional-magic                   31 machines ·    55 clones ·   1 viewers · CC-BY-4.0
+  factoring                           24 machines ·    40 clones ·   0 viewers · CC-BY-4.0
+  feed-detox                          18 machines ·    30 clones ·   0 viewers · CC-BY-4.0
+  field                               41 machines ·    89 clones ·   0 viewers · MIT
+  flighthelper                        41 machines ·    67 clones ·   0 viewers · CC-BY-4.0
+  food-pantry                         15 machines ·    22 clones ·   1 viewers · MIT
+  goin-fast                           46 machines ·    97 clones ·   1 viewers · CC-BY-4.0
+  hak-farang                          31 machines ·    50 clones ·   1 viewers · CC-BY-4.0
+  hand-poke                           67 machines ·   149 clones ·   0 viewers · CC-BY-4.0
+  homematch                           36 machines ·    56 clones ·   0 viewers · CC-BY-4.0
+  hongdam-site                         0 machines ·     0 clones ·   0 viewers · —
+  index                              120 machines ·   258 clones ·   2 viewers · CC-BY-4.0
+  jovilabe                            34 machines ·    59 clones ·   0 viewers · CC-BY-4.0
+  kali-yantra                         43 machines ·    72 clones ·   1 viewers · CC-BY-4.0
+  Lanna                               26 machines ·   222 clones ·   4 viewers · CC-BY-4.0
+  lanna-almanac                       23 machines ·    37 clones ·   3 viewers · CC-BY-4.0
+  mae-hong-son-loop                  128 machines ·   255 clones ·   0 viewers · CC-BY-4.0
+  manuscript-transcribe               26 machines ·    37 clones ·   1 viewers · CC-BY-4.0
+  manuscript-wiki                     41 machines ·    58 clones ·   1 viewers · CC-BY-4.0
   moat-game                           24 machines ·    42 clones ·   0 viewers · CC-BY-4.0
-  moat-stardew                        40 machines ·    60 clones ·   0 viewers · CC-BY-4.0
-  mot-dang                            45 machines ·    81 clones ·   3 viewers · CC-BY-4.0
-  muak-yant-site                      40 machines ·    69 clones ·   0 viewers · CC-BY-4.0
-  muay-thai                           33 machines ·    68 clones ·   0 viewers · CC-BY-4.0
-  mueang-map                          31 machines ·    47 clones ·   0 viewers · CC-BY-4.0
-  NaNoBotCo                           50 machines ·    88 clones ·   0 viewers · CC-BY-4.0
-  nanobotco.github.io                 70 machines ·   196 clones ·   0 viewers · CC-BY-4.0
-  neurovizr-decoded                   46 machines ·    80 clones ·   1 viewers · CC-BY-4.0
-  offramp                             26 machines ·    44 clones ·   2 viewers · CC-BY-4.0
-  pdf-tool                            33 machines ·    54 clones ·   0 viewers · CC-BY-4.0
-  pike-place-market                   30 machines ·    63 clones ·   0 viewers · CC-BY-4.0
-  pink-box                            74 machines ·   143 clones ·   0 viewers · CC-BY-4.0
-  pinot-noir                          64 machines ·   132 clones ·   1 viewers · CC-BY-4.0
-  poplucky                            31 machines ·    47 clones ·   0 viewers · CC-BY-4.0
-  scanner                             12 machines ·    16 clones ·   0 viewers · MIT
-  skipdjt                             22 machines ·    46 clones ·   0 viewers · CC-BY-4.0
-  st-expedite-wiki                    44 machines ·    63 clones ·   0 viewers · CC-BY-4.0
-  stocktake                           30 machines ·    45 clones ·   0 viewers · CC-BY-4.0
-  swanbot                             20 machines ·    33 clones ·   0 viewers · CC-BY-4.0
-  taoist-oracle                       17 machines ·    27 clones ·   1 viewers · CC-BY-4.0
-  thai-answers                        34 machines ·    55 clones ·   1 viewers · CC-BY-4.0
-  thairoots                           34 machines ·    77 clones ·   0 viewers · CC-BY-4.0
-  traffic-eye                         43 machines ·    79 clones ·   2 viewers · CC-BY-4.0
-  uptake                              53 machines ·   100 clones ·   0 viewers · CC-BY-SA-4.0
-  visa-desk                           39 machines ·    76 clones ·   1 viewers · NOASSERTION
-  wichaa-vault                        39 machines ·    64 clones ·   0 viewers · CC-BY-4.0
+  moat-stardew                        43 machines ·    63 clones ·   1 viewers · CC-BY-4.0
+  mot-dang                            39 machines ·    75 clones ·   4 viewers · CC-BY-4.0
+  muak-yant-site                      44 machines ·    73 clones ·   0 viewers · CC-BY-4.0
+  muay-thai                           76 machines ·   157 clones ·   1 viewers · CC-BY-4.0
+  mueang-map                          37 machines ·    55 clones ·   0 viewers · CC-BY-4.0
+  NaNoBotCo                           58 machines ·   104 clones ·   0 viewers · CC-BY-4.0
+  nanobotco.github.io                102 machines ·   270 clones ·   1 viewers · CC-BY-4.0
+  neurovizr-decoded                   48 machines ·    82 clones ·   0 viewers · CC-BY-4.0
+  offramp                             29 machines ·    50 clones ·   2 viewers · CC-BY-4.0
+  pdf-tool                            48 machines ·    76 clones ·   0 viewers · CC-BY-4.0
+  pike-place-market                   38 machines ·    84 clones ·   0 viewers · CC-BY-4.0
+  pink-box                            87 machines ·   178 clones ·   0 viewers · CC-BY-4.0
+  pinot-noir                         100 machines ·   208 clones ·   1 viewers · CC-BY-4.0
+  poplucky                            35 machines ·    51 clones ·   0 viewers · CC-BY-4.0
+  quantum-computing                   46 machines ·   100 clones ·   0 viewers · MIT
+  rtp                                  0 machines ·     0 clones ·   0 viewers · NOASSERTION
+  scanner                             30 machines ·    49 clones ·   0 viewers · MIT
+  skipdjt                             25 machines ·    49 clones ·   0 viewers · CC-BY-4.0
+  st-expedite-wiki                    49 machines ·    70 clones ·   0 viewers · CC-BY-4.0
+  stocktake                           31 machines ·    46 clones ·   0 viewers · CC-BY-4.0
+  swanbot                             21 machines ·    34 clones ·   0 viewers · CC-BY-4.0
+  taoist-oracle                       19 machines ·    29 clones ·   1 viewers · CC-BY-4.0
+  thai-answers                        35 machines ·    56 clones ·   1 viewers · CC-BY-4.0
+  thairoots                           38 machines ·    81 clones ·   0 viewers · CC-BY-4.0
+  the-white-cut                        0 machines ·     0 clones ·   0 viewers · —
+  three-body                          47 machines ·   104 clones ·   1 viewers · MIT
+  traffic-eye                         45 machines ·    81 clones ·   3 viewers · CC-BY-4.0
+  uptake                              58 machines ·   109 clones ·   0 viewers · CC-BY-SA-4.0
+  visa-desk                           43 machines ·    84 clones ·   1 viewers · NOASSERTION
+  wichaa-vault                        43 machines ·    70 clones ·   1 viewers · CC-BY-4.0
 
 ==============================================================================
 Machine copies: https://nanobotco.github.io/index/assets.json · https://nanobotco.github.io/index/catalog.jsonld · https://nanobotco.github.io/index/llms.txt
