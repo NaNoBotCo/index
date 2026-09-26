@@ -5,17 +5,13 @@
    "value": 6986,
    "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-   "stale": "2026-09-26",
-   "error": "unable to open database file"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "lanna-manuscripts#1": {
    "value": 120178,
    "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-   "stale": "2026-09-26",
-   "error": "unable to open database file"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "motdang#0": {
    "value": 88892,
@@ -33,9 +29,7 @@
    "value": 17486,
    "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-   "stale": "2026-09-26",
-   "error": "unable to open database file"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "hf-trade-words#0": {
    "value": 2185,
@@ -994,6 +988,18 @@
    "license": "CC-BY-4.0",
    "clones_14d": 49,
    "cloners_14d": 25,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "split-screen",
+   "url": "https://github.com/NaNoBotCo/split-screen",
+   "description": "RFK Jr. on one side, the thing on the other: a catalog of split-screen pictures, Sept 2023 to today, with the math.",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/split-screen/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
    "views_14d": 0,
    "viewers_14d": 0
   },

@@ -19,7 +19,7 @@
   "records": 302404,
   "sites": 20,
   "pages": 99600,
-  "repos": 74,
+  "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
@@ -38,14 +38,14 @@
     {
      "label": "manuscripts",
      "value": 6986,
-     "stale": "2026-09-26",
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     },
     {
      "label": "page images",
      "value": 120178,
-     "stale": "2026-09-26",
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -86,7 +86,7 @@
     {
      "label": "listings",
      "value": 17486,
-     "stale": "2026-09-26",
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -1233,6 +1233,18 @@
    "license": "CC-BY-4.0",
    "clones_14d": 49,
    "cloners_14d": 25,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "split-screen",
+   "url": "https://github.com/NaNoBotCo/split-screen",
+   "description": "RFK Jr. on one side, the thing on the other: a catalog of split-screen pictures, Sept 2023 to today, with the math.",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/split-screen/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
    "views_14d": 0,
    "viewers_14d": 0
   },
