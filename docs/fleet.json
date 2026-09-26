@@ -145,6 +145,17 @@
       "repo": "https://github.com/NaNoBotCo/indras-net"
     },
     {
+      "id": "talking-board",
+      "name": "Talking Board",
+      "th": "กระดานวิญญาณ",
+      "url": "https://nanobotco.github.io/talking-board/",
+      "note": "A parlour talking board — bots in the empty seats, a lens on the planchette, a notebook for what comes through",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/talking-board/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/talking-board"
+    },
+    {
       "id": "exceptional-magic",
       "name": "Exceptional Magic",
       "lane": "directory",

@@ -9,7 +9,7 @@
 ## Corpora
 
 - [Lanna manuscripts](https://wichaa.net/): Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki. 6,986 manuscripts.
-- [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,884 place records.
+- [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,892 place records.
 - [Amulet market](https://wichaa.net/): Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry. 17,486 listings.
 - [Thai trade words, Chiang Mai](https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai): signage compounds and trade terms with glosses and readings, plus administrative names. 2,185 rows.
 - [Thai RTGS romanisation lexicon](https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon): irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription. 694 rows.
@@ -52,76 +52,80 @@
 
 ## Repositories
 
-- [amulet-atlas](https://github.com/NaNoBotCo/amulet-atlas): Amulets, charms and talismans worldwide — one JSON record per node, every field carrying where it came from. Equal Earth maps, a deep timeline, the signs drawn.
-- [amulet-essentials](https://github.com/NaNoBotCo/amulet-essentials): A pan-Southeast-Asian amulet catalogue: 87 kinds in their own languages, 637 free pictures with verified licences, on-device photo identification, and a price analysis of 15,300 listings. Live at wichaa.net/amulets
-- [amulet-market-api](https://github.com/NaNoBotCo/amulet-market-api): JSON API over thousands of real Lazada amulet-commerce listings
-- [amulet-reference](https://github.com/NaNoBotCo/amulet-reference): Bilingual Thai and Lanna amulet reference and treatise
-- [baanstaff](https://github.com/NaNoBotCo/baanstaff): Household-staff marketplace and white-label kit for Chiang Mai (homematch's predecessor)
-- [basque-tables](https://github.com/NaNoBotCo/basque-tables): A sourced directory of Basque dining rooms in California, Nevada and Idaho — seating, prices, published days and the Picon Punch, every field naming where it came from.
-- [black-holes](https://github.com/NaNoBotCo/black-holes): Black holes modelled and drawn from the equations — pictures, generators, past, present, future, legends. CC BY 4.0.
-- [blinking-twelve](https://github.com/NaNoBotCo/blinking-twelve): blinky1200 — a skeuomorphic puzzle: set the blinking 12:00, eleven levels, 1987 to 2026
-- [blinky-fidget](https://github.com/NaNoBotCo/blinky-fidget): A VCR to fiddle with — no goal, just the click of buttons and static
-- [buffalo-wings](https://github.com/NaNoBotCo/buffalo-wings): Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from.
-- [care-abroad](https://github.com/NaNoBotCo/care-abroad): A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance.
-- [carolina-barbecue](https://github.com/NaNoBotCo/carolina-barbecue): A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it.
-- [chaos](https://github.com/NaNoBotCo/chaos): Chaos theory in plain words — every picture drawn from the equation, plus the two tools that hold up under chaos: the law of large numbers and resilient systems. Live: https://nanobotco.github.io/chaos/
-- [chiang-mai-roads](https://github.com/NaNoBotCo/chiang-mai-roads): Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map.
-- [cm-womens-health](https://github.com/NaNoBotCo/cm-womens-health): Finder for women's health facilities across Chiang Mai
-- [dead-mans-switch](https://github.com/NaNoBotCo/dead-mans-switch): Local, offline check-in switch — fires a payload once if you ever stop checking in
-- [defiant-site](https://github.com/NaNoBotCo/defiant-site): defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map.
-- [exceptional-magic](https://github.com/NaNoBotCo/exceptional-magic): The octonions, triality, the magic square and E8 — computed, drawn and told plain. A reading of Lisi 2026.
-- [factoring](https://github.com/NaNoBotCo/factoring): Big Numbers, Split — factoring from Eratosthenes to Shor, the Riemann Hypothesis, and what it means for a bitcoin wallet. Every number computed or sourced.
-- [feed-detox](https://github.com/NaNoBotCo/feed-detox): A done-with-you social-feed cleanup — personalized playbook, customer keeps their own login
+- [amulet-atlas](https://github.com/NaNoBotCo/amulet-atlas): Amulets, charms and talismans worldwide — one JSON record per node, every field carrying where it came from. Equal Earth maps, a deep timeline, the signs drawn. · พระเครื่อง เครื่องราง และของขลังทั่วโลก บอกที่มาของข้อมูลแต่ละช่อง พร้อมแผนที่และเส้นเวลา
+- [amulet-essentials](https://github.com/NaNoBotCo/amulet-essentials): A pan-Southeast-Asian amulet catalogue: 87 kinds in their own languages, 637 free pictures with verified licences, on-device photo identification, and a price analysis of 15,300 listings. Live at wichaa.net/amulets · แคตตาล็อกพระเครื่องเอเชียตะวันออกเฉียงใต้ 87 ประเภท ระบุภาพด้วยมือถือ
+- [amulet-market-api](https://github.com/NaNoBotCo/amulet-market-api): JSON API over thousands of real Lazada amulet-commerce listings · API ข้อมูลประกาศขายพระเครื่องบน Lazada
+- [amulet-reference](https://github.com/NaNoBotCo/amulet-reference): Bilingual Thai and Lanna amulet reference and treatise · คู่มือพระเครื่องไทยและล้านนา สองภาษา
+- [baanstaff](https://github.com/NaNoBotCo/baanstaff): Household-staff marketplace and white-label kit for Chiang Mai (homematch's predecessor) · ตลาดแม่บ้านและพนักงานในบ้าน เชียงใหม่
+- [basque-tables](https://github.com/NaNoBotCo/basque-tables): A sourced directory of Basque dining rooms in California, Nevada and Idaho — seating, prices, published days and the Picon Punch, every field naming where it came from. · ร้านอาหารบาสก์ในแคลิฟอร์เนีย เนวาดา และไอดาโฮ พร้อมแหล่งที่มา
+- [black-holes](https://github.com/NaNoBotCo/black-holes): Black holes modelled and drawn from the equations — pictures, generators, past, present, future, legends. CC BY 4.0. · หลุมดำ วาดจากสมการ — ภาพ อดีต ปัจจุบัน อนาคต และตำนาน
+- [blinking-twelve](https://github.com/NaNoBotCo/blinking-twelve): blinky1200 — a skeuomorphic puzzle: set the blinking 12:00, eleven levels, 1987 to 2026 · เกมปริศนาตั้งนาฬิกา 12:00 ที่กะพริบ สิบเอ็ดด่าน
+- [blinky-fidget](https://github.com/NaNoBotCo/blinky-fidget): A VCR to fiddle with — no goal, just the click of buttons and static · เครื่องเล่นวิดีโอให้กดเล่น ไม่มีเป้าหมาย
+- [buffalo-wings](https://github.com/NaNoBotCo/buffalo-wings): Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from. · ปีกไก่ทอดในสหรัฐอเมริกา — 13 สไตล์ตามภูมิภาค ซอส ร้าน และคน
+- [care-abroad](https://github.com/NaNoBotCo/care-abroad): A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance. · การรักษาข้ามพรมแดน — ประเทศ หัตถการ โรงพยาบาล ราคาที่ประกาศ และความเสี่ยง
+- [carolina-barbecue](https://github.com/NaNoBotCo/carolina-barbecue): A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it. · บาร์บีคิวแคโรไลนาเหนือและใต้ — สไตล์ ซอส อาหาร ร้าน และคน
+- [chaos](https://github.com/NaNoBotCo/chaos): Chaos theory in plain words — every picture drawn from the equation, plus the two tools that hold up under chaos: the law of large numbers and resilient systems. Live: https://nanobotco.github.io/chaos/ · ทฤษฎีความอลวน เล่าด้วยภาษาง่ายๆ ทุกภาพวาดจากสมการ
+- [chiang-mai-roads](https://github.com/NaNoBotCo/chiang-mai-roads): Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map. · ถนนเชียงใหม่ — คูเมือง ถนนวงแหวนสี่วง และสิ่งที่แต่ละเส้นทำกับเมือง
+- [chiang-rai](https://github.com/NaNoBotCo/chiang-rai): Chiang Rai, Slowly — the Golden Triangle, three temples, lantern night and the slow boat to Laos, presented with Laila Group. By Hongdam, Chiang Rai. · เชียงราย ช้าๆ — สามเหลี่ยมทองคำ วัดสามวัด คืนโคมลอย และเรือช้าสู่ลาว
+- [cm-womens-health](https://github.com/NaNoBotCo/cm-womens-health): Finder for women's health facilities across Chiang Mai · ค้นหาสถานพยาบาลสุขภาพผู้หญิงในเชียงใหม่
+- [dead-mans-switch](https://github.com/NaNoBotCo/dead-mans-switch): Local, offline check-in switch — fires a payload once if you ever stop checking in · สวิตช์เช็กอินแบบออฟไลน์ ทำงานครั้งเดียวเมื่อหยุดเช็กอิน
+- [defiant-site](https://github.com/NaNoBotCo/defiant-site): defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map. · บริการสำหรับชาวอเมริกันในเชียงใหม่ และการท่องเที่ยวเชิงการแพทย์
+- [exceptional-magic](https://github.com/NaNoBotCo/exceptional-magic): The octonions, triality, the magic square and E8 — computed, drawn and told plain. A reading of Lisi 2026. · ออกโทเนียน จัตุรัสมหัศจรรย์ และ E8 — คำนวณ วาด และเล่าง่ายๆ
+- [factoring](https://github.com/NaNoBotCo/factoring): Big Numbers, Split — factoring from Eratosthenes to Shor, the Riemann Hypothesis, and what it means for a bitcoin wallet. Every number computed or sourced. · การแยกตัวประกอบ ตั้งแต่เอราทอสเทนีสถึงชอร์ สมมติฐานรีมันน์ และกระเป๋าบิตคอยน์
+- [feed-detox](https://github.com/NaNoBotCo/feed-detox): A done-with-you social-feed cleanup — personalized playbook, customer keeps their own login · ช่วยเคลียร์ฟีดโซเชียล ลูกค้าถือรหัสผ่านเอง
 - [field](https://github.com/NaNoBotCo/field): ภาคสนาม · Field — street-level capture for Mot Dang: 360° frames from a motorbike, signs read, places added to the map. Photos + data CC BY 4.0.
-- [flighthelper](https://github.com/NaNoBotCo/flighthelper): Comfort-scored flight search with price-drop alerts
-- [food-pantry](https://github.com/NaNoBotCo/food-pantry): OCR pipeline for food-pantry intake forms
-- [goin-fast](https://github.com/NaNoBotCo/goin-fast): Goin' Fast — a dirt-simple explainer about speed: twenty measured speeds from continental drift to light, what each one costs, and where the ceilin' is. Text and diagrams CC BY 4.0.
-- [hak-farang](https://github.com/NaNoBotCo/hak-farang): Thai-first guide for Thai partners of farang — money, visas, family
-- [hand-poke](https://github.com/NaNoBotCo/hand-poke): Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced.
-- [homematch](https://github.com/NaNoBotCo/homematch): Negotiation-first household-services matchmaking for Chiang Mai
-- [hongdam-site](https://github.com/NaNoBotCo/hongdam-site): Hongdam หงส์ดำ — bilingual web studio, Chiang Rai. Portfolio, an AI red-team console + probe market, and the site itself. hongdam.net
-- [implied-odds](https://github.com/NaNoBotCo/implied-odds): Implied odds in Texas Hold'em, explained plain and drawn with the arithmetic left in — a live calculator and an outcomes-over-time chart with a payoff dial. Text CC BY 4.0, code MIT.
-- [index](https://github.com/NaNoBotCo/index): Everything NaNoBotCo holds, counted once, at one address
-- [indras-net](https://github.com/NaNoBotCo/indras-net): Indra's Net in plain words — read sixteen ways, drawn live from the math of mirrors
-- [jovilabe](https://github.com/NaNoBotCo/jovilabe): A modeled antique geared instrument for Jupiter's four Galilean moons
-- [kali-yantra](https://github.com/NaNoBotCo/kali-yantra): Generative yantra geometry, rendered by script
-- [Lanna](https://github.com/NaNoBotCo/Lanna): The crawler — harvests Lanna manuscript archives into a structured catalog
-- [lanna-almanac](https://github.com/NaNoBotCo/lanna-almanac): One-file Northern-reckoning Lanna almanac widget
-- [mae-hong-son-loop](https://github.com/NaNoBotCo/mae-hong-son-loop): Motorcycling the Mae Hong Son loop: 600 km, the curves actually counted from OpenStreetMap geometry, four burning seasons of PM2.5, English and Thai on every page.
-- [manuscript-transcribe](https://github.com/NaNoBotCo/manuscript-transcribe): Transcription pipeline for Lanna manuscript page images
-- [manuscript-wiki](https://github.com/NaNoBotCo/manuscript-wiki): Read-only wiki over the Lanna manuscript catalog — facets, OCR, image store
-- [moat-game](https://github.com/NaNoBotCo/moat-game): A text game about an amulet smuggler crossing Chiang Mai checkpoints in 2076
-- [moat-stardew](https://github.com/NaNoBotCo/moat-stardew): Charms of Chiang Mai — a Stardew Valley SMAPI mod set in the Moat world
+- [flighthelper](https://github.com/NaNoBotCo/flighthelper): Comfort-scored flight search with price-drop alerts · ค้นหาเที่ยวบินตามความสบาย พร้อมแจ้งเตือนเมื่อราคาลด
+- [food-pantry](https://github.com/NaNoBotCo/food-pantry): OCR pipeline for food-pantry intake forms · OCR สำหรับแบบฟอร์มรับของของธนาคารอาหาร
+- [goin-fast](https://github.com/NaNoBotCo/goin-fast): Goin' Fast — a dirt-simple explainer about speed: twenty measured speeds from continental drift to light, what each one costs, and where the ceilin' is. Text and diagrams CC BY 4.0. · ความเร็วแบบง่ายๆ — ยี่สิบความเร็ว ตั้งแต่ทวีปเลื่อนถึงแสง
+- [golden-triangle](https://github.com/NaNoBotCo/golden-triangle)
+- [hak-farang](https://github.com/NaNoBotCo/hak-farang): Thai-first guide for Thai partners of farang — money, visas, family · คู่มือภาษาไทยสำหรับคู่ชีวิตชาวไทยของฝรั่ง — เงิน วีซ่า ครอบครัว
+- [hand-poke](https://github.com/NaNoBotCo/hand-poke): Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced. · การสักด้วยมือทั่วโลก 28 ประเพณี สองภาษา
+- [homematch](https://github.com/NaNoBotCo/homematch): Negotiation-first household-services matchmaking for Chiang Mai · จับคู่บริการงานบ้านในเชียงใหม่ เริ่มจากการต่อรอง
+- [hongdam-site](https://github.com/NaNoBotCo/hongdam-site): Hongdam หงส์ดำ — bilingual web studio, Chiang Rai. Portfolio, an AI red-team console + probe market, and the site itself. hongdam.net · สตูดิโอเว็บสองภาษา เชียงราย
+- [implied-odds](https://github.com/NaNoBotCo/implied-odds): Implied odds in Texas Hold'em, explained plain and drawn with the arithmetic left in — a live calculator and an outcomes-over-time chart with a payoff dial. Text CC BY 4.0, code MIT. · อัตราต่อรองแฝงในเท็กซัสโฮลเด็ม เล่าง่ายๆ พร้อมเครื่องคิดเลขสด
+- [index](https://github.com/NaNoBotCo/index): Everything NaNoBotCo holds, counted once, at one address · ทุกอย่างที่ NaNoBotCo มี นับครั้งเดียว ในที่อยู่เดียว
+- [indras-net](https://github.com/NaNoBotCo/indras-net): Indra's Net in plain words — read sixteen ways, drawn live from the math of mirrors · ตาข่ายพระอินทร์ เล่าด้วยภาษาง่ายๆ วาดสดจากคณิตศาสตร์ของกระจก
+- [jovilabe](https://github.com/NaNoBotCo/jovilabe): A modeled antique geared instrument for Jupiter's four Galilean moons · เครื่องกลโบราณจำลอง แสดงดวงจันทร์ทั้งสี่ของดาวพฤหัสบดี
+- [kali-yantra](https://github.com/NaNoBotCo/kali-yantra): Generative yantra geometry, rendered by script · เรขาคณิตของยันต์ สร้างด้วยสคริปต์
+- [Lanna](https://github.com/NaNoBotCo/Lanna): The crawler — harvests Lanna manuscript archives into a structured catalog · โปรแกรมเก็บข้อมูลจากคลังคัมภีร์ใบลานล้านนา
+- [lanna-almanac](https://github.com/NaNoBotCo/lanna-almanac): One-file Northern-reckoning Lanna almanac widget · ปฏิทินโหราศาสตร์ล้านนา ไฟล์เดียว
+- [mae-hong-son-loop](https://github.com/NaNoBotCo/mae-hong-son-loop): Motorcycling the Mae Hong Son loop: 600 km, the curves actually counted from OpenStreetMap geometry, four burning seasons of PM2.5, English and Thai on every page. · ขี่มอเตอร์ไซค์แม่ฮ่องสอนลูป 600 กม. นับโค้งจาก OpenStreetMap
+- [manuscript-transcribe](https://github.com/NaNoBotCo/manuscript-transcribe): Transcription pipeline for Lanna manuscript page images · ถอดความภาพหน้าคัมภีร์ใบลานล้านนา
+- [manuscript-wiki](https://github.com/NaNoBotCo/manuscript-wiki): Read-only wiki over the Lanna manuscript catalog — facets, OCR, image store · วิกิสำหรับอ่านแคตตาล็อกคัมภีร์ใบลานล้านนา
+- [moat-game](https://github.com/NaNoBotCo/moat-game): A text game about an amulet smuggler crossing Chiang Mai checkpoints in 2076 · เกมข้อความ นักลักลอบพระเครื่องข้ามด่านเชียงใหม่ ปี 2076
+- [moat-stardew](https://github.com/NaNoBotCo/moat-stardew): Charms of Chiang Mai — a Stardew Valley SMAPI mod set in the Moat world · เสน่ห์เชียงใหม่ — ม็อด Stardew Valley ในโลกคูเมือง
 - [mot-dang](https://github.com/NaNoBotCo/mot-dang): มดแดง Mot Dang — Chiang Mai · Chiang Rai city directory, the 1997 way. รู้ทุกซอย เหมือนมดแดง
-- [muak-yant-site](https://github.com/NaNoBotCo/muak-yant-site): Site for sacred yantra work on motorcycle helmets
-- [muay-thai](https://github.com/NaNoBotCo/muay-thai): The eight limbs, the thirty named techniques, the ceremony, and every gym on the map. Bilingual English and Thai, every claim tiered and sourced.
-- [mueang-map](https://github.com/NaNoBotCo/mueang-map): Niche-lens participatory map of Chiang Mai
-- [NaNoBotCo](https://github.com/NaNoBotCo/NaNoBotCo): Profile README and project directory
+- [muak-yant-site](https://github.com/NaNoBotCo/muak-yant-site): Site for sacred yantra work on motorcycle helmets · เว็บไซต์ยันต์บนหมวกกันน็อก
+- [muay-thai](https://github.com/NaNoBotCo/muay-thai): The eight limbs, the thirty named techniques, the ceremony, and every gym on the map. Bilingual English and Thai, every claim tiered and sourced. · มวยไทย — อาวุธทั้งแปด แม่ไม้และลูกไม้ 30 ท่า พิธีไหว้ครู และค่ายมวยบนแผนที่
+- [mueang-map](https://github.com/NaNoBotCo/mueang-map): Niche-lens participatory map of Chiang Mai · แผนที่แบบมีส่วนร่วมของเชียงใหม่
+- [NaNoBotCo](https://github.com/NaNoBotCo/NaNoBotCo): Profile README and project directory · README โปรไฟล์และสารบัญโปรเจกต์
 - [nanobotco.github.io](https://github.com/NaNoBotCo/nanobotco.github.io): NaN — คุณแนน. Personal portal. It gets done today.
-- [neurovizr-decoded](https://github.com/NaNoBotCo/neurovizr-decoded): Stdlib FFT teardown of a light and sound neurostimulation device
-- [offramp](https://github.com/NaNoBotCo/offramp): The manual for getting paid in crypto and spending it locally without a local bank account
-- [pdf-tool](https://github.com/NaNoBotCo/pdf-tool): A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract
-- [pike-place-market](https://github.com/NaNoBotCo/pike-place-market): A directory and GIS map of the Pike Place Market Historical District, Seattle — 12.83 acres, 153 licensed businesses, and the dates the city has on them.
-- [pink-box](https://github.com/NaNoBotCo/pink-box): Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two
-- [pinot-noir](https://github.com/NaNoBotCo/pinot-noir): A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance.
-- [poplucky](https://github.com/NaNoBotCo/poplucky): Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know.
-- [prostar-magic](https://github.com/NaNoBotCo/prostar-magic): One page for Prostar Magic Shop, Kotchasarn Road, Chiang Mai: props with prices, a LINE order list, shows, lessons, hours, the walk from Tha Phae Gate.
-- [quantum-computing](https://github.com/NaNoBotCo/quantum-computing): The history and theory of quantum computing in plain words, with animated demos; refreshed weekly
-- [rtp](https://github.com/NaNoBotCo/rtp): UK managed-service-provider channel map — company-level, from public sources
-- [scanner](https://github.com/NaNoBotCo/scanner): A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF.
-- [skipdjt](https://github.com/NaNoBotCo/skipdjt): Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked.
-- [st-expedite-wiki](https://github.com/NaNoBotCo/st-expedite-wiki): Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory
-- [stocktake](https://github.com/NaNoBotCo/stocktake): Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it
-- [swanbot](https://github.com/NaNoBotCo/swanbot): A black-swan-aware trading and agent utility
-- [taoist-oracle](https://github.com/NaNoBotCo/taoist-oracle): Stdlib Chinese and Taoist divination engine — I Ching, Plum Blossom, Wen Wang Gua, Bazi
-- [thai-answers](https://github.com/NaNoBotCo/thai-answers): Evergreen answers to real Facebook-group questions, over a venue catalog
+- [neurovizr-decoded](https://github.com/NaNoBotCo/neurovizr-decoded): Stdlib FFT teardown of a light and sound neurostimulation device · แกะการทำงานของเครื่องกระตุ้นสมองด้วยแสงและเสียง ด้วย FFT
+- [offramp](https://github.com/NaNoBotCo/offramp): The manual for getting paid in crypto and spending it locally without a local bank account · คู่มือรับเงินเป็นคริปโตและใช้จ่ายในไทย โดยไม่มีบัญชีธนาคารไทย
+- [onemansideshow](https://github.com/NaNoBotCo/onemansideshow): The One Man Sideshow: a free Claude Code kit for running many projects alone, and the page that sells setup. MIT code, CC BY 4.0 page. · ชุดเครื่องมือ Claude Code ฟรี สำหรับคนทำงานคนเดียวหลายโปรเจกต์ พร้อมบริการติดตั้ง
+- [pdf-tool](https://github.com/NaNoBotCo/pdf-tool): A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract · เครื่องมือ PDF แบบเลือกเมนูด้วยตัวเลข — ตารางเป็น Excel แยก ลงชื่อ รวม
+- [pike-place-market](https://github.com/NaNoBotCo/pike-place-market): A directory and GIS map of the Pike Place Market Historical District, Seattle — 12.83 acres, 153 licensed businesses, and the dates the city has on them. · ไดเรกทอรีและแผนที่ตลาดไพค์เพลส ซีแอตเทิล
+- [pink-box](https://github.com/NaNoBotCo/pink-box): Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two · ร้านโดนัทของครอบครัวในอเมริกา
+- [pinot-noir](https://github.com/NaNoBotCo/pinot-noir): A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance. · ไวน์ปิโนต์นัวร์ — องุ่น ดิน โรงบ่ม และถ้อยคำ
+- [poplucky](https://github.com/NaNoBotCo/poplucky): Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know. · แคตตาล็อกสำหรับนักสะสมกล่องสุ่ม Pop Mart สามภาษา
+- [prostar-magic](https://github.com/NaNoBotCo/prostar-magic): One page for Prostar Magic Shop, Kotchasarn Road, Chiang Mai: props with prices, a LINE order list, shows, lessons, hours, the walk from Tha Phae Gate. · ร้านมายากล Prostar ถนนคชสาร เชียงใหม่ — อุปกรณ์พร้อมราคา สั่งทาง LINE การแสดง และคอร์สสอน
+- [quantum-computing](https://github.com/NaNoBotCo/quantum-computing): The history and theory of quantum computing in plain words, with animated demos; refreshed weekly · ประวัติและทฤษฎีคอมพิวเตอร์ควอนตัม เล่าง่ายๆ พร้อมภาพเคลื่อนไหว
+- [rtp](https://github.com/NaNoBotCo/rtp): UK managed-service-provider channel map — company-level, from public sources · แผนที่ช่องทางผู้ให้บริการไอที (MSP) ในสหราชอาณาจักร จากแหล่งข้อมูลสาธารณะ
+- [scanner](https://github.com/NaNoBotCo/scanner): A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF. · สแกนเอกสารในเบราว์เซอร์มือถือ — ถ่าย ปรับให้ตรง ลงชื่อ ออกเป็น PDF
+- [skipdjt](https://github.com/NaNoBotCo/skipdjt): Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked. · เปรียบเทียบค่าตั๋วเครื่องบิน สำหรับคนที่ไม่อยากบินจากปาล์มบีช
+- [st-expedite-wiki](https://github.com/NaNoBotCo/st-expedite-wiki): Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory · วิกิสองภาษาเรื่องการบูชานักบุญเอ็กซ์เปดิตุส
+- [stocktake](https://github.com/NaNoBotCo/stocktake): Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it · นับใหม่ว่ามีอะไรอยู่ในทุกโปรเจกต์ โดเมน และ Cloudflare Workers
+- [swanbot](https://github.com/NaNoBotCo/swanbot): A black-swan-aware trading and agent utility · เครื่องมือเทรดที่คิดถึงหงส์ดำ (เหตุการณ์ไม่คาดฝัน)
+- [talking-board](https://github.com/NaNoBotCo/talking-board): A parlour talking board — bots in the empty seats, a lens on the planchette, a notebook for what comes through. กระดานวิญญาณ
+- [taoist-oracle](https://github.com/NaNoBotCo/taoist-oracle): Stdlib Chinese and Taoist divination engine — I Ching, Plum Blossom, Wen Wang Gua, Bazi · เครื่องทำนายแบบจีนและเต๋า — อี้จิง เหมยฮวา ปาจื้อ
+- [thai-answers](https://github.com/NaNoBotCo/thai-answers): Evergreen answers to real Facebook-group questions, over a venue catalog · คำตอบสำหรับคำถามที่วนกลับมาในกลุ่มเฟซบุ๊ก
 - [thairoots](https://github.com/NaNoBotCo/thairoots): รากศัพท์ Thai Roots — a Hans Wehr-style root dictionary of Thai: Pali/Sanskrit roots, native morpheme families, sound-change keys, and a word decomposer.
 - [the-white-cut](https://github.com/NaNoBotCo/the-white-cut)
-- [three-body](https://github.com/NaNoBotCo/three-body): The mathematics of the three-body problem in plain words: 13 chapters, 34 equations each read out loud, 9 periodic orbits found here rather than copied, 10 browser demos, and the whole thing in 30 lines of Python.
-- [traffic-eye](https://github.com/NaNoBotCo/traffic-eye): Who is asking for your pages — people, AI crawlers, search engines, scrapers — across all your sites, in one place
-- [uptake](https://github.com/NaNoBotCo/uptake): Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0.
-- [visa-desk](https://github.com/NaNoBotCo/visa-desk): The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence.
-- [wichaa-vault](https://github.com/NaNoBotCo/wichaa-vault): Obsidian authoring vault behind the wichaa knowledge base
+- [three-body](https://github.com/NaNoBotCo/three-body): The mathematics of the three-body problem in plain words: 13 chapters, 34 equations each read out loud, 9 periodic orbits found here rather than copied, 10 browser demos, and the whole thing in 30 lines of Python. · คณิตศาสตร์ของปัญหาสามวัตถุ เล่าด้วยภาษาง่ายๆ 13 บท พร้อมเดโมในเบราว์เซอร์
+- [traffic-eye](https://github.com/NaNoBotCo/traffic-eye): Who is asking for your pages — people, AI crawlers, search engines, scrapers — across all your sites, in one place · ใครขอหน้าเว็บของคุณ — คน บอท AI เสิร์ชเอนจิน รวมไว้ที่เดียว
+- [uptake](https://github.com/NaNoBotCo/uptake): Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0. · คู่มือเผยแพร่เว็บให้เครื่องที่คัดลอกอ่าน ในยุคหลังเสิร์ชเอนจิน
+- [visa-desk](https://github.com/NaNoBotCo/visa-desk): The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence. · เว็บไซต์ chiangmaivisadesk.com — สองภาษา วีซ่า 31 ประเภท
+- [wichaa-vault](https://github.com/NaNoBotCo/wichaa-vault): Obsidian authoring vault behind the wichaa knowledge base · คลัง Obsidian เบื้องหลังฐานความรู้วิชา
 
 ## Terms
 
