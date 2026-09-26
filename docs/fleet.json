@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19",
+  "generated": "2026-09-26",
   "canonical": "https://nanobotco.github.io/index/fleet.json",
   "publisher": "NaNoBotCo",
   "contact": "nan@motdang.net",
@@ -110,6 +110,17 @@
       "audience": "en",
       "sitemap": "https://nanobotco.github.io/three-body/sitemap.xml",
       "repo": "https://github.com/NaNoBotCo/three-body"
+    },
+    {
+      "id": "chaos",
+      "name": "Chaos, Drawn",
+      "th": "ทฤษฎีความอลวน",
+      "url": "https://nanobotco.github.io/chaos/",
+      "note": "chaos theory in plain words — every picture drawn from the equation, and the two tools that hold up under it: the law of large numbers and resilient systems",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/chaos/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chaos"
     },
     {
       "id": "exceptional-magic",

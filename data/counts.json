@@ -1,259 +1,265 @@
 {
- "read": "2026-09-23",
+ "read": "2026-09-26",
  "counts": {
   "lanna-manuscripts#0": {
    "value": 6986,
-   "read": "2026-09-23",
+   "read": "2026-09-24",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+   "stale": "2026-09-26",
+   "error": "unable to open database file"
   },
   "lanna-manuscripts#1": {
    "value": 120178,
-   "read": "2026-09-23",
+   "read": "2026-09-24",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+   "stale": "2026-09-26",
+   "error": "unable to open database file"
   },
   "motdang#0": {
-   "value": 88313,
-   "read": "2026-09-23",
+   "value": 88884,
+   "read": "2026-09-26",
    "method": "local_json_len",
    "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json"
   },
   "motdang#1": {
-   "value": 86080,
-   "read": "2026-09-23",
+   "value": 87230,
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://motdang.net/sitemap.xml"
   },
   "amulet-market#0": {
    "value": 17473,
-   "read": "2026-09-23",
+   "read": "2026-09-24",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+   "stale": "2026-09-26",
+   "error": "unable to open database file"
   },
   "hf-trade-words#0": {
    "value": 2185,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "hf_rows",
    "source": "NaNoBotCo/thai-trade-words-chiang-mai"
   },
   "hf-trade-words#1": {
    "value": 36,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "hf_downloads",
    "source": "NaNoBotCo/thai-trade-words-chiang-mai"
   },
   "hf-rtgs-lexicon#0": {
    "value": 694,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "hf_rows",
    "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
   },
   "hf-rtgs-lexicon#1": {
-   "value": 39,
-   "read": "2026-09-23",
+   "value": 40,
+   "read": "2026-09-26",
    "method": "hf_downloads",
    "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
   },
   "hf-romanisation-benchmark#0": {
    "value": 153948,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "hf_rows",
    "source": "NaNoBotCo/thai-place-name-romanisation-benchmark"
   },
   "hf-romanisation-benchmark#1": {
-   "value": 44,
-   "read": "2026-09-23",
+   "value": 45,
+   "read": "2026-09-26",
    "method": "hf_downloads",
    "source": "NaNoBotCo/thai-place-name-romanisation-benchmark"
   },
   "hf-motdang-export#0": {
-   "value": 43,
-   "read": "2026-09-23",
+   "value": 46,
+   "read": "2026-09-26",
    "method": "hf_downloads",
    "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai"
   },
   "carolina-barbecue#0": {
    "value": 179,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "json_key",
    "source": "https://nanobotco.github.io/carolina-barbecue/api/nodes.json"
   },
   "buffalo-wings#0": {
    "value": 158,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "json_key",
    "source": "https://nanobotco.github.io/buffalo-wings/api/nodes.json"
   },
   "basque-tables#0": {
    "value": 29,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "json_len",
    "source": "https://nanobotco.github.io/basque-tables/api/places.json"
   },
   "pink-box#0": {
    "value": 10686,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "json_key",
    "source": "https://nanobotco.github.io/pink-box/api/places.json"
   },
   "pinot-country#0": {
    "value": 3055,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "json_key",
    "source": "https://nanobotco.github.io/pinot-noir/api/cellars.json"
   },
   "care-abroad#0": {
    "value": 17543,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "json_key",
    "source": "https://nanobotco.github.io/care-abroad/api/facilities.json"
   },
   "amulet-atlas#0": {
    "value": 286,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "json_key",
    "source": "https://nanobotco.github.io/amulet-atlas/api/nodes.json"
   },
   "uptake#0": {
    "value": 18,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "jsonl_lines",
    "source": "https://nanobotco.github.io/uptake/corpus.jsonl"
   },
   "st-expedite#0": {
    "value": 177,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "local_geojson_features",
    "source": "/Users/annikapeacock/Developer/claude code projects/st-expedite-wiki/geo/shrines.geojson"
   },
   "amulet-essentials#0": {
    "value": 82,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "local_json_key",
    "source": "/Users/annikapeacock/Developer/claude code projects/amulet-essentials/build/api/kinds.json"
   },
   "site:motdang.net": {
-   "value": 86080,
-   "read": "2026-09-23",
+   "value": 87230,
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://motdang.net/sitemap.xml"
   },
   "site:ask.motdang.net": {
-   "stale": "2026-09-23",
+   "stale": "2026-09-26",
    "error": "HTTP Error 404: Not Found",
    "value": null,
    "method": "sitemap",
    "source": "https://ask.motdang.net/sitemap.xml"
   },
   "site:ai.motdang.net": {
-   "stale": "2026-09-23",
+   "stale": "2026-09-26",
    "error": "HTTP Error 404: Not Found",
    "value": null,
    "method": "sitemap",
    "source": "https://ai.motdang.net/sitemap.xml"
   },
   "site:demo.motdang.net": {
-   "stale": "2026-09-23",
+   "stale": "2026-09-26",
    "error": "HTTP Error 404: Not Found",
    "value": null,
    "method": "sitemap",
    "source": "https://demo.motdang.net/sitemap.xml"
   },
   "site:wichaa.net": {
-   "value": 17022,
-   "read": "2026-09-23",
+   "value": 9840,
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://wichaa.net/sitemap.xml"
   },
   "site:defiant.to": {
    "value": 147,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://defiant.to/sitemap.xml"
   },
   "site:hongdam.net": {
-   "value": 2,
-   "read": "2026-09-23",
+   "value": 5,
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://hongdam.net/sitemap.xml"
   },
   "site:hakfarang.net": {
-   "stale": "2026-09-23",
+   "stale": "2026-09-26",
    "error": "HTTP Error 404: Not Found",
    "value": null,
    "method": "sitemap",
    "source": "https://hakfarang.net/sitemap.xml"
   },
   "site:offrampt.net": {
-   "value": 9,
-   "read": "2026-09-23",
+   "value": 30,
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://offrampt.net/sitemap.xml"
   },
   "site:nanobotco.github.io": {
    "value": 325,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/sitemap.xml"
   },
   "site:basque-tables": {
    "value": 206,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/basque-tables/sitemap.xml"
   },
   "site:carolina-barbecue": {
    "value": 199,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/carolina-barbecue/sitemap.xml"
   },
   "site:pinot-noir": {
    "value": 164,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/pinot-noir/sitemap.xml"
   },
   "site:buffalo-wings": {
    "value": 185,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/buffalo-wings/sitemap.xml"
   },
   "site:pink-box": {
    "value": 156,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/pink-box/sitemap.xml"
   },
   "site:care-abroad": {
    "value": 365,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/care-abroad/sitemap.xml"
   },
   "site:amulet-atlas": {
    "value": 310,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/amulet-atlas/sitemap.xml"
   },
   "site:thairoots": {
    "value": 4,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/thairoots/sitemap.xml"
   },
   "site:uptake": {
    "value": 15,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/uptake/sitemap.xml"
   },
   "site:index": {
    "value": 6,
-   "read": "2026-09-23",
+   "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/index/sitemap.xml"
   }
@@ -263,13 +269,13 @@
    "name": "amulet-atlas",
    "url": "https://github.com/NaNoBotCo/amulet-atlas",
    "description": "Amulets, charms and talismans worldwide — one JSON record per node, every field carrying where it came from. Equal Earth maps, a deep timeline, the signs drawn.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/amulet-atlas/",
    "license": "CC-BY-4.0",
-   "clones_14d": 82,
-   "cloners_14d": 40,
-   "views_14d": 1,
-   "viewers_14d": 1
+   "clones_14d": 154,
+   "cloners_14d": 74,
+   "views_14d": 2,
+   "viewers_14d": 2
   },
   {
    "name": "amulet-essentials",
@@ -278,8 +284,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 75,
-   "cloners_14d": 51,
+   "clones_14d": 87,
+   "cloners_14d": 60,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -290,8 +296,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 54,
-   "cloners_14d": 39,
+   "clones_14d": 64,
+   "cloners_14d": 45,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -302,8 +308,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 42,
-   "cloners_14d": 26,
+   "clones_14d": 50,
+   "cloners_14d": 30,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -314,8 +320,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 24,
-   "cloners_14d": 13,
+   "clones_14d": 34,
+   "cloners_14d": 19,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -323,23 +329,35 @@
    "name": "basque-tables",
    "url": "https://github.com/NaNoBotCo/basque-tables",
    "description": "A sourced directory of Basque dining rooms in California, Nevada and Idaho — seating, prices, published days and the Picon Punch, every field naming where it came from.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/basque-tables/",
    "license": "CC-BY-4.0",
-   "clones_14d": 200,
-   "cloners_14d": 105,
+   "clones_14d": 267,
+   "cloners_14d": 136,
    "views_14d": 0,
    "viewers_14d": 0
+  },
+  {
+   "name": "black-holes",
+   "url": "https://github.com/NaNoBotCo/black-holes",
+   "description": "Black holes modelled and drawn from the equations — pictures, generators, past, present, future, legends. CC BY 4.0.",
+   "pushed": "2026-09-23",
+   "pages": "https://nanobotco.github.io/black-holes/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 120,
+   "cloners_14d": 59,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "blinking-twelve",
    "url": "https://github.com/NaNoBotCo/blinking-twelve",
    "description": "blinky1200 — a skeuomorphic puzzle: set the blinking 12:00, eleven levels, 1987 to 2026",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-23",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 41,
-   "cloners_14d": 26,
+   "clones_14d": 62,
+   "cloners_14d": 35,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -350,8 +368,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 79,
-   "cloners_14d": 47,
+   "clones_14d": 91,
+   "cloners_14d": 54,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -359,11 +377,11 @@
    "name": "buffalo-wings",
    "url": "https://github.com/NaNoBotCo/buffalo-wings",
    "description": "Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/buffalo-wings/",
    "license": "CC-BY-4.0",
-   "clones_14d": 143,
-   "cloners_14d": 79,
+   "clones_14d": 203,
+   "cloners_14d": 108,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -371,37 +389,49 @@
    "name": "care-abroad",
    "url": "https://github.com/NaNoBotCo/care-abroad",
    "description": "A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/care-abroad/",
    "license": "CC-BY-4.0",
-   "clones_14d": 92,
-   "cloners_14d": 53,
-   "views_14d": 2,
-   "viewers_14d": 1
+   "clones_14d": 149,
+   "cloners_14d": 85,
+   "views_14d": 3,
+   "viewers_14d": 2
   },
   {
    "name": "carolina-barbecue",
    "url": "https://github.com/NaNoBotCo/carolina-barbecue",
    "description": "A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/carolina-barbecue/",
    "license": "CC-BY-4.0",
-   "clones_14d": 237,
-   "cloners_14d": 112,
+   "clones_14d": 289,
+   "cloners_14d": 137,
    "views_14d": 5,
    "viewers_14d": 4
   },
   {
-   "name": "chiang-mai-roads",
-   "url": "https://github.com/NaNoBotCo/chiang-mai-roads",
-   "description": "Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map.",
-   "pushed": "2026-09-21",
-   "pages": "https://nanobotco.github.io/chiang-mai-roads/",
+   "name": "chaos",
+   "url": "https://github.com/NaNoBotCo/chaos",
+   "description": "Chaos theory in plain words — every picture drawn from the equation, plus the two tools that hold up under chaos: the law of large numbers and resilient systems. Live: https://nanobotco.github.io/chaos/",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/chaos/",
    "license": "CC-BY-4.0",
    "clones_14d": 0,
    "cloners_14d": 0,
    "views_14d": 0,
    "viewers_14d": 0
+  },
+  {
+   "name": "chiang-mai-roads",
+   "url": "https://github.com/NaNoBotCo/chiang-mai-roads",
+   "description": "Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map.",
+   "pushed": "2026-09-23",
+   "pages": "https://nanobotco.github.io/chiang-mai-roads/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 39,
+   "cloners_14d": 26,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "cm-womens-health",
@@ -410,10 +440,10 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 40,
-   "cloners_14d": 29,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "clones_14d": 43,
+   "cloners_14d": 32,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "dead-mans-switch",
@@ -422,8 +452,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 83,
-   "cloners_14d": 49,
+   "clones_14d": 86,
+   "cloners_14d": 52,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -431,11 +461,35 @@
    "name": "defiant-site",
    "url": "https://github.com/NaNoBotCo/defiant-site",
    "description": "defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/defiant-site/",
    "license": "CC-BY-4.0",
-   "clones_14d": 69,
-   "cloners_14d": 42,
+   "clones_14d": 96,
+   "cloners_14d": 53,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "exceptional-magic",
+   "url": "https://github.com/NaNoBotCo/exceptional-magic",
+   "description": "The octonions, triality, the magic square and E8 — computed, drawn and told plain. A reading of Lisi 2026.",
+   "pushed": "2026-09-23",
+   "pages": "https://nanobotco.github.io/exceptional-magic/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 55,
+   "cloners_14d": 31,
+   "views_14d": 1,
+   "viewers_14d": 1
+  },
+  {
+   "name": "factoring",
+   "url": "https://github.com/NaNoBotCo/factoring",
+   "description": "Big Numbers, Split — factoring from Eratosthenes to Shor, the Riemann Hypothesis, and what it means for a bitcoin wallet. Every number computed or sourced.",
+   "pushed": "2026-09-23",
+   "pages": "https://nanobotco.github.io/factoring/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 40,
+   "cloners_14d": 24,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -446,8 +500,20 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 29,
-   "cloners_14d": 17,
+   "clones_14d": 30,
+   "cloners_14d": 18,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "field",
+   "url": "https://github.com/NaNoBotCo/field",
+   "description": "ภาคสนาม · Field — street-level capture for Mot Dang: 360° frames from a motorbike, signs read, places added to the map. Photos + data CC BY 4.0.",
+   "pushed": "2026-09-25",
+   "pages": "https://nanobotco.github.io/field/",
+   "license": "MIT",
+   "clones_14d": 89,
+   "cloners_14d": 41,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -458,8 +524,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 66,
-   "cloners_14d": 40,
+   "clones_14d": 67,
+   "cloners_14d": 41,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -470,8 +536,20 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "MIT",
-   "clones_14d": 21,
-   "cloners_14d": 14,
+   "clones_14d": 22,
+   "cloners_14d": 15,
+   "views_14d": 1,
+   "viewers_14d": 1
+  },
+  {
+   "name": "goin-fast",
+   "url": "https://github.com/NaNoBotCo/goin-fast",
+   "description": "Goin' Fast — a dirt-simple explainer about speed: twenty measured speeds from continental drift to light, what each one costs, and where the ceilin' is. Text and diagrams CC BY 4.0.",
+   "pushed": "2026-09-23",
+   "pages": "https://nanobotco.github.io/goin-fast/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 97,
+   "cloners_14d": 46,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -479,11 +557,11 @@
    "name": "hak-farang",
    "url": "https://github.com/NaNoBotCo/hak-farang",
    "description": "Thai-first guide for Thai partners of farang — money, visas, family",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 44,
-   "cloners_14d": 27,
+   "clones_14d": 50,
+   "cloners_14d": 31,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -491,11 +569,11 @@
    "name": "hand-poke",
    "url": "https://github.com/NaNoBotCo/hand-poke",
    "description": "Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced.",
-   "pushed": "2026-09-21",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/hand-poke/",
    "license": "CC-BY-4.0",
-   "clones_14d": 70,
-   "cloners_14d": 34,
+   "clones_14d": 149,
+   "cloners_14d": 67,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -506,8 +584,20 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 54,
-   "cloners_14d": 34,
+   "clones_14d": 56,
+   "cloners_14d": 36,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "hongdam-site",
+   "url": "https://github.com/NaNoBotCo/hongdam-site",
+   "description": "Hongdam หงส์ดำ — bilingual web studio, Chiang Rai. Portfolio, an AI red-team console + probe market, and the site itself. hongdam.net",
+   "pushed": "2026-09-25",
+   "pages": null,
+   "license": null,
+   "clones_14d": 0,
+   "cloners_14d": 0,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -515,13 +605,13 @@
    "name": "index",
    "url": "https://github.com/NaNoBotCo/index",
    "description": "Everything NaNoBotCo holds, counted once, at one address",
-   "pushed": "2026-09-21",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/index/",
    "license": "CC-BY-4.0",
-   "clones_14d": 125,
-   "cloners_14d": 61,
-   "views_14d": 1,
-   "viewers_14d": 1
+   "clones_14d": 258,
+   "cloners_14d": 120,
+   "views_14d": 2,
+   "viewers_14d": 2
   },
   {
    "name": "jovilabe",
@@ -530,8 +620,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 55,
-   "cloners_14d": 32,
+   "clones_14d": 59,
+   "cloners_14d": 34,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -539,13 +629,13 @@
    "name": "kali-yantra",
    "url": "https://github.com/NaNoBotCo/kali-yantra",
    "description": "Generative yantra geometry, rendered by script",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 58,
-   "cloners_14d": 35,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "clones_14d": 72,
+   "cloners_14d": 43,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "Lanna",
@@ -554,10 +644,10 @@
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/Lanna/",
    "license": "CC-BY-4.0",
-   "clones_14d": 225,
-   "cloners_14d": 28,
-   "views_14d": 6,
-   "viewers_14d": 5
+   "clones_14d": 222,
+   "cloners_14d": 26,
+   "views_14d": 5,
+   "viewers_14d": 4
   },
   {
    "name": "lanna-almanac",
@@ -566,20 +656,20 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 36,
-   "cloners_14d": 22,
-   "views_14d": 4,
-   "viewers_14d": 2
+   "clones_14d": 37,
+   "cloners_14d": 23,
+   "views_14d": 5,
+   "viewers_14d": 3
   },
   {
    "name": "mae-hong-son-loop",
    "url": "https://github.com/NaNoBotCo/mae-hong-son-loop",
    "description": "Motorcycling the Mae Hong Son loop: 600 km, the curves actually counted from OpenStreetMap geometry, four burning seasons of PM2.5, English and Thai on every page.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/mae-hong-son-loop/",
    "license": "CC-BY-4.0",
-   "clones_14d": 216,
-   "cloners_14d": 109,
+   "clones_14d": 255,
+   "cloners_14d": 128,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -590,8 +680,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 35,
-   "cloners_14d": 24,
+   "clones_14d": 37,
+   "cloners_14d": 26,
    "views_14d": 12,
    "viewers_14d": 1
   },
@@ -602,8 +692,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 54,
-   "cloners_14d": 37,
+   "clones_14d": 58,
+   "cloners_14d": 41,
    "views_14d": 3,
    "viewers_14d": 1
   },
@@ -626,10 +716,10 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 60,
-   "cloners_14d": 40,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "clones_14d": 63,
+   "cloners_14d": 43,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "mot-dang",
@@ -638,10 +728,10 @@
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/mot-dang/",
    "license": "CC-BY-4.0",
-   "clones_14d": 81,
-   "cloners_14d": 45,
-   "views_14d": 8,
-   "viewers_14d": 3
+   "clones_14d": 75,
+   "cloners_14d": 39,
+   "views_14d": 9,
+   "viewers_14d": 4
   },
   {
    "name": "muak-yant-site",
@@ -650,8 +740,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 69,
-   "cloners_14d": 40,
+   "clones_14d": 73,
+   "cloners_14d": 44,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -659,23 +749,23 @@
    "name": "muay-thai",
    "url": "https://github.com/NaNoBotCo/muay-thai",
    "description": "The eight limbs, the thirty named techniques, the ceremony, and every gym on the map. Bilingual English and Thai, every claim tiered and sourced.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/muay-thai/",
    "license": "CC-BY-4.0",
-   "clones_14d": 68,
-   "cloners_14d": 33,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "clones_14d": 157,
+   "cloners_14d": 76,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "mueang-map",
    "url": "https://github.com/NaNoBotCo/mueang-map",
    "description": "Niche-lens participatory map of Chiang Mai",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 47,
-   "cloners_14d": 31,
+   "clones_14d": 55,
+   "cloners_14d": 37,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -683,11 +773,11 @@
    "name": "NaNoBotCo",
    "url": "https://github.com/NaNoBotCo/NaNoBotCo",
    "description": "Profile README and project directory",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-23",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 88,
-   "cloners_14d": 50,
+   "clones_14d": 104,
+   "cloners_14d": 58,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -695,13 +785,13 @@
    "name": "nanobotco.github.io",
    "url": "https://github.com/NaNoBotCo/nanobotco.github.io",
    "description": "NaN — คุณแนน. Personal portal. It gets done today.",
-   "pushed": "2026-09-21",
+   "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/nanobotco.github.io/",
    "license": "CC-BY-4.0",
-   "clones_14d": 196,
-   "cloners_14d": 70,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "clones_14d": 270,
+   "cloners_14d": 102,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "neurovizr-decoded",
@@ -710,20 +800,20 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 80,
-   "cloners_14d": 46,
-   "views_14d": 1,
-   "viewers_14d": 1
+   "clones_14d": 82,
+   "cloners_14d": 48,
+   "views_14d": 0,
+   "viewers_14d": 0
   },
   {
    "name": "offramp",
    "url": "https://github.com/NaNoBotCo/offramp",
    "description": "The manual for getting paid in crypto and spending it locally without a local bank account",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/offramp/",
    "license": "CC-BY-4.0",
-   "clones_14d": 44,
-   "cloners_14d": 26,
+   "clones_14d": 50,
+   "cloners_14d": 29,
    "views_14d": 4,
    "viewers_14d": 2
   },
@@ -731,11 +821,11 @@
    "name": "pdf-tool",
    "url": "https://github.com/NaNoBotCo/pdf-tool",
    "description": "A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 54,
-   "cloners_14d": 33,
+   "clones_14d": 76,
+   "cloners_14d": 48,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -743,11 +833,11 @@
    "name": "pike-place-market",
    "url": "https://github.com/NaNoBotCo/pike-place-market",
    "description": "A directory and GIS map of the Pike Place Market Historical District, Seattle — 12.83 acres, 153 licensed businesses, and the dates the city has on them.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/pike-place-market/",
    "license": "CC-BY-4.0",
-   "clones_14d": 63,
-   "cloners_14d": 30,
+   "clones_14d": 84,
+   "cloners_14d": 38,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -755,11 +845,11 @@
    "name": "pink-box",
    "url": "https://github.com/NaNoBotCo/pink-box",
    "description": "Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/pink-box/",
    "license": "CC-BY-4.0",
-   "clones_14d": 143,
-   "cloners_14d": 74,
+   "clones_14d": 178,
+   "cloners_14d": 87,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -767,11 +857,11 @@
    "name": "pinot-noir",
    "url": "https://github.com/NaNoBotCo/pinot-noir",
    "description": "A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/pinot-noir/",
    "license": "CC-BY-4.0",
-   "clones_14d": 132,
-   "cloners_14d": 64,
+   "clones_14d": 208,
+   "cloners_14d": 100,
    "views_14d": 3,
    "viewers_14d": 1
   },
@@ -782,8 +872,32 @@
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/poplucky/",
    "license": "CC-BY-4.0",
-   "clones_14d": 47,
-   "cloners_14d": 31,
+   "clones_14d": 51,
+   "cloners_14d": 35,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "quantum-computing",
+   "url": "https://github.com/NaNoBotCo/quantum-computing",
+   "description": "The history and theory of quantum computing in plain words, with animated demos; refreshed weekly",
+   "pushed": "2026-09-23",
+   "pages": "https://nanobotco.github.io/quantum-computing/",
+   "license": "MIT",
+   "clones_14d": 100,
+   "cloners_14d": 46,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "rtp",
+   "url": "https://github.com/NaNoBotCo/rtp",
+   "description": "UK managed-service-provider channel map — company-level, from public sources",
+   "pushed": "2026-09-25",
+   "pages": "https://nanobotco.github.io/rtp/",
+   "license": "NOASSERTION",
+   "clones_14d": 0,
+   "cloners_14d": 0,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -791,11 +905,11 @@
    "name": "scanner",
    "url": "https://github.com/NaNoBotCo/scanner",
    "description": "A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF.",
-   "pushed": "2026-09-19",
+   "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/scanner/",
    "license": "MIT",
-   "clones_14d": 16,
-   "cloners_14d": 12,
+   "clones_14d": 49,
+   "cloners_14d": 30,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -803,11 +917,11 @@
    "name": "skipdjt",
    "url": "https://github.com/NaNoBotCo/skipdjt",
    "description": "Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/skipdjt/",
    "license": "CC-BY-4.0",
-   "clones_14d": 46,
-   "cloners_14d": 22,
+   "clones_14d": 49,
+   "cloners_14d": 25,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -815,11 +929,11 @@
    "name": "st-expedite-wiki",
    "url": "https://github.com/NaNoBotCo/st-expedite-wiki",
    "description": "Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 63,
-   "cloners_14d": 44,
+   "clones_14d": 70,
+   "cloners_14d": 49,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -830,8 +944,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 45,
-   "cloners_14d": 30,
+   "clones_14d": 46,
+   "cloners_14d": 31,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -842,8 +956,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 33,
-   "cloners_14d": 20,
+   "clones_14d": 34,
+   "cloners_14d": 21,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -854,8 +968,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 27,
-   "cloners_14d": 17,
+   "clones_14d": 29,
+   "cloners_14d": 19,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -866,8 +980,8 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 55,
-   "cloners_14d": 34,
+   "clones_14d": 56,
+   "cloners_14d": 35,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -878,10 +992,34 @@
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/thairoots/",
    "license": "CC-BY-4.0",
-   "clones_14d": 77,
-   "cloners_14d": 34,
+   "clones_14d": 81,
+   "cloners_14d": 38,
    "views_14d": 0,
    "viewers_14d": 0
+  },
+  {
+   "name": "the-white-cut",
+   "url": "https://github.com/NaNoBotCo/the-white-cut",
+   "description": "",
+   "pushed": "2026-09-25",
+   "pages": "https://nanobotco.github.io/the-white-cut/",
+   "license": null,
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "three-body",
+   "url": "https://github.com/NaNoBotCo/three-body",
+   "description": "The mathematics of the three-body problem in plain words: 13 chapters, 34 equations each read out loud, 9 periodic orbits found here rather than copied, 10 browser demos, and the whole thing in 30 lines of Python.",
+   "pushed": "2026-09-23",
+   "pages": "https://nanobotco.github.io/three-body/",
+   "license": "MIT",
+   "clones_14d": 104,
+   "cloners_14d": 47,
+   "views_14d": 1,
+   "viewers_14d": 1
   },
   {
    "name": "traffic-eye",
@@ -890,20 +1028,20 @@
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 79,
-   "cloners_14d": 43,
-   "views_14d": 3,
-   "viewers_14d": 2
+   "clones_14d": 81,
+   "cloners_14d": 45,
+   "views_14d": 4,
+   "viewers_14d": 3
   },
   {
    "name": "uptake",
    "url": "https://github.com/NaNoBotCo/uptake",
    "description": "Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/uptake/",
    "license": "CC-BY-SA-4.0",
-   "clones_14d": 100,
-   "cloners_14d": 53,
+   "clones_14d": 109,
+   "cloners_14d": 58,
    "views_14d": 0,
    "viewers_14d": 0
   },
@@ -911,11 +1049,11 @@
    "name": "visa-desk",
    "url": "https://github.com/NaNoBotCo/visa-desk",
    "description": "The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence.",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": null,
    "license": "NOASSERTION",
-   "clones_14d": 76,
-   "cloners_14d": 39,
+   "clones_14d": 84,
+   "cloners_14d": 43,
    "views_14d": 1,
    "viewers_14d": 1
   },
@@ -923,13 +1061,13 @@
    "name": "wichaa-vault",
    "url": "https://github.com/NaNoBotCo/wichaa-vault",
    "description": "Obsidian authoring vault behind the wichaa knowledge base",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
-   "clones_14d": 64,
-   "cloners_14d": 39,
-   "views_14d": 0,
-   "viewers_14d": 0
+   "clones_14d": 70,
+   "cloners_14d": 43,
+   "views_14d": 1,
+   "viewers_14d": 1
   }
  ]
 }
