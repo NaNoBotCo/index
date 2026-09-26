@@ -10,7 +10,7 @@
 
 - [Lanna manuscripts](https://wichaa.net/): Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki. 6,986 manuscripts.
 - [Mot Dang](https://motdang.net/): Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages. 88,884 place records.
-- [Amulet market](https://wichaa.net/): Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry. 17,473 listings.
+- [Amulet market](https://wichaa.net/): Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry. 17,486 listings.
 - [Thai trade words, Chiang Mai](https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai): signage compounds and trade terms with glosses and readings, plus administrative names. 2,185 rows.
 - [Thai RTGS romanisation lexicon](https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon): irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription. 694 rows.
 - [Thai place-name romanisation benchmark](https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark): place-name words scored twice by translit.py, with the lexicon and by rules alone. 153,948 rows.
@@ -80,7 +80,9 @@
 - [hand-poke](https://github.com/NaNoBotCo/hand-poke): Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced.
 - [homematch](https://github.com/NaNoBotCo/homematch): Negotiation-first household-services matchmaking for Chiang Mai
 - [hongdam-site](https://github.com/NaNoBotCo/hongdam-site): Hongdam หงส์ดำ — bilingual web studio, Chiang Rai. Portfolio, an AI red-team console + probe market, and the site itself. hongdam.net
+- [implied-odds](https://github.com/NaNoBotCo/implied-odds): Implied odds in Texas Hold'em, explained plain and drawn with the arithmetic left in — a live calculator and an outcomes-over-time chart with a payoff dial. Text CC BY 4.0, code MIT.
 - [index](https://github.com/NaNoBotCo/index): Everything NaNoBotCo holds, counted once, at one address
+- [indras-net](https://github.com/NaNoBotCo/indras-net): Indra's Net in plain words — read sixteen ways, drawn live from the math of mirrors
 - [jovilabe](https://github.com/NaNoBotCo/jovilabe): A modeled antique geared instrument for Jupiter's four Galilean moons
 - [kali-yantra](https://github.com/NaNoBotCo/kali-yantra): Generative yantra geometry, rendered by script
 - [Lanna](https://github.com/NaNoBotCo/Lanna): The crawler — harvests Lanna manuscript archives into a structured catalog
@@ -103,6 +105,7 @@
 - [pink-box](https://github.com/NaNoBotCo/pink-box): Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two
 - [pinot-noir](https://github.com/NaNoBotCo/pinot-noir): A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance.
 - [poplucky](https://github.com/NaNoBotCo/poplucky): Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know.
+- [prostar-magic](https://github.com/NaNoBotCo/prostar-magic): One page for Prostar Magic Shop, Kotchasarn Road, Chiang Mai: props with prices, a LINE order list, shows, lessons, hours, the walk from Tha Phae Gate.
 - [quantum-computing](https://github.com/NaNoBotCo/quantum-computing): The history and theory of quantum computing in plain words, with animated demos; refreshed weekly
 - [rtp](https://github.com/NaNoBotCo/rtp): UK managed-service-provider channel map — company-level, from public sources
 - [scanner](https://github.com/NaNoBotCo/scanner): A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF.

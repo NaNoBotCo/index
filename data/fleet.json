@@ -123,6 +123,17 @@
       "repo": "https://github.com/NaNoBotCo/chaos"
     },
     {
+      "id": "indras-net",
+      "name": "Indra's Net, Drawn",
+      "th": "ตาข่ายพระอินทร์",
+      "url": "https://nanobotco.github.io/indras-net/",
+      "note": "Indra's Net in plain words — the jewel net read sixteen ways, and drawn live from the math of mirrors",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/indras-net/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/indras-net"
+    },
+    {
       "id": "exceptional-magic",
       "name": "Exceptional Magic",
       "lane": "directory",

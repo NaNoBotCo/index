@@ -3,19 +3,15 @@
  "counts": {
   "lanna-manuscripts#0": {
    "value": 6986,
-   "read": "2026-09-24",
+   "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-   "stale": "2026-09-26",
-   "error": "unable to open database file"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "lanna-manuscripts#1": {
    "value": 120178,
-   "read": "2026-09-24",
+   "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-   "stale": "2026-09-26",
-   "error": "unable to open database file"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "motdang#0": {
    "value": 88884,
@@ -24,18 +20,16 @@
    "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json"
   },
   "motdang#1": {
-   "value": 87230,
+   "value": 87346,
    "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://motdang.net/sitemap.xml"
   },
   "amulet-market#0": {
-   "value": 17473,
-   "read": "2026-09-24",
+   "value": 17486,
+   "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
-   "stale": "2026-09-26",
-   "error": "unable to open database file"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "hf-trade-words#0": {
    "value": 2185,
@@ -140,7 +134,7 @@
    "source": "/Users/annikapeacock/Developer/claude code projects/amulet-essentials/build/api/kinds.json"
   },
   "site:motdang.net": {
-   "value": 87230,
+   "value": 87346,
    "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://motdang.net/sitemap.xml"
@@ -602,16 +596,40 @@
    "viewers_14d": 0
   },
   {
+   "name": "implied-odds",
+   "url": "https://github.com/NaNoBotCo/implied-odds",
+   "description": "Implied odds in Texas Hold'em, explained plain and drawn with the arithmetic left in — a live calculator and an outcomes-over-time chart with a payoff dial. Text CC BY 4.0, code MIT.",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/implied-odds/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
    "name": "index",
    "url": "https://github.com/NaNoBotCo/index",
    "description": "Everything NaNoBotCo holds, counted once, at one address",
-   "pushed": "2026-09-25",
+   "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/index/",
    "license": "CC-BY-4.0",
    "clones_14d": 258,
    "cloners_14d": 120,
    "views_14d": 2,
    "viewers_14d": 2
+  },
+  {
+   "name": "indras-net",
+   "url": "https://github.com/NaNoBotCo/indras-net",
+   "description": "Indra's Net in plain words — read sixteen ways, drawn live from the math of mirrors",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/indras-net/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
   },
   {
    "name": "jovilabe",
@@ -874,6 +892,18 @@
    "license": "CC-BY-4.0",
    "clones_14d": 51,
    "cloners_14d": 35,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "prostar-magic",
+   "url": "https://github.com/NaNoBotCo/prostar-magic",
+   "description": "One page for Prostar Magic Shop, Kotchasarn Road, Chiang Mai: props with prices, a LINE order list, shows, lessons, hours, the walk from Tha Phae Gate.",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/prostar-magic/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
    "views_14d": 0,
    "viewers_14d": 0
   },
