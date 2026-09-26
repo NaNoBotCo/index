@@ -113,6 +113,7 @@
 - [rtp](https://github.com/NaNoBotCo/rtp): UK managed-service-provider channel map — company-level, from public sources · แผนที่ช่องทางผู้ให้บริการไอที (MSP) ในสหราชอาณาจักร จากแหล่งข้อมูลสาธารณะ
 - [scanner](https://github.com/NaNoBotCo/scanner): A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF. · สแกนเอกสารในเบราว์เซอร์มือถือ — ถ่าย ปรับให้ตรง ลงชื่อ ออกเป็น PDF
 - [skipdjt](https://github.com/NaNoBotCo/skipdjt): Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked. · เปรียบเทียบค่าตั๋วเครื่องบิน สำหรับคนที่ไม่อยากบินจากปาล์มบีช
+- [split-screen](https://github.com/NaNoBotCo/split-screen): RFK Jr. on one side, the thing on the other: a catalog of split-screen pictures, Sept 2023 to today, with the math.
 - [st-expedite-wiki](https://github.com/NaNoBotCo/st-expedite-wiki): Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory · วิกิสองภาษาเรื่องการบูชานักบุญเอ็กซ์เปดิตุส
 - [stocktake](https://github.com/NaNoBotCo/stocktake): Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it · นับใหม่ว่ามีอะไรอยู่ในทุกโปรเจกต์ โดเมน และ Cloudflare Workers
 - [swanbot](https://github.com/NaNoBotCo/swanbot): A black-swan-aware trading and agent utility · เครื่องมือเทรดที่คิดถึงหงส์ดำ (เหตุการณ์ไม่คาดฝัน)

@@ -145,6 +145,17 @@
       "repo": "https://github.com/NaNoBotCo/indras-net"
     },
     {
+      "id": "split-screen",
+      "name": "Split Screen",
+      "th": "ภาพคู่",
+      "url": "https://nanobotco.github.io/split-screen/",
+      "note": "RFK Jr. on one side, the thing on the other — a catalog of the pictures since Sept 2023, with the math",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/split-screen/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/split-screen"
+    },
+    {
       "id": "talking-board",
       "name": "Talking Board",
       "th": "กระดานวิญญาณ",

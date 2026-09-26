@@ -16,6 +16,7 @@ Sitemap: https://nanobotco.github.io/goin-fast/sitemap.xml
 Sitemap: https://nanobotco.github.io/three-body/sitemap.xml
 Sitemap: https://nanobotco.github.io/chaos/sitemap.xml
 Sitemap: https://nanobotco.github.io/indras-net/sitemap.xml
+Sitemap: https://nanobotco.github.io/split-screen/sitemap.xml
 Sitemap: https://nanobotco.github.io/talking-board/sitemap.xml
 Sitemap: https://nanobotco.github.io/exceptional-magic/sitemap.xml
 Sitemap: https://nanobotco.github.io/factoring/sitemap.xml

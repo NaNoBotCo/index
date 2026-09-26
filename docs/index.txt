@@ -4,7 +4,7 @@ Counted 2026-09-26 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 302,404 · sites 20 · pages 99,600 · repositories 74
+  corpora 18 · records 302,404 · sites 20 · pages 99,600 · repositories 75
   fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 168
 
 PRICE
@@ -15,7 +15,7 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts (last read 2026-09-26) · 120,178 page images (last read 2026-09-26)
+    6,986 manuscripts · 120,178 page images
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
@@ -29,7 +29,7 @@ CORPORA
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,486 listings (last read 2026-09-26)
+    17,486 listings
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -225,6 +225,7 @@ REPOSITORIES — fourteen days of traffic
   rtp                                  0 machines ·     0 clones ·   0 viewers · NOASSERTION
   scanner                             30 machines ·    49 clones ·   0 viewers · MIT
   skipdjt                             25 machines ·    49 clones ·   0 viewers · CC-BY-4.0
+  split-screen                         0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   st-expedite-wiki                    49 machines ·    70 clones ·   0 viewers · CC-BY-4.0
   stocktake                           31 machines ·    46 clones ·   0 viewers · CC-BY-4.0
   swanbot                             21 machines ·    34 clones ·   0 viewers · CC-BY-4.0
