@@ -4,7 +4,7 @@ Counted 2026-09-26 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 302,383 · sites 20 · pages 99,187 · repositories 67
+  corpora 18 · records 302,396 · sites 20 · pages 99,303 · repositories 70
   fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 167
 
 PRICE
@@ -15,21 +15,21 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts (last read 2026-09-26) · 120,178 page images (last read 2026-09-26)
+    6,986 manuscripts · 120,178 page images
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,884 place records · 87,230 pages
+    88,884 place records · 87,346 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,473 listings (last read 2026-09-26)
+    17,486 listings
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -141,7 +141,7 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  87,230 pages   directory   https://motdang.net
+  motdang.net                  87,346 pages   directory   https://motdang.net
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
@@ -192,7 +192,9 @@ REPOSITORIES — fourteen days of traffic
   hand-poke                           67 machines ·   149 clones ·   0 viewers · CC-BY-4.0
   homematch                           36 machines ·    56 clones ·   0 viewers · CC-BY-4.0
   hongdam-site                         0 machines ·     0 clones ·   0 viewers · —
+  implied-odds                         0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   index                              120 machines ·   258 clones ·   2 viewers · CC-BY-4.0
+  indras-net                           0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   jovilabe                            34 machines ·    59 clones ·   0 viewers · CC-BY-4.0
   kali-yantra                         43 machines ·    72 clones ·   1 viewers · CC-BY-4.0
   Lanna                               26 machines ·   222 clones ·   4 viewers · CC-BY-4.0
@@ -215,6 +217,7 @@ REPOSITORIES — fourteen days of traffic
   pink-box                            87 machines ·   178 clones ·   0 viewers · CC-BY-4.0
   pinot-noir                         100 machines ·   208 clones ·   1 viewers · CC-BY-4.0
   poplucky                            35 machines ·    51 clones ·   0 viewers · CC-BY-4.0
+  prostar-magic                        0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   quantum-computing                   46 machines ·   100 clones ·   0 viewers · MIT
   rtp                                  0 machines ·     0 clones ·   0 viewers · NOASSERTION
   scanner                             30 machines ·    49 clones ·   0 viewers · MIT

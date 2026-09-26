@@ -16,10 +16,10 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 302383,
+  "records": 302396,
   "sites": 20,
-  "pages": 99187,
-  "repos": 67,
+  "pages": 99303,
+  "repos": 70,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
@@ -38,14 +38,14 @@
     {
      "label": "manuscripts",
      "value": 6986,
-     "stale": "2026-09-26",
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     },
     {
      "label": "page images",
      "value": 120178,
-     "stale": "2026-09-26",
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -68,7 +68,7 @@
     },
     {
      "label": "pages",
-     "value": 87230,
+     "value": 87346,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -85,8 +85,8 @@
    "counts": [
     {
      "label": "listings",
-     "value": 17473,
-     "stale": "2026-09-26",
+     "value": 17486,
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 87230,
+   "pages": 87346,
    "stale": null
   },
   {
@@ -841,16 +841,40 @@
    "viewers_14d": 0
   },
   {
+   "name": "implied-odds",
+   "url": "https://github.com/NaNoBotCo/implied-odds",
+   "description": "Implied odds in Texas Hold'em, explained plain and drawn with the arithmetic left in — a live calculator and an outcomes-over-time chart with a payoff dial. Text CC BY 4.0, code MIT.",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/implied-odds/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
    "name": "index",
    "url": "https://github.com/NaNoBotCo/index",
    "description": "Everything NaNoBotCo holds, counted once, at one address",
-   "pushed": "2026-09-25",
+   "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/index/",
    "license": "CC-BY-4.0",
    "clones_14d": 258,
    "cloners_14d": 120,
    "views_14d": 2,
    "viewers_14d": 2
+  },
+  {
+   "name": "indras-net",
+   "url": "https://github.com/NaNoBotCo/indras-net",
+   "description": "Indra's Net in plain words — read sixteen ways, drawn live from the math of mirrors",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/indras-net/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
   },
   {
    "name": "jovilabe",
@@ -1113,6 +1137,18 @@
    "license": "CC-BY-4.0",
    "clones_14d": 51,
    "cloners_14d": 35,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
+   "name": "prostar-magic",
+   "url": "https://github.com/NaNoBotCo/prostar-magic",
+   "description": "One page for Prostar Magic Shop, Kotchasarn Road, Chiang Mai: props with prices, a LINE order list, shows, lessons, hours, the walk from Tha Phae Gate.",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/prostar-magic/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
    "views_14d": 0,
    "viewers_14d": 0
   },
