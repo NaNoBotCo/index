@@ -4,6 +4,7 @@ Sitemap: https://nanobotco.github.io/index/sitemap.xml
 
 # — roster of sibling sites, generated from data/fleet.json —
 Sitemap: https://motdang.net/sitemap.xml
+Sitemap: https://motdang.net/chiang-rai/sitemap.xml
 Sitemap: https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml
 Sitemap: https://motdang.net/muay-thai/sitemap.xml
 Sitemap: https://motdang.net/roads/sitemap.xml

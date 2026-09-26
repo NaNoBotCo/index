@@ -17,6 +17,17 @@
       "repo": "https://github.com/NaNoBotCo/mot-dang"
     },
     {
+      "id": "chiang-rai",
+      "name": "Chiang Rai, Slowly",
+      "th": "แอ่วเชียงราย",
+      "url": "https://motdang.net/chiang-rai/",
+      "note": "the Golden Triangle, three temples, lantern night, and the slow boat to Laos",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://motdang.net/chiang-rai/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chiang-rai"
+    },
+    {
       "id": "mae-hong-son-loop",
       "name": "The Mae Hong Son Loop",
       "th": "วงรอบแม่ฮ่องสอน",
