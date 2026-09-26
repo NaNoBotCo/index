@@ -4,8 +4,8 @@ Counted 2026-09-26 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 302,396 · sites 20 · pages 99,303 · repositories 70
-  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 167
+  corpora 18 · records 302,404 · sites 20 · pages 99,600 · repositories 74
+  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 168
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -15,21 +15,21 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts · 120,178 page images
+    6,986 manuscripts (last read 2026-09-26) · 120,178 page images (last read 2026-09-26)
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,884 place records · 87,346 pages
+    88,892 place records · 87,346 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,486 listings
+    17,486 listings (last read 2026-09-26)
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -50,7 +50,7 @@ CORPORA
 
   Thai place-name romanisation benchmark
     place-name words scored twice by translit.py, with the lexicon and by rules alone
-    153,948 rows · 45 downloads
+    153,948 rows · 46 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark
     provenance: words from the Mot Dang register; scores from the published tool
     licence: CC BY 4.0 · DOI: none yet
@@ -145,7 +145,7 @@ SITES
   ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
-  wichaa.net                    9,840 pages   the hub   https://wichaa.net
+  wichaa.net                    9,841 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
   hongdam.net                       5 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
@@ -157,7 +157,7 @@ SITES
   buffalo-wings                   185 pages   Wing Country   https://nanobotco.github.io/buffalo-wings
   pink-box                        156 pages   donut shops   https://nanobotco.github.io/pink-box
   care-abroad                     365 pages   cross-border care   https://nanobotco.github.io/care-abroad
-  amulet-atlas                    310 pages   world amulets   https://nanobotco.github.io/amulet-atlas
+  amulet-atlas                    606 pages   world amulets   https://nanobotco.github.io/amulet-atlas
   thairoots                         4 pages   Thai Roots   https://nanobotco.github.io/thairoots
   uptake                           15 pages   the manual   https://nanobotco.github.io/uptake
   index                             6 pages   this page   https://nanobotco.github.io/index
@@ -178,6 +178,7 @@ REPOSITORIES — fourteen days of traffic
   carolina-barbecue                  137 machines ·   289 clones ·   4 viewers · CC-BY-4.0
   chaos                                0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   chiang-mai-roads                    26 machines ·    39 clones ·   1 viewers · CC-BY-4.0
+  chiang-rai                           0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   cm-womens-health                    32 machines ·    43 clones ·   1 viewers · CC-BY-4.0
   dead-mans-switch                    52 machines ·    86 clones ·   0 viewers · CC-BY-4.0
   defiant-site                        53 machines ·    96 clones ·   0 viewers · CC-BY-4.0
@@ -188,6 +189,7 @@ REPOSITORIES — fourteen days of traffic
   flighthelper                        41 machines ·    67 clones ·   0 viewers · CC-BY-4.0
   food-pantry                         15 machines ·    22 clones ·   1 viewers · MIT
   goin-fast                           46 machines ·    97 clones ·   1 viewers · CC-BY-4.0
+  golden-triangle                      0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   hak-farang                          31 machines ·    50 clones ·   1 viewers · CC-BY-4.0
   hand-poke                           67 machines ·   149 clones ·   0 viewers · CC-BY-4.0
   homematch                           36 machines ·    56 clones ·   0 viewers · CC-BY-4.0
@@ -212,6 +214,7 @@ REPOSITORIES — fourteen days of traffic
   nanobotco.github.io                102 machines ·   270 clones ·   1 viewers · CC-BY-4.0
   neurovizr-decoded                   48 machines ·    82 clones ·   0 viewers · CC-BY-4.0
   offramp                             29 machines ·    50 clones ·   2 viewers · CC-BY-4.0
+  onemansideshow                       0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   pdf-tool                            48 machines ·    76 clones ·   0 viewers · CC-BY-4.0
   pike-place-market                   38 machines ·    84 clones ·   0 viewers · CC-BY-4.0
   pink-box                            87 machines ·   178 clones ·   0 viewers · CC-BY-4.0
@@ -225,6 +228,7 @@ REPOSITORIES — fourteen days of traffic
   st-expedite-wiki                    49 machines ·    70 clones ·   0 viewers · CC-BY-4.0
   stocktake                           31 machines ·    46 clones ·   0 viewers · CC-BY-4.0
   swanbot                             21 machines ·    34 clones ·   0 viewers · CC-BY-4.0
+  talking-board                        0 machines ·     0 clones ·   0 viewers · CC-BY-4.0
   taoist-oracle                       19 machines ·    29 clones ·   1 viewers · CC-BY-4.0
   thai-answers                        35 machines ·    56 clones ·   1 viewers · CC-BY-4.0
   thairoots                           38 machines ·    81 clones ·   0 viewers · CC-BY-4.0

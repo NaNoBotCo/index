@@ -5,16 +5,20 @@
    "value": 6986,
    "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+   "stale": "2026-09-26",
+   "error": "unable to open database file"
   },
   "lanna-manuscripts#1": {
    "value": 120178,
    "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+   "stale": "2026-09-26",
+   "error": "unable to open database file"
   },
   "motdang#0": {
-   "value": 88884,
+   "value": 88892,
    "read": "2026-09-26",
    "method": "local_json_len",
    "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json"
@@ -29,7 +33,9 @@
    "value": 17486,
    "read": "2026-09-26",
    "method": "sqlite",
-   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
+   "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
+   "stale": "2026-09-26",
+   "error": "unable to open database file"
   },
   "hf-trade-words#0": {
    "value": 2185,
@@ -62,7 +68,7 @@
    "source": "NaNoBotCo/thai-place-name-romanisation-benchmark"
   },
   "hf-romanisation-benchmark#1": {
-   "value": 45,
+   "value": 46,
    "read": "2026-09-26",
    "method": "hf_downloads",
    "source": "NaNoBotCo/thai-place-name-romanisation-benchmark"
@@ -161,7 +167,7 @@
    "source": "https://demo.motdang.net/sitemap.xml"
   },
   "site:wichaa.net": {
-   "value": 9840,
+   "value": 9841,
    "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://wichaa.net/sitemap.xml"
@@ -234,7 +240,7 @@
    "source": "https://nanobotco.github.io/care-abroad/sitemap.xml"
   },
   "site:amulet-atlas": {
-   "value": 310,
+   "value": 606,
    "read": "2026-09-26",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/amulet-atlas/sitemap.xml"
@@ -262,8 +268,8 @@
   {
    "name": "amulet-atlas",
    "url": "https://github.com/NaNoBotCo/amulet-atlas",
-   "description": "Amulets, charms and talismans worldwide — one JSON record per node, every field carrying where it came from. Equal Earth maps, a deep timeline, the signs drawn.",
-   "pushed": "2026-09-23",
+   "description": "Amulets, charms and talismans worldwide — one JSON record per node, every field carrying where it came from. Equal Earth maps, a deep timeline, the signs drawn. · พระเครื่อง เครื่องราง และของขลังทั่วโลก บอกที่มาของข้อมูลแต่ละช่อง พร้อมแผนที่และเส้นเวลา",
+   "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/amulet-atlas/",
    "license": "CC-BY-4.0",
    "clones_14d": 154,
@@ -274,7 +280,7 @@
   {
    "name": "amulet-essentials",
    "url": "https://github.com/NaNoBotCo/amulet-essentials",
-   "description": "A pan-Southeast-Asian amulet catalogue: 87 kinds in their own languages, 637 free pictures with verified licences, on-device photo identification, and a price analysis of 15,300 listings. Live at wichaa.net/amulets",
+   "description": "A pan-Southeast-Asian amulet catalogue: 87 kinds in their own languages, 637 free pictures with verified licences, on-device photo identification, and a price analysis of 15,300 listings. Live at wichaa.net/amulets · แคตตาล็อกพระเครื่องเอเชียตะวันออกเฉียงใต้ 87 ประเภท ระบุภาพด้วยมือถือ",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -286,7 +292,7 @@
   {
    "name": "amulet-market-api",
    "url": "https://github.com/NaNoBotCo/amulet-market-api",
-   "description": "JSON API over thousands of real Lazada amulet-commerce listings",
+   "description": "JSON API over thousands of real Lazada amulet-commerce listings · API ข้อมูลประกาศขายพระเครื่องบน Lazada",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -298,7 +304,7 @@
   {
    "name": "amulet-reference",
    "url": "https://github.com/NaNoBotCo/amulet-reference",
-   "description": "Bilingual Thai and Lanna amulet reference and treatise",
+   "description": "Bilingual Thai and Lanna amulet reference and treatise · คู่มือพระเครื่องไทยและล้านนา สองภาษา",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -310,7 +316,7 @@
   {
    "name": "baanstaff",
    "url": "https://github.com/NaNoBotCo/baanstaff",
-   "description": "Household-staff marketplace and white-label kit for Chiang Mai (homematch's predecessor)",
+   "description": "Household-staff marketplace and white-label kit for Chiang Mai (homematch's predecessor) · ตลาดแม่บ้านและพนักงานในบ้าน เชียงใหม่",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -322,7 +328,7 @@
   {
    "name": "basque-tables",
    "url": "https://github.com/NaNoBotCo/basque-tables",
-   "description": "A sourced directory of Basque dining rooms in California, Nevada and Idaho — seating, prices, published days and the Picon Punch, every field naming where it came from.",
+   "description": "A sourced directory of Basque dining rooms in California, Nevada and Idaho — seating, prices, published days and the Picon Punch, every field naming where it came from. · ร้านอาหารบาสก์ในแคลิฟอร์เนีย เนวาดา และไอดาโฮ พร้อมแหล่งที่มา",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/basque-tables/",
    "license": "CC-BY-4.0",
@@ -334,7 +340,7 @@
   {
    "name": "black-holes",
    "url": "https://github.com/NaNoBotCo/black-holes",
-   "description": "Black holes modelled and drawn from the equations — pictures, generators, past, present, future, legends. CC BY 4.0.",
+   "description": "Black holes modelled and drawn from the equations — pictures, generators, past, present, future, legends. CC BY 4.0. · หลุมดำ วาดจากสมการ — ภาพ อดีต ปัจจุบัน อนาคต และตำนาน",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/black-holes/",
    "license": "CC-BY-4.0",
@@ -346,7 +352,7 @@
   {
    "name": "blinking-twelve",
    "url": "https://github.com/NaNoBotCo/blinking-twelve",
-   "description": "blinky1200 — a skeuomorphic puzzle: set the blinking 12:00, eleven levels, 1987 to 2026",
+   "description": "blinky1200 — a skeuomorphic puzzle: set the blinking 12:00, eleven levels, 1987 to 2026 · เกมปริศนาตั้งนาฬิกา 12:00 ที่กะพริบ สิบเอ็ดด่าน",
    "pushed": "2026-09-23",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -358,7 +364,7 @@
   {
    "name": "blinky-fidget",
    "url": "https://github.com/NaNoBotCo/blinky-fidget",
-   "description": "A VCR to fiddle with — no goal, just the click of buttons and static",
+   "description": "A VCR to fiddle with — no goal, just the click of buttons and static · เครื่องเล่นวิดีโอให้กดเล่น ไม่มีเป้าหมาย",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -370,7 +376,7 @@
   {
    "name": "buffalo-wings",
    "url": "https://github.com/NaNoBotCo/buffalo-wings",
-   "description": "Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from.",
+   "description": "Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from. · ปีกไก่ทอดในสหรัฐอเมริกา — 13 สไตล์ตามภูมิภาค ซอส ร้าน และคน",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/buffalo-wings/",
    "license": "CC-BY-4.0",
@@ -382,7 +388,7 @@
   {
    "name": "care-abroad",
    "url": "https://github.com/NaNoBotCo/care-abroad",
-   "description": "A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance.",
+   "description": "A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance. · การรักษาข้ามพรมแดน — ประเทศ หัตถการ โรงพยาบาล ราคาที่ประกาศ และความเสี่ยง",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/care-abroad/",
    "license": "CC-BY-4.0",
@@ -394,7 +400,7 @@
   {
    "name": "carolina-barbecue",
    "url": "https://github.com/NaNoBotCo/carolina-barbecue",
-   "description": "A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it.",
+   "description": "A directory of barbecue in North and South Carolina: styles, sauces, dishes, pit practice, places, people, events and words — one JSON record each, every field sourced, every page saying what its neighbours are to it. · บาร์บีคิวแคโรไลนาเหนือและใต้ — สไตล์ ซอส อาหาร ร้าน และคน",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/carolina-barbecue/",
    "license": "CC-BY-4.0",
@@ -406,7 +412,7 @@
   {
    "name": "chaos",
    "url": "https://github.com/NaNoBotCo/chaos",
-   "description": "Chaos theory in plain words — every picture drawn from the equation, plus the two tools that hold up under chaos: the law of large numbers and resilient systems. Live: https://nanobotco.github.io/chaos/",
+   "description": "Chaos theory in plain words — every picture drawn from the equation, plus the two tools that hold up under chaos: the law of large numbers and resilient systems. Live: https://nanobotco.github.io/chaos/ · ทฤษฎีความอลวน เล่าด้วยภาษาง่ายๆ ทุกภาพวาดจากสมการ",
    "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/chaos/",
    "license": "CC-BY-4.0",
@@ -418,7 +424,7 @@
   {
    "name": "chiang-mai-roads",
    "url": "https://github.com/NaNoBotCo/chiang-mai-roads",
-   "description": "Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map.",
+   "description": "Roads of Chiang Mai — the square of 1296, four rings, the hom, and what each one did to the city. Bilingual, counted from the map. · ถนนเชียงใหม่ — คูเมือง ถนนวงแหวนสี่วง และสิ่งที่แต่ละเส้นทำกับเมือง",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/chiang-mai-roads/",
    "license": "CC-BY-4.0",
@@ -428,9 +434,21 @@
    "viewers_14d": 1
   },
   {
+   "name": "chiang-rai",
+   "url": "https://github.com/NaNoBotCo/chiang-rai",
+   "description": "Chiang Rai, Slowly — the Golden Triangle, three temples, lantern night and the slow boat to Laos, presented with Laila Group. By Hongdam, Chiang Rai. · เชียงราย ช้าๆ — สามเหลี่ยมทองคำ วัดสามวัด คืนโคมลอย และเรือช้าสู่ลาว",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/chiang-rai/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
    "name": "cm-womens-health",
    "url": "https://github.com/NaNoBotCo/cm-womens-health",
-   "description": "Finder for women's health facilities across Chiang Mai",
+   "description": "Finder for women's health facilities across Chiang Mai · ค้นหาสถานพยาบาลสุขภาพผู้หญิงในเชียงใหม่",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -442,7 +460,7 @@
   {
    "name": "dead-mans-switch",
    "url": "https://github.com/NaNoBotCo/dead-mans-switch",
-   "description": "Local, offline check-in switch — fires a payload once if you ever stop checking in",
+   "description": "Local, offline check-in switch — fires a payload once if you ever stop checking in · สวิตช์เช็กอินแบบออฟไลน์ ทำงานครั้งเดียวเมื่อหยุดเช็กอิน",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -454,7 +472,7 @@
   {
    "name": "defiant-site",
    "url": "https://github.com/NaNoBotCo/defiant-site",
-   "description": "defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map.",
+   "description": "defiant.to — US expat services & medical tourism concierge, Chiang Mai. American healthcare is bullshit; this is the exit map. · บริการสำหรับชาวอเมริกันในเชียงใหม่ และการท่องเที่ยวเชิงการแพทย์",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/defiant-site/",
    "license": "CC-BY-4.0",
@@ -466,7 +484,7 @@
   {
    "name": "exceptional-magic",
    "url": "https://github.com/NaNoBotCo/exceptional-magic",
-   "description": "The octonions, triality, the magic square and E8 — computed, drawn and told plain. A reading of Lisi 2026.",
+   "description": "The octonions, triality, the magic square and E8 — computed, drawn and told plain. A reading of Lisi 2026. · ออกโทเนียน จัตุรัสมหัศจรรย์ และ E8 — คำนวณ วาด และเล่าง่ายๆ",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/exceptional-magic/",
    "license": "CC-BY-4.0",
@@ -478,7 +496,7 @@
   {
    "name": "factoring",
    "url": "https://github.com/NaNoBotCo/factoring",
-   "description": "Big Numbers, Split — factoring from Eratosthenes to Shor, the Riemann Hypothesis, and what it means for a bitcoin wallet. Every number computed or sourced.",
+   "description": "Big Numbers, Split — factoring from Eratosthenes to Shor, the Riemann Hypothesis, and what it means for a bitcoin wallet. Every number computed or sourced. · การแยกตัวประกอบ ตั้งแต่เอราทอสเทนีสถึงชอร์ สมมติฐานรีมันน์ และกระเป๋าบิตคอยน์",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/factoring/",
    "license": "CC-BY-4.0",
@@ -490,7 +508,7 @@
   {
    "name": "feed-detox",
    "url": "https://github.com/NaNoBotCo/feed-detox",
-   "description": "A done-with-you social-feed cleanup — personalized playbook, customer keeps their own login",
+   "description": "A done-with-you social-feed cleanup — personalized playbook, customer keeps their own login · ช่วยเคลียร์ฟีดโซเชียล ลูกค้าถือรหัสผ่านเอง",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -514,7 +532,7 @@
   {
    "name": "flighthelper",
    "url": "https://github.com/NaNoBotCo/flighthelper",
-   "description": "Comfort-scored flight search with price-drop alerts",
+   "description": "Comfort-scored flight search with price-drop alerts · ค้นหาเที่ยวบินตามความสบาย พร้อมแจ้งเตือนเมื่อราคาลด",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -526,7 +544,7 @@
   {
    "name": "food-pantry",
    "url": "https://github.com/NaNoBotCo/food-pantry",
-   "description": "OCR pipeline for food-pantry intake forms",
+   "description": "OCR pipeline for food-pantry intake forms · OCR สำหรับแบบฟอร์มรับของของธนาคารอาหาร",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "MIT",
@@ -538,7 +556,7 @@
   {
    "name": "goin-fast",
    "url": "https://github.com/NaNoBotCo/goin-fast",
-   "description": "Goin' Fast — a dirt-simple explainer about speed: twenty measured speeds from continental drift to light, what each one costs, and where the ceilin' is. Text and diagrams CC BY 4.0.",
+   "description": "Goin' Fast — a dirt-simple explainer about speed: twenty measured speeds from continental drift to light, what each one costs, and where the ceilin' is. Text and diagrams CC BY 4.0. · ความเร็วแบบง่ายๆ — ยี่สิบความเร็ว ตั้งแต่ทวีปเลื่อนถึงแสง",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/goin-fast/",
    "license": "CC-BY-4.0",
@@ -548,9 +566,21 @@
    "viewers_14d": 1
   },
   {
+   "name": "golden-triangle",
+   "url": "https://github.com/NaNoBotCo/golden-triangle",
+   "description": "",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/golden-triangle/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
    "name": "hak-farang",
    "url": "https://github.com/NaNoBotCo/hak-farang",
-   "description": "Thai-first guide for Thai partners of farang — money, visas, family",
+   "description": "Thai-first guide for Thai partners of farang — money, visas, family · คู่มือภาษาไทยสำหรับคู่ชีวิตชาวไทยของฝรั่ง — เงิน วีซ่า ครอบครัว",
    "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -562,7 +592,7 @@
   {
    "name": "hand-poke",
    "url": "https://github.com/NaNoBotCo/hand-poke",
-   "description": "Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced.",
+   "description": "Traditions of marking skin by hand, worldwide: 28 traditions, bilingual English and Thai, every claim tiered and sourced. · การสักด้วยมือทั่วโลก 28 ประเพณี สองภาษา",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/hand-poke/",
    "license": "CC-BY-4.0",
@@ -574,7 +604,7 @@
   {
    "name": "homematch",
    "url": "https://github.com/NaNoBotCo/homematch",
-   "description": "Negotiation-first household-services matchmaking for Chiang Mai",
+   "description": "Negotiation-first household-services matchmaking for Chiang Mai · จับคู่บริการงานบ้านในเชียงใหม่ เริ่มจากการต่อรอง",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -586,7 +616,7 @@
   {
    "name": "hongdam-site",
    "url": "https://github.com/NaNoBotCo/hongdam-site",
-   "description": "Hongdam หงส์ดำ — bilingual web studio, Chiang Rai. Portfolio, an AI red-team console + probe market, and the site itself. hongdam.net",
+   "description": "Hongdam หงส์ดำ — bilingual web studio, Chiang Rai. Portfolio, an AI red-team console + probe market, and the site itself. hongdam.net · สตูดิโอเว็บสองภาษา เชียงราย",
    "pushed": "2026-09-25",
    "pages": null,
    "license": null,
@@ -598,7 +628,7 @@
   {
    "name": "implied-odds",
    "url": "https://github.com/NaNoBotCo/implied-odds",
-   "description": "Implied odds in Texas Hold'em, explained plain and drawn with the arithmetic left in — a live calculator and an outcomes-over-time chart with a payoff dial. Text CC BY 4.0, code MIT.",
+   "description": "Implied odds in Texas Hold'em, explained plain and drawn with the arithmetic left in — a live calculator and an outcomes-over-time chart with a payoff dial. Text CC BY 4.0, code MIT. · อัตราต่อรองแฝงในเท็กซัสโฮลเด็ม เล่าง่ายๆ พร้อมเครื่องคิดเลขสด",
    "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/implied-odds/",
    "license": "CC-BY-4.0",
@@ -610,7 +640,7 @@
   {
    "name": "index",
    "url": "https://github.com/NaNoBotCo/index",
-   "description": "Everything NaNoBotCo holds, counted once, at one address",
+   "description": "Everything NaNoBotCo holds, counted once, at one address · ทุกอย่างที่ NaNoBotCo มี นับครั้งเดียว ในที่อยู่เดียว",
    "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/index/",
    "license": "CC-BY-4.0",
@@ -622,7 +652,7 @@
   {
    "name": "indras-net",
    "url": "https://github.com/NaNoBotCo/indras-net",
-   "description": "Indra's Net in plain words — read sixteen ways, drawn live from the math of mirrors",
+   "description": "Indra's Net in plain words — read sixteen ways, drawn live from the math of mirrors · ตาข่ายพระอินทร์ เล่าด้วยภาษาง่ายๆ วาดสดจากคณิตศาสตร์ของกระจก",
    "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/indras-net/",
    "license": "CC-BY-4.0",
@@ -634,7 +664,7 @@
   {
    "name": "jovilabe",
    "url": "https://github.com/NaNoBotCo/jovilabe",
-   "description": "A modeled antique geared instrument for Jupiter's four Galilean moons",
+   "description": "A modeled antique geared instrument for Jupiter's four Galilean moons · เครื่องกลโบราณจำลอง แสดงดวงจันทร์ทั้งสี่ของดาวพฤหัสบดี",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -646,7 +676,7 @@
   {
    "name": "kali-yantra",
    "url": "https://github.com/NaNoBotCo/kali-yantra",
-   "description": "Generative yantra geometry, rendered by script",
+   "description": "Generative yantra geometry, rendered by script · เรขาคณิตของยันต์ สร้างด้วยสคริปต์",
    "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -658,7 +688,7 @@
   {
    "name": "Lanna",
    "url": "https://github.com/NaNoBotCo/Lanna",
-   "description": "The crawler — harvests Lanna manuscript archives into a structured catalog",
+   "description": "The crawler — harvests Lanna manuscript archives into a structured catalog · โปรแกรมเก็บข้อมูลจากคลังคัมภีร์ใบลานล้านนา",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/Lanna/",
    "license": "CC-BY-4.0",
@@ -670,7 +700,7 @@
   {
    "name": "lanna-almanac",
    "url": "https://github.com/NaNoBotCo/lanna-almanac",
-   "description": "One-file Northern-reckoning Lanna almanac widget",
+   "description": "One-file Northern-reckoning Lanna almanac widget · ปฏิทินโหราศาสตร์ล้านนา ไฟล์เดียว",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -682,7 +712,7 @@
   {
    "name": "mae-hong-son-loop",
    "url": "https://github.com/NaNoBotCo/mae-hong-son-loop",
-   "description": "Motorcycling the Mae Hong Son loop: 600 km, the curves actually counted from OpenStreetMap geometry, four burning seasons of PM2.5, English and Thai on every page.",
+   "description": "Motorcycling the Mae Hong Son loop: 600 km, the curves actually counted from OpenStreetMap geometry, four burning seasons of PM2.5, English and Thai on every page. · ขี่มอเตอร์ไซค์แม่ฮ่องสอนลูป 600 กม. นับโค้งจาก OpenStreetMap",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/mae-hong-son-loop/",
    "license": "CC-BY-4.0",
@@ -694,7 +724,7 @@
   {
    "name": "manuscript-transcribe",
    "url": "https://github.com/NaNoBotCo/manuscript-transcribe",
-   "description": "Transcription pipeline for Lanna manuscript page images",
+   "description": "Transcription pipeline for Lanna manuscript page images · ถอดความภาพหน้าคัมภีร์ใบลานล้านนา",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -706,8 +736,8 @@
   {
    "name": "manuscript-wiki",
    "url": "https://github.com/NaNoBotCo/manuscript-wiki",
-   "description": "Read-only wiki over the Lanna manuscript catalog — facets, OCR, image store",
-   "pushed": "2026-09-18",
+   "description": "Read-only wiki over the Lanna manuscript catalog — facets, OCR, image store · วิกิสำหรับอ่านแคตตาล็อกคัมภีร์ใบลานล้านนา",
+   "pushed": "2026-09-26",
    "pages": null,
    "license": "CC-BY-4.0",
    "clones_14d": 58,
@@ -718,7 +748,7 @@
   {
    "name": "moat-game",
    "url": "https://github.com/NaNoBotCo/moat-game",
-   "description": "A text game about an amulet smuggler crossing Chiang Mai checkpoints in 2076",
+   "description": "A text game about an amulet smuggler crossing Chiang Mai checkpoints in 2076 · เกมข้อความ นักลักลอบพระเครื่องข้ามด่านเชียงใหม่ ปี 2076",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -730,7 +760,7 @@
   {
    "name": "moat-stardew",
    "url": "https://github.com/NaNoBotCo/moat-stardew",
-   "description": "Charms of Chiang Mai — a Stardew Valley SMAPI mod set in the Moat world",
+   "description": "Charms of Chiang Mai — a Stardew Valley SMAPI mod set in the Moat world · เสน่ห์เชียงใหม่ — ม็อด Stardew Valley ในโลกคูเมือง",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -754,7 +784,7 @@
   {
    "name": "muak-yant-site",
    "url": "https://github.com/NaNoBotCo/muak-yant-site",
-   "description": "Site for sacred yantra work on motorcycle helmets",
+   "description": "Site for sacred yantra work on motorcycle helmets · เว็บไซต์ยันต์บนหมวกกันน็อก",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -766,7 +796,7 @@
   {
    "name": "muay-thai",
    "url": "https://github.com/NaNoBotCo/muay-thai",
-   "description": "The eight limbs, the thirty named techniques, the ceremony, and every gym on the map. Bilingual English and Thai, every claim tiered and sourced.",
+   "description": "The eight limbs, the thirty named techniques, the ceremony, and every gym on the map. Bilingual English and Thai, every claim tiered and sourced. · มวยไทย — อาวุธทั้งแปด แม่ไม้และลูกไม้ 30 ท่า พิธีไหว้ครู และค่ายมวยบนแผนที่",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/muay-thai/",
    "license": "CC-BY-4.0",
@@ -778,7 +808,7 @@
   {
    "name": "mueang-map",
    "url": "https://github.com/NaNoBotCo/mueang-map",
-   "description": "Niche-lens participatory map of Chiang Mai",
+   "description": "Niche-lens participatory map of Chiang Mai · แผนที่แบบมีส่วนร่วมของเชียงใหม่",
    "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -790,7 +820,7 @@
   {
    "name": "NaNoBotCo",
    "url": "https://github.com/NaNoBotCo/NaNoBotCo",
-   "description": "Profile README and project directory",
+   "description": "Profile README and project directory · README โปรไฟล์และสารบัญโปรเจกต์",
    "pushed": "2026-09-23",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -814,7 +844,7 @@
   {
    "name": "neurovizr-decoded",
    "url": "https://github.com/NaNoBotCo/neurovizr-decoded",
-   "description": "Stdlib FFT teardown of a light and sound neurostimulation device",
+   "description": "Stdlib FFT teardown of a light and sound neurostimulation device · แกะการทำงานของเครื่องกระตุ้นสมองด้วยแสงและเสียง ด้วย FFT",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -826,7 +856,7 @@
   {
    "name": "offramp",
    "url": "https://github.com/NaNoBotCo/offramp",
-   "description": "The manual for getting paid in crypto and spending it locally without a local bank account",
+   "description": "The manual for getting paid in crypto and spending it locally without a local bank account · คู่มือรับเงินเป็นคริปโตและใช้จ่ายในไทย โดยไม่มีบัญชีธนาคารไทย",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/offramp/",
    "license": "CC-BY-4.0",
@@ -836,9 +866,21 @@
    "viewers_14d": 2
   },
   {
+   "name": "onemansideshow",
+   "url": "https://github.com/NaNoBotCo/onemansideshow",
+   "description": "The One Man Sideshow: a free Claude Code kit for running many projects alone, and the page that sells setup. MIT code, CC BY 4.0 page. · ชุดเครื่องมือ Claude Code ฟรี สำหรับคนทำงานคนเดียวหลายโปรเจกต์ พร้อมบริการติดตั้ง",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/onemansideshow/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
    "name": "pdf-tool",
    "url": "https://github.com/NaNoBotCo/pdf-tool",
-   "description": "A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract",
+   "description": "A numbered-menu PDF toolbox — tables to Excel, split, sign, merge, extract · เครื่องมือ PDF แบบเลือกเมนูด้วยตัวเลข — ตารางเป็น Excel แยก ลงชื่อ รวม",
    "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -850,7 +892,7 @@
   {
    "name": "pike-place-market",
    "url": "https://github.com/NaNoBotCo/pike-place-market",
-   "description": "A directory and GIS map of the Pike Place Market Historical District, Seattle — 12.83 acres, 153 licensed businesses, and the dates the city has on them.",
+   "description": "A directory and GIS map of the Pike Place Market Historical District, Seattle — 12.83 acres, 153 licensed businesses, and the dates the city has on them. · ไดเรกทอรีและแผนที่ตลาดไพค์เพลส ซีแอตเทิล",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/pike-place-market/",
    "license": "CC-BY-4.0",
@@ -862,7 +904,7 @@
   {
    "name": "pink-box",
    "url": "https://github.com/NaNoBotCo/pink-box",
-   "description": "Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two",
+   "description": "Pink Box — a directory of the American mom-and-pop donut shop: cake or raised, egg rolls in the case, and who's been up since two · ร้านโดนัทของครอบครัวในอเมริกา",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/pink-box/",
    "license": "CC-BY-4.0",
@@ -874,7 +916,7 @@
   {
    "name": "pinot-noir",
    "url": "https://github.com/NaNoBotCo/pinot-noir",
-   "description": "A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance.",
+   "description": "A directory of pinot noir: the vine, the ground, the cellars, the words — and a long read on Santa Maria tri-tip. One JSON record per node, with per-field provenance. · ไวน์ปิโนต์นัวร์ — องุ่น ดิน โรงบ่ม และถ้อยคำ",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/pinot-noir/",
    "license": "CC-BY-4.0",
@@ -886,7 +928,7 @@
   {
    "name": "poplucky",
    "url": "https://github.com/NaNoBotCo/poplucky",
-   "description": "Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know.",
+   "description": "Poplucky — a collector's catalogue for Pop Mart blind boxes. Faceted, trilingual (EN/TH/ZH), and open about what it doesn't know. · แคตตาล็อกสำหรับนักสะสมกล่องสุ่ม Pop Mart สามภาษา",
    "pushed": "2026-09-18",
    "pages": "https://nanobotco.github.io/poplucky/",
    "license": "CC-BY-4.0",
@@ -898,7 +940,7 @@
   {
    "name": "prostar-magic",
    "url": "https://github.com/NaNoBotCo/prostar-magic",
-   "description": "One page for Prostar Magic Shop, Kotchasarn Road, Chiang Mai: props with prices, a LINE order list, shows, lessons, hours, the walk from Tha Phae Gate.",
+   "description": "One page for Prostar Magic Shop, Kotchasarn Road, Chiang Mai: props with prices, a LINE order list, shows, lessons, hours, the walk from Tha Phae Gate. · ร้านมายากล Prostar ถนนคชสาร เชียงใหม่ — อุปกรณ์พร้อมราคา สั่งทาง LINE การแสดง และคอร์สสอน",
    "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/prostar-magic/",
    "license": "CC-BY-4.0",
@@ -910,7 +952,7 @@
   {
    "name": "quantum-computing",
    "url": "https://github.com/NaNoBotCo/quantum-computing",
-   "description": "The history and theory of quantum computing in plain words, with animated demos; refreshed weekly",
+   "description": "The history and theory of quantum computing in plain words, with animated demos; refreshed weekly · ประวัติและทฤษฎีคอมพิวเตอร์ควอนตัม เล่าง่ายๆ พร้อมภาพเคลื่อนไหว",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/quantum-computing/",
    "license": "MIT",
@@ -922,7 +964,7 @@
   {
    "name": "rtp",
    "url": "https://github.com/NaNoBotCo/rtp",
-   "description": "UK managed-service-provider channel map — company-level, from public sources",
+   "description": "UK managed-service-provider channel map — company-level, from public sources · แผนที่ช่องทางผู้ให้บริการไอที (MSP) ในสหราชอาณาจักร จากแหล่งข้อมูลสาธารณะ",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/rtp/",
    "license": "NOASSERTION",
@@ -934,7 +976,7 @@
   {
    "name": "scanner",
    "url": "https://github.com/NaNoBotCo/scanner",
-   "description": "A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF.",
+   "description": "A page scanner that runs in the phone's browser: capture, straighten, flatten, sign, PDF. · สแกนเอกสารในเบราว์เซอร์มือถือ — ถ่าย ปรับให้ตรง ลงชื่อ ออกเป็น PDF",
    "pushed": "2026-09-26",
    "pages": "https://nanobotco.github.io/scanner/",
    "license": "MIT",
@@ -946,7 +988,7 @@
   {
    "name": "skipdjt",
    "url": "https://github.com/NaNoBotCo/skipdjt",
-   "description": "Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked.",
+   "description": "Skip DJT — fare comparison for people who'd rather not fly from Palm Beach (PBI/DJT). Fort Lauderdale and Miami were cheaper on 11 of 11 routes checked. · เปรียบเทียบค่าตั๋วเครื่องบิน สำหรับคนที่ไม่อยากบินจากปาล์มบีช",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/skipdjt/",
    "license": "CC-BY-4.0",
@@ -958,7 +1000,7 @@
   {
    "name": "st-expedite-wiki",
    "url": "https://github.com/NaNoBotCo/st-expedite-wiki",
-   "description": "Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory",
+   "description": "Bilingual Saint-Expédit devotional-tradition wiki with a verified inventory · วิกิสองภาษาเรื่องการบูชานักบุญเอ็กซ์เปดิตุส",
    "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -970,7 +1012,7 @@
   {
    "name": "stocktake",
    "url": "https://github.com/NaNoBotCo/stocktake",
-   "description": "Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it",
+   "description": "Re-derives what actually exists across all your projects, domains, and Cloudflare Workers — instead of remembering it · นับใหม่ว่ามีอะไรอยู่ในทุกโปรเจกต์ โดเมน และ Cloudflare Workers",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -982,7 +1024,7 @@
   {
    "name": "swanbot",
    "url": "https://github.com/NaNoBotCo/swanbot",
-   "description": "A black-swan-aware trading and agent utility",
+   "description": "A black-swan-aware trading and agent utility · เครื่องมือเทรดที่คิดถึงหงส์ดำ (เหตุการณ์ไม่คาดฝัน)",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -992,9 +1034,21 @@
    "viewers_14d": 0
   },
   {
+   "name": "talking-board",
+   "url": "https://github.com/NaNoBotCo/talking-board",
+   "description": "A parlour talking board — bots in the empty seats, a lens on the planchette, a notebook for what comes through. กระดานวิญญาณ",
+   "pushed": "2026-09-26",
+   "pages": "https://nanobotco.github.io/talking-board/",
+   "license": "CC-BY-4.0",
+   "clones_14d": 0,
+   "cloners_14d": 0,
+   "views_14d": 0,
+   "viewers_14d": 0
+  },
+  {
    "name": "taoist-oracle",
    "url": "https://github.com/NaNoBotCo/taoist-oracle",
-   "description": "Stdlib Chinese and Taoist divination engine — I Ching, Plum Blossom, Wen Wang Gua, Bazi",
+   "description": "Stdlib Chinese and Taoist divination engine — I Ching, Plum Blossom, Wen Wang Gua, Bazi · เครื่องทำนายแบบจีนและเต๋า — อี้จิง เหมยฮวา ปาจื้อ",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -1006,7 +1060,7 @@
   {
    "name": "thai-answers",
    "url": "https://github.com/NaNoBotCo/thai-answers",
-   "description": "Evergreen answers to real Facebook-group questions, over a venue catalog",
+   "description": "Evergreen answers to real Facebook-group questions, over a venue catalog · คำตอบสำหรับคำถามที่วนกลับมาในกลุ่มเฟซบุ๊ก",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -1042,7 +1096,7 @@
   {
    "name": "three-body",
    "url": "https://github.com/NaNoBotCo/three-body",
-   "description": "The mathematics of the three-body problem in plain words: 13 chapters, 34 equations each read out loud, 9 periodic orbits found here rather than copied, 10 browser demos, and the whole thing in 30 lines of Python.",
+   "description": "The mathematics of the three-body problem in plain words: 13 chapters, 34 equations each read out loud, 9 periodic orbits found here rather than copied, 10 browser demos, and the whole thing in 30 lines of Python. · คณิตศาสตร์ของปัญหาสามวัตถุ เล่าด้วยภาษาง่ายๆ 13 บท พร้อมเดโมในเบราว์เซอร์",
    "pushed": "2026-09-23",
    "pages": "https://nanobotco.github.io/three-body/",
    "license": "MIT",
@@ -1054,7 +1108,7 @@
   {
    "name": "traffic-eye",
    "url": "https://github.com/NaNoBotCo/traffic-eye",
-   "description": "Who is asking for your pages — people, AI crawlers, search engines, scrapers — across all your sites, in one place",
+   "description": "Who is asking for your pages — people, AI crawlers, search engines, scrapers — across all your sites, in one place · ใครขอหน้าเว็บของคุณ — คน บอท AI เสิร์ชเอนจิน รวมไว้ที่เดียว",
    "pushed": "2026-09-18",
    "pages": null,
    "license": "CC-BY-4.0",
@@ -1066,7 +1120,7 @@
   {
    "name": "uptake",
    "url": "https://github.com/NaNoBotCo/uptake",
-   "description": "Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0.",
+   "description": "Uptake — publishing for machines that copy. A field manual for the web after search, built on 14 days of repository traffic: 961 clones from 501 distinct machines against 36 page views. Text and data CC BY-SA 4.0. · คู่มือเผยแพร่เว็บให้เครื่องที่คัดลอกอ่าน ในยุคหลังเสิร์ชเอนจิน",
    "pushed": "2026-09-25",
    "pages": "https://nanobotco.github.io/uptake/",
    "license": "CC-BY-SA-4.0",
@@ -1078,7 +1132,7 @@
   {
    "name": "visa-desk",
    "url": "https://github.com/NaNoBotCo/visa-desk",
-   "description": "The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence.",
+   "description": "The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence. · เว็บไซต์ chiangmaivisadesk.com — สองภาษา วีซ่า 31 ประเภท",
    "pushed": "2026-09-25",
    "pages": null,
    "license": "NOASSERTION",
@@ -1090,7 +1144,7 @@
   {
    "name": "wichaa-vault",
    "url": "https://github.com/NaNoBotCo/wichaa-vault",
-   "description": "Obsidian authoring vault behind the wichaa knowledge base",
+   "description": "Obsidian authoring vault behind the wichaa knowledge base · คลัง Obsidian เบื้องหลังฐานความรู้วิชา",
    "pushed": "2026-09-25",
    "pages": null,
    "license": "CC-BY-4.0",
