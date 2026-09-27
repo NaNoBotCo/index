@@ -16,9 +16,9 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 302400,
+  "records": 302398,
   "sites": 20,
-  "pages": 99600,
+  "pages": 99625,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88888,
+     "value": 88886,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 87346,
+     "value": 87371,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 87346,
+   "pages": 87371,
    "stale": null
   },
   {
@@ -844,7 +844,7 @@
    "name": "homematch",
    "url": "https://github.com/NaNoBotCo/homematch",
    "description": "Negotiation-first household-services matchmaking for Chiang Mai · จับคู่บริการงานบ้านในเชียงใหม่ เริ่มจากการต่อรอง",
-   "pushed": "2026-09-18",
+   "pushed": "2026-09-27",
    "pages": null,
    "license": "CC-BY-4.0",
    "clones_14d": 56,
@@ -1060,7 +1060,7 @@
    "name": "NaNoBotCo",
    "url": "https://github.com/NaNoBotCo/NaNoBotCo",
    "description": "Profile README and project directory · README โปรไฟล์และสารบัญโปรเจกต์",
-   "pushed": "2026-09-23",
+   "pushed": "2026-09-26",
    "pages": null,
    "license": "CC-BY-4.0",
    "clones_14d": 104,
@@ -1072,7 +1072,7 @@
    "name": "nanobotco.github.io",
    "url": "https://github.com/NaNoBotCo/nanobotco.github.io",
    "description": "NaN — คุณแนน. Personal portal. It gets done today.",
-   "pushed": "2026-09-26",
+   "pushed": "2026-09-27",
    "pages": "https://nanobotco.github.io/nanobotco.github.io/",
    "license": "CC-BY-4.0",
    "clones_14d": 270,
@@ -1384,7 +1384,7 @@
    "name": "visa-desk",
    "url": "https://github.com/NaNoBotCo/visa-desk",
    "description": "The site behind chiangmaivisadesk.com — bilingual, near-buildless, with referral attribution you cannot lose and a 31-category visa catalogue rendered from JSON. Source-available; operating a service with it needs a licence. · เว็บไซต์ chiangmaivisadesk.com — สองภาษา วีซ่า 31 ประเภท",
-   "pushed": "2026-09-25",
+   "pushed": "2026-09-27",
    "pages": null,
    "license": "NOASSERTION",
    "clones_14d": 84,
