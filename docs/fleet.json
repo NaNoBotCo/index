@@ -17,6 +17,16 @@
       "repo": "https://github.com/NaNoBotCo/mot-dang"
     },
     {
+      "id": "the-plan",
+      "name": "The Plan",
+      "th": "แผนมดแดง",
+      "url": "https://motdang.net/the-plan/",
+      "note": "Mot Dang's pitch deck: a business plan in twelve dimensions, for an audience of robots",
+      "lane": "directory",
+      "audience": "en",
+      "repo": "https://github.com/NaNoBotCo/the-plan"
+    },
+    {
       "id": "chiang-rai",
       "name": "Chiang Rai, Slowly",
       "th": "แอ่วเชียงราย",
