@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26",
+  "generated": "2026-09-27",
   "canonical": "https://nanobotco.github.io/index/fleet.json",
   "publisher": "NaNoBotCo",
   "contact": "nan@motdang.net",
@@ -59,6 +59,38 @@
       "audience": "th",
       "sitemap": "https://motdang.net/roads/sitemap.xml",
       "repo": "https://github.com/NaNoBotCo/chiang-mai-roads"
+    },
+    {
+      "id": "field",
+      "name": "Field",
+      "th": "ภาคสนาม",
+      "url": "https://motdang.net/field/",
+      "note": "street-level capture for Mot Dang — places added from their own signs, each with its photograph",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://motdang.net/field/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/field"
+    },
+    {
+      "id": "golden-triangle",
+      "name": "Golden Triangle",
+      "th": "สามเหลี่ยมทองคำ",
+      "url": "https://nanobotco.github.io/golden-triangle/",
+      "note": "where the Ruak meets the Mekong — Sop Ruak, Chiang Saen, the hills and the river",
+      "lane": "directory",
+      "audience": "th",
+      "repo": "https://github.com/NaNoBotCo/golden-triangle"
+    },
+    {
+      "id": "prostar-magic",
+      "name": "Prostar Magic Shop",
+      "th": "โปรสตาร์ แมจิก ช้อป",
+      "url": "https://nanobotco.github.io/prostar-magic/",
+      "note": "magic shop on Kotchasarn Road by the Chiang Mai moat — props, shows, lessons",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://nanobotco.github.io/prostar-magic/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/prostar-magic"
     },
     {
       "id": "wichaa",
@@ -314,6 +346,25 @@
       "audience": "all"
     },
     {
+      "id": "hunpayont",
+      "name": "Hun Payont",
+      "th": "หุ่นพยนต์",
+      "url": "https://hunpayont.net/",
+      "note": "free phone apps, free data, and work — made in northern Thailand",
+      "lane": "product",
+      "audience": "th"
+    },
+    {
+      "id": "onemansideshow",
+      "name": "One Man Sideshow",
+      "th": "วันแมนไซด์โชว์",
+      "url": "https://nanobotco.github.io/onemansideshow/",
+      "note": "a sourced city directory run by one person and a fleet of AI agents — the kit free, setup with training ฿25,000 Thai companies / US$25,000 everyone else",
+      "lane": "product",
+      "audience": "world",
+      "sitemap": "https://nanobotco.github.io/onemansideshow/sitemap.xml"
+    },
+    {
       "id": "defiant",
       "name": "Defiant",
       "url": "https://defiant.to/",
@@ -332,6 +383,17 @@
       "audience": "th"
     },
     {
+      "id": "chiangmaivisadesk",
+      "name": "Chiang Mai Visa Desk",
+      "th": "เชียงใหม่วีซ่าเดสก์",
+      "url": "https://chiangmaivisadesk.com/",
+      "note": "work permits, Thai company registration, retirement extensions, 90-day reports and border runs from Chiang Mai",
+      "lane": "company",
+      "audience": "world",
+      "sitemap": "https://chiangmaivisadesk.com/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/visa-desk"
+    },
+    {
       "id": "hakfarang",
       "name": "ฮักฝรั่ง",
       "url": "https://hakfarang.net/",
@@ -348,6 +410,17 @@
       "lane": "directory",
       "audience": "world",
       "repo": "https://github.com/NaNoBotCo/offramp"
+    },
+    {
+      "id": "poplucky",
+      "name": "Poplucky",
+      "th": "ป๊อปลัคกี้",
+      "url": "https://poplucky.net/",
+      "note": "the Pop Mart collector's catalogue — every blind box in the words collectors use",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://poplucky.net/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/poplucky"
     },
     {
       "id": "patreon",
