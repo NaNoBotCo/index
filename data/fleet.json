@@ -477,6 +477,17 @@
       "repo": "https://github.com/NaNoBotCo/chemtrails"
     },
     {
+      "id": "rhine",
+      "name": "The Rhine Deck",
+      "th": "สำรับไรน์",
+      "url": "https://nanobotco.github.io/rhine/",
+      "note": "J.B. Rhine's ESP tests from Duke to play against a server that deals every card, with pooled tallies and a daily forecast, for people and robots",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/rhine/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/rhine"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
