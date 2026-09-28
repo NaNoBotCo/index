@@ -466,6 +466,17 @@
       "repo": "https://github.com/NaNoBotCo/rain-chiang-mai"
     },
     {
+      "id": "chemtrails",
+      "name": "Chemtrails? It's ice.",
+      "th": "เคมเทรล? มันคือน้ำแข็ง",
+      "url": "https://nanobotco.github.io/chemtrails/",
+      "note": "Why jet trails form and stay, drawn with math, with a live check of whether planes over you will leave them now",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/chemtrails/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chemtrails"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
