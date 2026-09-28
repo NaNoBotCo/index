@@ -499,6 +499,17 @@
       "repo": "https://github.com/NaNoBotCo/nitpick"
     },
     {
+      "id": "all-factored",
+      "name": "All Factored",
+      "th": "แยกหมดแล้ว",
+      "url": "https://nanobotco.github.io/all-factored/",
+      "note": "Post-quantum, drawn with math in English and Thai: factoring, Shor's rhythm trick, curves, lattice locks, and which of our sites are already switched",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/all-factored/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/all-factored"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
