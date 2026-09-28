@@ -455,6 +455,17 @@
       "repo": "https://github.com/NaNoBotCo/pct"
     },
     {
+      "id": "rain-chiang-mai",
+      "name": "Rain in Chiang Mai",
+      "th": "ฝนเชียงใหม่",
+      "url": "https://nanobotco.github.io/rain-chiang-mai/",
+      "note": "Is it raining in Chiang Mai right now? Live radar and forecast, rainfall numbers, the rain clock, royal rainmaking, Ping River floods, and rain legends",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/rain-chiang-mai/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/rain-chiang-mai"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
