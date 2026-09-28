@@ -510,6 +510,17 @@
       "repo": "https://github.com/NaNoBotCo/all-factored"
     },
     {
+      "id": "golden-gate",
+      "name": "The Golden Gate Bridge",
+      "th": "สะพานโกลเดนเกต",
+      "url": "https://nanobotco.github.io/golden-gate/",
+      "note": "The Golden Gate drawn by arithmetic under the live sun, moon, fog and tide: hang the cable, run Kelvin's tide wheels, see what fits under, hear the railing sing, paint it, measure it from where you are",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/golden-gate/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/golden-gate"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
