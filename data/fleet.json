@@ -433,6 +433,17 @@
       "repo": "https://github.com/NaNoBotCo/poplucky"
     },
     {
+      "id": "bots-crave",
+      "name": "What Bots Craaave",
+      "th": "บอตหิวอะไร",
+      "url": "https://nanobotco.github.io/bots-crave/",
+      "note": "An Idiocracy-style 'splainer: bots crave new information and checkable sources; we've been feeding them links to ourselves. Two reels, one for people, one for bots",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/bots-crave/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/bots-crave"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
