@@ -488,6 +488,17 @@
       "repo": "https://github.com/NaNoBotCo/rhine"
     },
     {
+      "id": "nitpick",
+      "name": "Nitpick",
+      "th": "จับทุกป้าย",
+      "url": "https://nanobotco.github.io/nitpick/",
+      "note": "How the Mac reads every sign in a 360 photo first, so a model looks only where it must; a demo on 12 photos of Mahidol Road",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/nitpick/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/nitpick"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
