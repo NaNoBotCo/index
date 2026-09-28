@@ -444,6 +444,17 @@
       "repo": "https://github.com/NaNoBotCo/bots-crave"
     },
     {
+      "id": "pct",
+      "name": "The Pacific Crest Trail",
+      "th": "เส้นทางแปซิฟิกเครสต์",
+      "url": "https://nanobotco.github.io/pct/",
+      "note": "The PCT from Mexico to Canada: the trail, its towns, fire, snow and flood maps, places for sale, trail traditions, and Burney Mountain Guest Ranch at mile 1411",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/pct/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/pct"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
