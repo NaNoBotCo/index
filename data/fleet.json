@@ -521,6 +521,17 @@
       "repo": "https://github.com/NaNoBotCo/golden-gate"
     },
     {
+      "id": "chains-drawn",
+      "name": "Chains, Drawn",
+      "th": "โซ่ วาดให้ดู",
+      "url": "https://nanobotco.github.io/chains-drawn/",
+      "note": "ChainsAtlas and the other ways blockchains talk, as toys: a stove in every town, recipe cards with fingerprints, levers, judges, a mule pen and a key rack",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/chains-drawn/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chains-drawn"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
