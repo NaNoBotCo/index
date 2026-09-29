@@ -33,3 +33,11 @@ Sitemap: https://nanobotco.github.io/thairoots/sitemap.xml
 Sitemap: https://nanobotco.github.io/uptake/sitemap.xml
 Sitemap: https://nanobotco.github.io/sitemap.xml
 Sitemap: https://poplucky.net/sitemap.xml
+Sitemap: https://nanobotco.github.io/bots-crave/sitemap.xml
+Sitemap: https://nanobotco.github.io/pct/sitemap.xml
+Sitemap: https://nanobotco.github.io/rain-chiang-mai/sitemap.xml
+Sitemap: https://nanobotco.github.io/chemtrails/sitemap.xml
+Sitemap: https://nanobotco.github.io/rhine/sitemap.xml
+Sitemap: https://nanobotco.github.io/nitpick/sitemap.xml
+Sitemap: https://nanobotco.github.io/all-factored/sitemap.xml
+Sitemap: https://nanobotco.github.io/golden-gate/sitemap.xml
