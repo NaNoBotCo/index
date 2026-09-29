@@ -532,6 +532,17 @@
       "repo": "https://github.com/NaNoBotCo/chains-drawn"
     },
     {
+      "id": "hired-burglars",
+      "name": "Hired Burglars",
+      "th": "ขโมยรับจ้าง",
+      "url": "https://nanobotco.github.io/hired-burglars/",
+      "note": "Pen tests, red teams, security licences, white-label resellers, awards and startup equity, as toys in English and Thai",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/hired-burglars/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/hired-burglars"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
