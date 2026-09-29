@@ -521,6 +521,61 @@
       "repo": "https://github.com/NaNoBotCo/golden-gate"
     },
     {
+      "id": "chains-drawn",
+      "name": "Chains, Drawn",
+      "th": "โซ่ วาดให้ดู",
+      "url": "https://nanobotco.github.io/chains-drawn/",
+      "note": "ChainsAtlas and the other ways blockchains talk, as toys: a stove in every town, recipe cards with fingerprints, levers, judges, a mule pen and a key rack",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/chains-drawn/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chains-drawn"
+    },
+    {
+      "id": "hired-burglars",
+      "name": "Hired Burglars",
+      "th": "ขโมยรับจ้าง",
+      "url": "https://nanobotco.github.io/hired-burglars/",
+      "note": "Pen tests, red teams, security licences, white-label resellers, awards and startup equity, as toys in English and Thai",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/hired-burglars/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/hired-burglars"
+    },
+    {
+      "id": "expedite",
+      "name": "Hodie · Saint Expedite",
+      "th": "วันนี้ · นักบุญเอ็กซ์เปดิต",
+      "url": "https://nanobotco.github.io/expedite/",
+      "note": "The saint of today, as toys: catch the crow that says tomorrow, turn a list to today, set a red spirit house, count his days, print your thanks",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/expedite/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/expedite"
+    },
+    {
+      "id": "phnom-penh",
+      "name": "Psar Phnom Penh",
+      "th": "ตลาดพนมเปญ",
+      "url": "https://nanobotco.github.io/phnom-penh/",
+      "note": "Phnom Penh near and now: places, river, moon, holidays, Grab rides",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/phnom-penh/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/phnom-penh"
+    },
+    {
+      "id": "moving-day",
+      "name": "Moving Day",
+      "th": "วันย้ายบ้าน",
+      "url": "https://nanobotco.github.io/moving-day/",
+      "note": "Moving from one AI to another, step by step: export your chats, carry your memories and instructions, settle them into the new place. Thai and English",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/moving-day/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/moving-day"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",

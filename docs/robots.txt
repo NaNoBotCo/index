@@ -41,3 +41,8 @@ Sitemap: https://nanobotco.github.io/rhine/sitemap.xml
 Sitemap: https://nanobotco.github.io/nitpick/sitemap.xml
 Sitemap: https://nanobotco.github.io/all-factored/sitemap.xml
 Sitemap: https://nanobotco.github.io/golden-gate/sitemap.xml
+Sitemap: https://nanobotco.github.io/chains-drawn/sitemap.xml
+Sitemap: https://nanobotco.github.io/hired-burglars/sitemap.xml
+Sitemap: https://nanobotco.github.io/expedite/sitemap.xml
+Sitemap: https://nanobotco.github.io/phnom-penh/sitemap.xml
+Sitemap: https://nanobotco.github.io/moving-day/sitemap.xml
