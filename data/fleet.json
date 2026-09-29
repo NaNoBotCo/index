@@ -565,6 +565,17 @@
       "repo": "https://github.com/NaNoBotCo/phnom-penh"
     },
     {
+      "id": "moving-day",
+      "name": "Moving Day",
+      "th": "วันย้ายบ้าน",
+      "url": "https://nanobotco.github.io/moving-day/",
+      "note": "Moving from one AI to another, step by step: export your chats, carry your memories and instructions, settle them into the new place. Thai and English",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/moving-day/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/moving-day"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
