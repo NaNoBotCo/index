@@ -554,6 +554,17 @@
       "repo": "https://github.com/NaNoBotCo/expedite"
     },
     {
+      "id": "phnom-penh",
+      "name": "Psar Phnom Penh",
+      "th": "ตลาดพนมเปญ",
+      "url": "https://nanobotco.github.io/phnom-penh/",
+      "note": "Phnom Penh near and now: places, river, moon, holidays, Grab rides",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/phnom-penh/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/phnom-penh"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
