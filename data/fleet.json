@@ -543,6 +543,17 @@
       "repo": "https://github.com/NaNoBotCo/hired-burglars"
     },
     {
+      "id": "expedite",
+      "name": "Hodie · Saint Expedite",
+      "th": "วันนี้ · นักบุญเอ็กซ์เปดิต",
+      "url": "https://nanobotco.github.io/expedite/",
+      "note": "The saint of today, as toys: catch the crow that says tomorrow, turn a list to today, set a red spirit house, count his days, print your thanks",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/expedite/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/expedite"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
