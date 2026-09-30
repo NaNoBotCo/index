@@ -576,6 +576,17 @@
       "repo": "https://github.com/NaNoBotCo/moving-day"
     },
     {
+      "id": "warp-and-weft",
+      "name": "Warp and Weft",
+      "th": "เส้นยืน เส้นพุ่ง",
+      "url": "https://nanobotco.github.io/warp-and-weft/",
+      "note": "Silk and weaving drawn by arithmetic: a loom weaving a Khmer silk hol of humped cattle, the draft as a matrix product, ikat tie-and-dye, seven borders, satins by number theory, a silkworm's cocoon, the Silk Road, Cambodian and Thai weaving. English, Thai, Khmer",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/warp-and-weft/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/warp-and-weft"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
