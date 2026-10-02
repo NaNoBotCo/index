@@ -587,6 +587,28 @@
       "repo": "https://github.com/NaNoBotCo/warp-and-weft"
     },
     {
+      "id": "birds-chiang-mai",
+      "name": "Birds of Chiang Mai",
+      "th": "นกเชียงใหม่",
+      "url": "https://nanobotco.github.io/birds-chiang-mai/",
+      "note": "23 birds of Chiang Mai drawn by arithmetic under the live sky over Doi Suthep, with real recordings, a live spectrogram, the Coucal Clock that calls at dawn and dusk, a chorus wheel, the mountain from moat to Doi Inthanon, and the birds of the Himmapan",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/birds-chiang-mai/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/birds-chiang-mai"
+    },
+    {
+      "id": "lersi",
+      "name": "Lersi · the hermit's stretches",
+      "th": "ฤๅษีดัดตน",
+      "url": "https://nanobotco.github.io/lersi/",
+      "note": "41 positions of lersi dat ton drawn with math in a gilt Lanna niche; search, filter, build a routine with breath timing, send it as a link or a picture card",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/lersi/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/lersi"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",

@@ -47,3 +47,5 @@ Sitemap: https://nanobotco.github.io/expedite/sitemap.xml
 Sitemap: https://nanobotco.github.io/phnom-penh/sitemap.xml
 Sitemap: https://nanobotco.github.io/moving-day/sitemap.xml
 Sitemap: https://nanobotco.github.io/warp-and-weft/sitemap.xml
+Sitemap: https://nanobotco.github.io/birds-chiang-mai/sitemap.xml
+Sitemap: https://nanobotco.github.io/lersi/sitemap.xml
