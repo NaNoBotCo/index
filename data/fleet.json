@@ -620,6 +620,17 @@
       "repo": "https://github.com/NaNoBotCo/tham-luang"
     },
     {
+      "id": "gc-ms",
+      "name": "GC-MS: Who Tests It",
+      "th": "จีซี-เอ็มเอส ใครตรวจได้บ้าง",
+      "url": "https://nanobotco.github.io/gc-ms/",
+      "note": "GC-MS labs across Thailand on one map, what Chiang Mai University charges, and how the machine works from syringe to spectrum: race the smells of durian, holy basil and jasmine rice",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/gc-ms/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/gc-ms"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
