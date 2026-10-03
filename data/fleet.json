@@ -708,6 +708,17 @@
       "repo": "https://github.com/NaNoBotCo/voynich"
     },
     {
+      "id": "cosmic-weaponry",
+      "name": "Cosmic Weaponry, Drawn",
+      "th": "อาวุธเทพ วาดด้วยคณิต",
+      "url": "https://nanobotco.github.io/cosmic-weaponry/",
+      "note": "Weapons of the gods drawn live with math: Indra's vajra, the Buddhist bell, lightning grown by the 1984 breakdown model, Mekhala and Ramasun's thunder clock, sky-axes and Tutankhamun's meteorite dagger, the discus and trident ground off the sun, Mjolnir's short handle and the Monkey King's staff",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/cosmic-weaponry/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/cosmic-weaponry"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
