@@ -664,6 +664,17 @@
       "repo": "https://github.com/NaNoBotCo/thai-time"
     },
     {
+      "id": "bayeux-tapestry",
+      "name": "The Bayeux Tapestry, Unrolled",
+      "th": "พรมผนังบาเยอ คลี่ทั้งผืน",
+      "url": "https://nanobotco.github.io/bayeux-tapestry/",
+      "note": "The whole Bayeux Tapestry end to end with all 58 scenes and their Latin, how it was stitched, Halley's Comet of 1066, everywhere it has been from Canterbury to the British Museum, and who came to see it",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/bayeux-tapestry/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/bayeux-tapestry"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
