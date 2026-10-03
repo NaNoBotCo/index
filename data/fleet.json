@@ -609,6 +609,17 @@
       "repo": "https://github.com/NaNoBotCo/lersi"
     },
     {
+      "id": "tham-luang",
+      "name": "Tham Luang, Drawn",
+      "th": "ถ้ำหลวง วาดด้วยคณิต",
+      "url": "https://nanobotco.github.io/tham-luang/",
+      "note": "The 2018 Tham Luang cave rescue drawn with math: eighteen days under the Sleeping Lady, the way in, the 38 × 72 cm squeeze, a billion litres of water, the thinning air, the way out, the ten thousand people, and those remembered, Erik Brown among them",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/tham-luang/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/tham-luang"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
