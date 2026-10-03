@@ -653,6 +653,17 @@
       "repo": "https://github.com/NaNoBotCo/fractals"
     },
     {
+      "id": "thai-time",
+      "name": "Telling Time in Thai",
+      "th": "บอกเวลาแบบไทย",
+      "url": "https://nanobotco.github.io/thai-time/",
+      "note": "How Thai people tell time: the six-hour clock of gong and drum on a live dial, the king's list of 1900, the coconut water clock, Lanna's sixteen watches and sixty named days, noon by the sun, sounds and a quiz",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/thai-time/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/thai-time"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
