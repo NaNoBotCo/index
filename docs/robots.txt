@@ -49,3 +49,14 @@ Sitemap: https://nanobotco.github.io/moving-day/sitemap.xml
 Sitemap: https://nanobotco.github.io/warp-and-weft/sitemap.xml
 Sitemap: https://nanobotco.github.io/birds-chiang-mai/sitemap.xml
 Sitemap: https://nanobotco.github.io/lersi/sitemap.xml
+Sitemap: https://nanobotco.github.io/tham-luang/sitemap.xml
+Sitemap: https://nanobotco.github.io/gc-ms/sitemap.xml
+Sitemap: https://motdang.net/sites/kranok/sitemap.xml
+Sitemap: https://nanobotco.github.io/fractals/sitemap.xml
+Sitemap: https://nanobotco.github.io/thai-time/sitemap.xml
+Sitemap: https://nanobotco.github.io/bayeux-tapestry/sitemap.xml
+Sitemap: https://motdang.net/sites/khom-loi/sitemap.xml
+Sitemap: https://motdang.net/sites/krathong/sitemap.xml
+Sitemap: https://nanobotco.github.io/voynich/sitemap.xml
+Sitemap: https://nanobotco.github.io/cosmic-weaponry/sitemap.xml
+Sitemap: https://nanobotco.github.io/ghosts-drawn/sitemap.xml

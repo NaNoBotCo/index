@@ -1,10 +1,10 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-10-03 · Peacock, Nan · nan@motdang.net
+Counted 2026-10-04 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 302,477 · sites 20 · pages 101,213 · repositories 75
+  corpora 18 · records 302,509 · sites 20 · pages 101,213 · repositories 75
   fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 190
 
 PRICE
@@ -15,21 +15,21 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts (last read 2026-10-03) · 120,178 page images (last read 2026-10-03)
+    6,986 manuscripts (last read 2026-10-04) · 120,178 page images (last read 2026-10-04)
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,964 place records · 88,472 pages
+    88,996 place records · 88,472 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,486 listings (last read 2026-10-03)
+    17,486 listings (last read 2026-10-04)
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
