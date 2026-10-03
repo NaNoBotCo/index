@@ -719,6 +719,17 @@
       "repo": "https://github.com/NaNoBotCo/cosmic-weaponry"
     },
     {
+      "id": "ghosts-drawn",
+      "name": "Ghosts, Drawn",
+      "th": "ผีเหนือ ผีไทย",
+      "url": "https://nanobotco.github.io/ghosts-drawn/",
+      "note": "Lanna and Thai ghosts as animated cartoons: Krasue, Krahang, Mae Nak, Pret, Phi Kong Koi, Phi Ka and fifteen more, with toys, a night clock and sources, Thai and English",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/ghosts-drawn/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/ghosts-drawn"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
