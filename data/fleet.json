@@ -697,6 +697,17 @@
       "repo": "https://github.com/NaNoBotCo/krathong"
     },
     {
+      "id": "voynich",
+      "name": "The Voynich Manuscript",
+      "th": "ข้อเขียนวอยนิช",
+      "url": "https://nanobotco.github.io/voynich/",
+      "note": "How people try to read the Voynich manuscript: the book, its owners and date, and live toys for transcription, word statistics, word grammar, repeats, ciphers and hoaxes, run on the full transliteration",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/voynich/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/voynich"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
