@@ -675,6 +675,28 @@
       "repo": "https://github.com/NaNoBotCo/bayeux-tapestry"
     },
     {
+      "id": "khom-loi",
+      "name": "Khom Loi, Drawn",
+      "th": "โคมลอย วาดด้วยคณิต",
+      "url": "https://motdang.net/sites/khom-loi/",
+      "note": "The Yi Peng sky lantern drawn with the physics of hot air: why it rises, one flight from lighting to landing, where the wind brings forty lanterns down over Chiang Mai, and how many are up at once",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://motdang.net/sites/khom-loi/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/khom-loi"
+    },
+    {
+      "id": "krathong",
+      "name": "Krathong, Drawn",
+      "th": "กระทง วาดด้วยคณิต",
+      "url": "https://motdang.net/sites/krathong/",
+      "note": "The Loy Krathong float drawn with math: folding a banana-leaf petal, rings of petals, why it floats and stays upright, and where the Ping carries it",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://motdang.net/sites/krathong/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/krathong"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
