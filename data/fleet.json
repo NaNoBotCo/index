@@ -741,6 +741,17 @@
       "repo": "https://github.com/NaNoBotCo/bridge-vial"
     },
     {
+      "id": "cursitor",
+      "name": "Cursitor",
+      "th": "เคอร์ซิเตอร์ · โต๊ะงานคดีความ",
+      "url": "https://nanobotco.github.io/cursitor/",
+      "note": "A litigation desk for Claude Code: short file links, deadlines with their arithmetic, pleading paper, exhibits and OCR; pro se US$0, firm US$25,000",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/cursitor/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/cursitor"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
