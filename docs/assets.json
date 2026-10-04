@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-10-04",
+ "read": "2026-10-05",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 302509,
+  "records": 302476,
   "sites": 20,
-  "pages": 101213,
+  "pages": 111283,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 190,
-  "read": "2026-10-04"
+  "downloads": 198,
+  "read": "2026-10-05"
  },
  "corpora": [
   {
@@ -38,14 +38,14 @@
     {
      "label": "manuscripts",
      "value": 6986,
-     "stale": "2026-10-04",
+     "stale": "2026-10-05",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     },
     {
      "label": "page images",
      "value": 120178,
-     "stale": "2026-10-04",
+     "stale": "2026-10-05",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 88996,
+     "value": 88963,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 88472,
+     "value": 98468,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -86,7 +86,7 @@
     {
      "label": "listings",
      "value": 17486,
-     "stale": "2026-10-04",
+     "stale": "2026-10-05",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -109,7 +109,7 @@
     },
     {
      "label": "downloads",
-     "value": 41,
+     "value": 42,
      "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
@@ -133,7 +133,7 @@
     },
     {
      "label": "downloads",
-     "value": 48,
+     "value": 50,
      "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 52,
+     "value": 55,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 49,
+     "value": 51,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -366,29 +366,29 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 88472,
+   "pages": 98468,
    "stale": null
   },
   {
    "name": "ask.motdang.net",
    "url": "https://ask.motdang.net",
    "note": "reader assistant",
-   "pages": null,
-   "stale": "2026-10-04"
+   "pages": 1,
+   "stale": null
   },
   {
    "name": "ai.motdang.net",
    "url": "https://ai.motdang.net",
    "note": "white-label-ai, seats",
-   "pages": null,
-   "stale": "2026-10-04"
+   "pages": 1,
+   "stale": null
   },
   {
    "name": "demo.motdang.net",
    "url": "https://demo.motdang.net",
    "note": "white-label-ai, guest demo",
-   "pages": null,
-   "stale": "2026-10-04"
+   "pages": 1,
+   "stale": null
   },
   {
    "name": "wichaa.net",
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-10-04"
+   "stale": "2026-10-05"
   },
   {
    "name": "offrampt.net",
@@ -429,7 +429,7 @@
    "name": "nanobotco.github.io",
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
-   "pages": 732,
+   "pages": 803,
    "stale": null
   },
   {

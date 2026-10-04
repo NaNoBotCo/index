@@ -60,3 +60,6 @@ Sitemap: https://motdang.net/sites/krathong/sitemap.xml
 Sitemap: https://nanobotco.github.io/voynich/sitemap.xml
 Sitemap: https://nanobotco.github.io/cosmic-weaponry/sitemap.xml
 Sitemap: https://nanobotco.github.io/ghosts-drawn/sitemap.xml
+Sitemap: https://nanobotco.github.io/bridge-vial/sitemap.xml
+Sitemap: https://nanobotco.github.io/cursitor/sitemap.xml
+Sitemap: https://nanobotco.github.io/bag-knots/sitemap.xml

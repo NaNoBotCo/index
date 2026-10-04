@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-10-04 · Peacock, Nan · nan@motdang.net
+Counted 2026-10-05 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 302,509 · sites 20 · pages 101,213 · repositories 75
-  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 190
+  corpora 18 · records 302,476 · sites 20 · pages 111,283 · repositories 75
+  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 198
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -15,49 +15,49 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts (last read 2026-10-04) · 120,178 page images (last read 2026-10-04)
+    6,986 manuscripts (last read 2026-10-05) · 120,178 page images (last read 2026-10-05)
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,996 place records · 88,472 pages
+    88,963 place records · 98,468 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,486 listings (last read 2026-10-04)
+    17,486 listings (last read 2026-10-05)
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
 
   Thai trade words, Chiang Mai
     signage compounds and trade terms with glosses and readings, plus administrative names
-    2,185 rows · 41 downloads
+    2,185 rows · 42 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai
     provenance: read from signage and registers; every term glossed and read
     licence: CC BY 4.0 · DOI: none yet
 
   Thai RTGS romanisation lexicon
     irregular readings, loanwords, place and brand names for the Royal Thai General System of Transcription
-    694 rows · 48 downloads
+    694 rows · 50 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-rtgs-romanisation-lexicon
     provenance: hand-listed exceptions to the rules, each with its class
     licence: CC BY 4.0 · DOI: none yet
 
   Thai place-name romanisation benchmark
     place-name words scored twice by translit.py, with the lexicon and by rules alone
-    153,948 rows · 52 downloads
+    153,948 rows · 55 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark
     provenance: words from the Mot Dang register; scores from the published tool
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang export, Chiang Mai and Chiang Rai
     the directory as a dataset, with provenance, fields stated and fields derived on each row
-    49 downloads
+    51 downloads
     https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai
     provenance: per-field provenance table on most rows
     licence: CC BY 4.0 · DOI: none yet
@@ -141,16 +141,16 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  88,472 pages   directory   https://motdang.net
-  ask.motdang.net                   — pages   reader assistant   https://ask.motdang.net
-  ai.motdang.net                    — pages   white-label-ai, seats   https://ai.motdang.net
-  demo.motdang.net                  — pages   white-label-ai, guest demo   https://demo.motdang.net
+  motdang.net                  98,468 pages   directory   https://motdang.net
+  ask.motdang.net                   1 pages   reader assistant   https://ask.motdang.net
+  ai.motdang.net                    1 pages   white-label-ai, seats   https://ai.motdang.net
+  demo.motdang.net                  1 pages   white-label-ai, guest demo   https://demo.motdang.net
   wichaa.net                    9,920 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
   hongdam.net                       6 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
   offrampt.net                     30 pages   offramp   https://offrampt.net
-  nanobotco.github.io             732 pages   portal and the HODIE ledger   https://nanobotco.github.io
+  nanobotco.github.io             803 pages   portal and the HODIE ledger   https://nanobotco.github.io
   basque-tables                   206 pages   Basque dining rooms   https://nanobotco.github.io/basque-tables
   carolina-barbecue               199 pages   NC and SC barbecue   https://nanobotco.github.io/carolina-barbecue
   pinot-noir                      164 pages   Pinot Country   https://nanobotco.github.io/pinot-noir
