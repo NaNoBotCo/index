@@ -752,6 +752,17 @@
       "repo": "https://github.com/NaNoBotCo/cursitor"
     },
     {
+      "id": "bag-knots",
+      "name": "Bag Knots",
+      "th": "มัดถุง",
+      "url": "https://nanobotco.github.io/bag-knots/",
+      "note": "Every way a Thai shop ties a bag shut, drawn step by step with NaN and Beer, and how to open each one by hand or with scissors cut in the right place; detours for onsen eggs, pad krapow and seven sauce baggies",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/bag-knots/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/bag-knots"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
