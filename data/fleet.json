@@ -730,6 +730,17 @@
       "repo": "https://github.com/NaNoBotCo/ghosts-drawn"
     },
     {
+      "id": "bridge-vial",
+      "name": "The Bridge Vial",
+      "th": "ขวดเทียบ",
+      "url": "https://nanobotco.github.io/bridge-vial/",
+      "note": "How a Thai lab can check new batches of freeze-dried peptide vials against a sister vial Janoshik already tested, and test tadalafil and anabolics against bought standards: GC vs LC, the steps, reading a certificate, costs, in English and Thai",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/bridge-vial/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/bridge-vial"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
