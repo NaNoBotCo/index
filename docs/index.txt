@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-10-05 · Peacock, Nan · nan@motdang.net
+Counted 2026-10-06 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 302,476 · sites 20 · pages 111,283 · repositories 75
-  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 198
+  corpora 18 · records 302,499 · sites 20 · pages 111,281 · repositories 75
+  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 200
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -15,28 +15,28 @@ CORPORA
 ------------------------------------------------------------------------------
   Lanna manuscripts
     Tai Tham and Khom manuscripts crawled from the Digital Library of Northern Thai Manuscripts, catalogued and published as a wiki
-    6,986 manuscripts (last read 2026-10-05) · 120,178 page images (last read 2026-10-05)
+    6,986 manuscripts (last read 2026-10-06) · 120,178 page images (last read 2026-10-06)
     https://wichaa.net/
     provenance: each manuscript names its source library and shelfmark; page images served from R2
     licence: CC BY 4.0 · DOI: none yet
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    88,963 place records · 98,468 pages
+    88,986 place records · 98,466 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    17,486 listings (last read 2026-10-05)
+    17,486 listings (last read 2026-10-06)
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
 
   Thai trade words, Chiang Mai
     signage compounds and trade terms with glosses and readings, plus administrative names
-    2,185 rows · 42 downloads
+    2,185 rows · 44 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-trade-words-chiang-mai
     provenance: read from signage and registers; every term glossed and read
     licence: CC BY 4.0 · DOI: none yet
@@ -141,7 +141,7 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  98,468 pages   directory   https://motdang.net
+  motdang.net                  98,466 pages   directory   https://motdang.net
   ask.motdang.net                   1 pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    1 pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  1 pages   white-label-ai, guest demo   https://demo.motdang.net
