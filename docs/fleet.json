@@ -730,6 +730,39 @@
       "repo": "https://github.com/NaNoBotCo/ghosts-drawn"
     },
     {
+      "id": "bridge-vial",
+      "name": "The Bridge Vial",
+      "th": "ขวดเทียบ",
+      "url": "https://nanobotco.github.io/bridge-vial/",
+      "note": "How a Thai lab can check new batches of freeze-dried peptide vials against a sister vial Janoshik already tested, and test tadalafil and anabolics against bought standards: GC vs LC, the steps, reading a certificate, costs, in English and Thai",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/bridge-vial/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/bridge-vial"
+    },
+    {
+      "id": "cursitor",
+      "name": "Cursitor",
+      "th": "เคอร์ซิเตอร์ · โต๊ะงานคดีความ",
+      "url": "https://nanobotco.github.io/cursitor/",
+      "note": "A litigation desk for Claude Code: short file links, deadlines with their arithmetic, pleading paper, exhibits and OCR; pro se US$0, firm US$25,000",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/cursitor/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/cursitor"
+    },
+    {
+      "id": "bag-knots",
+      "name": "Bag Knots",
+      "th": "มัดถุง",
+      "url": "https://nanobotco.github.io/bag-knots/",
+      "note": "Every way a Thai shop ties a bag shut, drawn step by step with NaN and Beer, and how to open each one by hand or with scissors cut in the right place; detours for onsen eggs, pad krapow and seven sauce baggies",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/bag-knots/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/bag-knots"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
