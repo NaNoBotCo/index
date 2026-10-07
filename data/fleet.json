@@ -785,6 +785,17 @@
       "repo": "https://github.com/NaNoBotCo/impossible"
     },
     {
+      "id": "suan-kham",
+      "name": "The Word Garden",
+      "th": "สวนคำ",
+      "url": "https://nanobotco.github.io/suan-kham/",
+      "note": "180 Thai words as fractal trees: a branch per sense, a leaf per compound, roots for ancestors, cousins and ThaiRoots families",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/suan-kham/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/suan-kham"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
