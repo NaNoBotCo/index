@@ -697,6 +697,17 @@
       "repo": "https://github.com/NaNoBotCo/krathong"
     },
     {
+      "id": "kin-jay",
+      "name": "Kin Jay",
+      "th": "กินเจ",
+      "url": "https://motdang.net/sites/kin-jay/",
+      "note": "The Vegetarian Festival, 10–18 October 2026: the yellow 齋 and เจ flags, the menu, the shrines, halls and jay kitchens of Chiang Mai and Chiang Rai, Thailand's vegetarian groups, and the legends",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://motdang.net/sites/kin-jay/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/kin-jay"
+    },
+    {
       "id": "voynich",
       "name": "The Voynich Manuscript",
       "th": "ข้อเขียนวอยนิช",
@@ -761,6 +772,28 @@
       "audience": "all",
       "sitemap": "https://nanobotco.github.io/bag-knots/sitemap.xml",
       "repo": "https://github.com/NaNoBotCo/bag-knots"
+    },
+    {
+      "id": "impossible",
+      "name": "Ten Impossible Problems",
+      "th": "สิบโจทย์ที่ว่าทำไม่ได้",
+      "url": "https://nanobotco.github.io/impossible/",
+      "note": "Ten problems that looked impossible and what NaN built for each, in English and Thai",
+      "lane": "portfolio",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/impossible/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/impossible"
+    },
+    {
+      "id": "suan-kham",
+      "name": "The Word Garden",
+      "th": "สวนคำ",
+      "url": "https://nanobotco.github.io/suan-kham/",
+      "note": "180 Thai words as fractal trees: a branch per sense, a leaf per compound, roots for ancestors, cousins and ThaiRoots families",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/suan-kham/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/suan-kham"
     },
     {
       "id": "patreon",
