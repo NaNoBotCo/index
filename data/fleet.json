@@ -774,6 +774,17 @@
       "repo": "https://github.com/NaNoBotCo/bag-knots"
     },
     {
+      "id": "impossible",
+      "name": "Ten Impossible Problems",
+      "th": "สิบโจทย์ที่ว่าทำไม่ได้",
+      "url": "https://nanobotco.github.io/impossible/",
+      "note": "Ten problems that looked impossible and what NaN built for each, in English and Thai",
+      "lane": "portfolio",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/impossible/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/impossible"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
