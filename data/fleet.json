@@ -807,6 +807,17 @@
       "repo": "https://github.com/NaNoBotCo/yandex-bots"
     },
     {
+      "id": "gargoyles",
+      "name": "Gargoyles, Drawn",
+      "th": "การ์กอยล์ วาดด้วยคณิต",
+      "url": "https://nanobotco.github.io/gargoyles/",
+      "note": "Gargoyles, grotesques and their cousins around the world, drawn live: Notre-Dame under the sky over Paris now, the physics of a spout, the dragon of Rouen, the Forbidden City's 1,142 dragon spouts, Kirtimukha, Nepal's hiti, Thai yaksha and Lanna singha, Chaac, a block to carve and Salamanca's astronaut to find",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/gargoyles/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/gargoyles"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
