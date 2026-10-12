@@ -1,6 +1,6 @@
 # The index
 
-> Everything NaNoBotCo holds, counted once, at one address. Counted 2026-10-12. Peacock, Nan.
+> Everything NaNoBotCo holds, counted once, at one address. Counted 2026-10-13. Peacock, Nan.
 
 - Machine copy (JSON): https://nanobotco.github.io/index/assets.json
 - Catalog (JSON-LD): https://nanobotco.github.io/index/catalog.jsonld

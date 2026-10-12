@@ -65,3 +65,4 @@ Sitemap: https://nanobotco.github.io/bridge-vial/sitemap.xml
 Sitemap: https://nanobotco.github.io/cursitor/sitemap.xml
 Sitemap: https://nanobotco.github.io/bag-knots/sitemap.xml
 Sitemap: https://nanobotco.github.io/suan-kham/sitemap.xml
+Sitemap: https://nanobotco.github.io/gargoyles/sitemap.xml
