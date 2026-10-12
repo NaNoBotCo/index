@@ -100,6 +100,10 @@ page = f"""<!doctype html>
 <html lang="en" translate="no" class="notranslate"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(A['title'])} — NaNoBotCo</title>
 <meta name="description" content="{E(A['one_line'])}">
+<link rel="canonical" href="{E(HOME)}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NaNoBotCo"><meta property="og:title" content="{E(A['title'])} — NaNoBotCo"><meta property="og:description" content="{E(A['one_line'])}"><meta property="og:url" content="{E(HOME)}">
+<meta property="og:image" content="{E(HOME)}card.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="The index, in large type, above the line: {E(A['one_line'])}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{E(HOME)}card.jpg">
 <meta name="citation_title" content="{E(A['title'])}"><meta name="citation_author" content="{E(A['byline'])}"><meta name="citation_publication_date" content="{TODAY}"><meta name="DC.publisher" content="NaNoBotCo">
 <link rel="alternate" type="application/json" href="assets.json"><link rel="alternate" type="application/ld+json" href="catalog.jsonld"><link rel="alternate" type="text/plain" href="index.txt">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
