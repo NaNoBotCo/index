@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-10-13",
+ "read": "2026-10-14",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 304119,
+  "records": 304123,
   "sites": 20,
-  "pages": 110206,
+  "pages": 110263,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 76,
-  "read": "2026-10-13"
+  "downloads": 72,
+  "read": "2026-10-14"
  },
  "corpora": [
   {
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 89245,
+     "value": 89249,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 97388,
+     "value": 97445,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -109,7 +109,7 @@
     },
     {
      "label": "downloads",
-     "value": 21,
+     "value": 19,
      "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
@@ -133,7 +133,7 @@
     },
     {
      "label": "downloads",
-     "value": 20,
+     "value": 18,
      "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
@@ -158,7 +158,7 @@
     {
      "label": "downloads",
      "value": 21,
-     "stale": null,
+     "stale": "2026-10-14",
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
     }
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 97388,
+   "pages": 97445,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-10-13"
+   "stale": "2026-10-14"
   },
   {
    "name": "offrampt.net",
