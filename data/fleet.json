@@ -818,6 +818,17 @@
       "repo": "https://github.com/NaNoBotCo/gargoyles"
     },
     {
+      "id": "newlife-stock",
+      "name": "Newlife Impex Stock",
+      "th": "สต็อกยา Newlife Impex",
+      "url": "https://nanobotco.github.io/newlife-stock/",
+      "note": "Search, filter and sort the medicines one Nagpur wholesaler lists, with prices in baht, rupees and dollars",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/newlife-stock/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/newlife-stock"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
