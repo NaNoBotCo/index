@@ -1,21 +1,21 @@
 {
- "read": "2026-10-19",
+ "read": "2026-10-20",
  "counts": {
   "lanna-manuscripts#0": {
    "value": 6986,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sqlite",
    "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "lanna-manuscripts#1": {
    "value": 120178,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sqlite",
    "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "motdang#0": {
-   "value": 89323,
-   "read": "2026-10-19",
+   "value": 89316,
+   "read": "2026-10-20",
    "method": "local_json_len",
    "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json"
   },
@@ -23,71 +23,73 @@
    "value": 97609,
    "read": "2026-10-19",
    "method": "sitemap",
-   "source": "https://motdang.net/sitemap.xml"
+   "source": "https://motdang.net/sitemap.xml",
+   "stale": "2026-10-20",
+   "error": "<urlopen error [Errno 54] Connection reset by peer>"
   },
   "amulet-market#0": {
    "value": 18847,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sqlite",
    "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db"
   },
   "hf-trade-words#0": {
    "value": 2185,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "hf_rows",
    "source": "NaNoBotCo/thai-trade-words-chiang-mai"
   },
   "hf-trade-words#1": {
    "value": 17,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "hf_downloads",
    "source": "NaNoBotCo/thai-trade-words-chiang-mai"
   },
   "hf-rtgs-lexicon#0": {
    "value": 694,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "hf_rows",
    "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
   },
   "hf-rtgs-lexicon#1": {
    "value": 13,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "hf_downloads",
    "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon"
   },
   "hf-romanisation-benchmark#0": {
    "value": 153948,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "hf_rows",
    "source": "NaNoBotCo/thai-place-name-romanisation-benchmark"
   },
   "hf-romanisation-benchmark#1": {
    "value": 13,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "hf_downloads",
    "source": "NaNoBotCo/thai-place-name-romanisation-benchmark"
   },
   "hf-motdang-export#0": {
    "value": 31,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "hf_downloads",
    "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai"
   },
   "carolina-barbecue#0": {
    "value": 179,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "json_key",
    "source": "https://nanobotco.github.io/carolina-barbecue/api/nodes.json"
   },
   "buffalo-wings#0": {
    "value": 158,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "json_key",
    "source": "https://nanobotco.github.io/buffalo-wings/api/nodes.json"
   },
   "basque-tables#0": {
    "value": 29,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "json_len",
    "source": "https://nanobotco.github.io/basque-tables/api/places.json"
   },
@@ -95,17 +97,19 @@
    "value": 10686,
    "read": "2026-10-19",
    "method": "json_key",
-   "source": "https://nanobotco.github.io/pink-box/api/places.json"
+   "source": "https://nanobotco.github.io/pink-box/api/places.json",
+   "stale": "2026-10-20",
+   "error": "[Errno 54] Connection reset by peer"
   },
   "pinot-country#0": {
    "value": 3055,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "json_key",
    "source": "https://nanobotco.github.io/pinot-noir/api/cellars.json"
   },
   "care-abroad#0": {
    "value": 17543,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "json_key",
    "source": "https://nanobotco.github.io/care-abroad/api/facilities.json"
   },
@@ -113,23 +117,25 @@
    "value": 286,
    "read": "2026-10-19",
    "method": "json_key",
-   "source": "https://nanobotco.github.io/amulet-atlas/api/nodes.json"
+   "source": "https://nanobotco.github.io/amulet-atlas/api/nodes.json",
+   "stale": "2026-10-20",
+   "error": "[Errno 54] Connection reset by peer"
   },
   "uptake#0": {
    "value": 18,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "jsonl_lines",
    "source": "https://nanobotco.github.io/uptake/corpus.jsonl"
   },
   "st-expedite#0": {
    "value": 177,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "local_geojson_features",
    "source": "/Users/annikapeacock/Developer/claude code projects/st-expedite-wiki/geo/shrines.geojson"
   },
   "amulet-essentials#0": {
    "value": 83,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "local_json_key",
    "source": "/Users/annikapeacock/Developer/claude code projects/amulet-essentials/build/api/kinds.json"
   },
@@ -137,23 +143,25 @@
    "value": 97609,
    "read": "2026-10-19",
    "method": "sitemap",
-   "source": "https://motdang.net/sitemap.xml"
+   "source": "https://motdang.net/sitemap.xml",
+   "stale": "2026-10-20",
+   "error": "The read operation timed out"
   },
   "site:ask.motdang.net": {
    "value": 1,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://ask.motdang.net/sitemap.xml"
   },
   "site:ai.motdang.net": {
    "value": 1,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://ai.motdang.net/sitemap.xml"
   },
   "site:demo.motdang.net": {
    "value": 1,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://demo.motdang.net/sitemap.xml"
   },
@@ -161,11 +169,13 @@
    "value": 9921,
    "read": "2026-10-19",
    "method": "sitemap",
-   "source": "https://wichaa.net/sitemap.xml"
+   "source": "https://wichaa.net/sitemap.xml",
+   "stale": "2026-10-20",
+   "error": "[Errno 54] Connection reset by peer"
   },
   "site:defiant.to": {
    "value": 147,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://defiant.to/sitemap.xml"
   },
@@ -173,11 +183,13 @@
    "value": 12,
    "read": "2026-10-19",
    "method": "sitemap",
-   "source": "https://hongdam.net/sitemap.xml"
+   "source": "https://hongdam.net/sitemap.xml",
+   "stale": "2026-10-20",
+   "error": "<urlopen error [Errno 54] Connection reset by peer>"
   },
   "site:hakfarang.net": {
-   "stale": "2026-10-19",
-   "error": "HTTP Error 404: Not Found",
+   "stale": "2026-10-20",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
    "value": null,
    "method": "sitemap",
    "source": "https://hakfarang.net/sitemap.xml"
@@ -186,71 +198,73 @@
    "value": 30,
    "read": "2026-10-19",
    "method": "sitemap",
-   "source": "https://offrampt.net/sitemap.xml"
+   "source": "https://offrampt.net/sitemap.xml",
+   "stale": "2026-10-20",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "site:nanobotco.github.io": {
    "value": 803,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/sitemap.xml"
   },
   "site:basque-tables": {
    "value": 206,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/basque-tables/sitemap.xml"
   },
   "site:carolina-barbecue": {
    "value": 199,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/carolina-barbecue/sitemap.xml"
   },
   "site:pinot-noir": {
    "value": 164,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/pinot-noir/sitemap.xml"
   },
   "site:buffalo-wings": {
    "value": 185,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/buffalo-wings/sitemap.xml"
   },
   "site:pink-box": {
    "value": 156,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/pink-box/sitemap.xml"
   },
   "site:care-abroad": {
    "value": 365,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/care-abroad/sitemap.xml"
   },
   "site:amulet-atlas": {
    "value": 606,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/amulet-atlas/sitemap.xml"
   },
   "site:thairoots": {
    "value": 4,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/thairoots/sitemap.xml"
   },
   "site:uptake": {
    "value": 15,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/uptake/sitemap.xml"
   },
   "site:index": {
    "value": 6,
-   "read": "2026-10-19",
+   "read": "2026-10-20",
    "method": "sitemap",
    "source": "https://nanobotco.github.io/index/sitemap.xml"
   }

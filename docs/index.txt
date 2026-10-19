@@ -1,10 +1,10 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-10-19 · Peacock, Nan · nan@motdang.net
+Counted 2026-10-20 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 304,197 · sites 20 · pages 110,431 · repositories 75
+  corpora 18 · records 304,190 · sites 20 · pages 110,431 · repositories 75
   fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 74
 
 PRICE
@@ -22,7 +22,7 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    89,323 place records · 97,609 pages
+    89,316 place records · 97,609 pages (last read 2026-10-20)
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
@@ -85,7 +85,7 @@ CORPORA
 
   Pink Box
     donut shops of the United States, chains and independents told apart
-    10,686 shops
+    10,686 shops (last read 2026-10-20)
     https://nanobotco.github.io/pink-box/
     provenance: OpenStreetMap harvest plus curated rows; the counts page explains the split
     licence: CC BY 4.0 · DOI: none yet
@@ -106,7 +106,7 @@ CORPORA
 
   Amulet Atlas
     amulets of the world, by tradition and place, the global companion to the Thai catalogue
-    286 entries
+    286 entries (last read 2026-10-20)
     https://nanobotco.github.io/amulet-atlas/
     provenance: each entry names its sources
     licence: CC BY 4.0 · DOI: none yet

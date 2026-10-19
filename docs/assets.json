@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-10-19",
+ "read": "2026-10-20",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,7 +16,7 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 304197,
+  "records": 304190,
   "sites": 20,
   "pages": 110431,
   "repos": 75,
@@ -24,7 +24,7 @@
   "cloners_14d": 3134,
   "viewers_14d": 46,
   "downloads": 74,
-  "read": "2026-10-19"
+  "read": "2026-10-20"
  },
  "corpora": [
   {
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 89323,
+     "value": 89316,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -69,7 +69,7 @@
     {
      "label": "pages",
      "value": 97609,
-     "stale": null,
+     "stale": "2026-10-20",
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
     }
@@ -243,7 +243,7 @@
     {
      "label": "shops",
      "value": 10686,
-     "stale": null,
+     "stale": "2026-10-20",
      "source": "https://nanobotco.github.io/pink-box/api/places.json",
      "method": "json_key"
     }
@@ -294,7 +294,7 @@
     {
      "label": "entries",
      "value": 286,
-     "stale": null,
+     "stale": "2026-10-20",
      "source": "https://nanobotco.github.io/amulet-atlas/api/nodes.json",
      "method": "json_key"
     }
@@ -367,7 +367,7 @@
    "url": "https://motdang.net",
    "note": "directory",
    "pages": 97609,
-   "stale": null
+   "stale": "2026-10-20"
   },
   {
    "name": "ask.motdang.net",
@@ -395,7 +395,7 @@
    "url": "https://wichaa.net",
    "note": "the hub",
    "pages": 9921,
-   "stale": null
+   "stale": "2026-10-20"
   },
   {
    "name": "defiant.to",
@@ -409,21 +409,21 @@
    "url": "https://hongdam.net",
    "note": "cards",
    "pages": 12,
-   "stale": null
+   "stale": "2026-10-20"
   },
   {
    "name": "hakfarang.net",
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-10-19"
+   "stale": "2026-10-20"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
    "pages": 30,
-   "stale": null
+   "stale": "2026-10-20"
   },
   {
    "name": "nanobotco.github.io",
