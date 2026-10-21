@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-10-21 · Peacock, Nan · nan@motdang.net
+Counted 2026-10-22 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 304,728 · sites 20 · pages 110,434 · repositories 75
-  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 71
+  corpora 18 · records 305,093 · sites 20 · pages 110,910 · repositories 75
+  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 72
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -22,14 +22,14 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    89,854 place records · 97,611 pages
+    89,845 place records · 98,087 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    18,847 listings
+    19,221 listings
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -57,7 +57,7 @@ CORPORA
 
   Mot Dang export, Chiang Mai and Chiang Rai
     the directory as a dataset, with provenance, fields stated and fields derived on each row
-    31 downloads
+    32 downloads
     https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai
     provenance: per-field provenance table on most rows
     licence: CC BY 4.0 · DOI: none yet
@@ -141,7 +141,7 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  97,611 pages   directory   https://motdang.net
+  motdang.net                  98,087 pages   directory   https://motdang.net
   ask.motdang.net                   1 pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    1 pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  1 pages   white-label-ai, guest demo   https://demo.motdang.net
