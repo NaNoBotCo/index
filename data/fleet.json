@@ -829,6 +829,17 @@
       "repo": "https://github.com/NaNoBotCo/newlife-stock"
     },
     {
+      "id": "100-days",
+      "name": "100 Days of Vibe-Coding Insanity",
+      "th": "100 วันแห่งการไวบ์โค้ดสุดบ้า",
+      "url": "https://nanobotco.github.io/100-days/",
+      "note": "Fifteen weeks of building with AI agents, one lesson a week, counted from git and the ledgers: charts, bot gossip and toys, EN+TH",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/100-days/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/100-days"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
