@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-10-22",
+ "read": "2026-10-23",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 305093,
+  "records": 305522,
   "sites": 20,
-  "pages": 110910,
+  "pages": 111015,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
   "downloads": 72,
-  "read": "2026-10-22"
+  "read": "2026-10-23"
  },
  "corpora": [
   {
@@ -68,7 +68,7 @@
     },
     {
      "label": "pages",
-     "value": 98087,
+     "value": 98189,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -85,7 +85,7 @@
    "counts": [
     {
      "label": "listings",
-     "value": 19221,
+     "value": 19650,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 98087,
+   "pages": 98189,
    "stale": null
   },
   {
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 13,
+   "pages": 14,
    "stale": null
   },
   {
@@ -416,13 +416,13 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-10-22"
+   "stale": "2026-10-23"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
-   "pages": 30,
+   "pages": 32,
    "stale": null
   },
   {

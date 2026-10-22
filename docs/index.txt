@@ -1,10 +1,10 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-10-22 · Peacock, Nan · nan@motdang.net
+Counted 2026-10-23 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 305,093 · sites 20 · pages 110,910 · repositories 75
+  corpora 18 · records 305,522 · sites 20 · pages 111,015 · repositories 75
   fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 72
 
 PRICE
@@ -22,14 +22,14 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    89,845 place records · 98,087 pages
+    89,845 place records · 98,189 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    19,221 listings
+    19,650 listings
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -141,15 +141,15 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                  98,087 pages   directory   https://motdang.net
+  motdang.net                  98,189 pages   directory   https://motdang.net
   ask.motdang.net                   1 pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    1 pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  1 pages   white-label-ai, guest demo   https://demo.motdang.net
   wichaa.net                    9,921 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
-  hongdam.net                      13 pages   cards   https://hongdam.net
+  hongdam.net                      14 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
-  offrampt.net                     30 pages   offramp   https://offrampt.net
+  offrampt.net                     32 pages   offramp   https://offrampt.net
   nanobotco.github.io             803 pages   portal and the HODIE ledger   https://nanobotco.github.io
   basque-tables                   206 pages   Basque dining rooms   https://nanobotco.github.io/basque-tables
   carolina-barbecue               199 pages   NC and SC barbecue   https://nanobotco.github.io/carolina-barbecue
