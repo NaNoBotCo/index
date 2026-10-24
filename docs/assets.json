@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-10-24",
+ "read": "2026-10-25",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 305729,
+  "records": 305849,
   "sites": 20,
-  "pages": 111020,
+  "pages": 111149,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
   "downloads": 70,
-  "read": "2026-10-24"
+  "read": "2026-10-25"
  },
  "corpora": [
   {
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 89844,
+     "value": 89838,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 98194,
+     "value": 98188,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -85,7 +85,7 @@
    "counts": [
     {
      "label": "listings",
-     "value": 19858,
+     "value": 19984,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
@@ -109,7 +109,7 @@
     },
     {
      "label": "downloads",
-     "value": 16,
+     "value": 17,
      "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 11,
+     "value": 13,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 32,
+     "value": 29,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 98194,
+   "pages": 98188,
    "stale": null
   },
   {
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 14,
+   "pages": 149,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-10-24"
+   "stale": "2026-10-25"
   },
   {
    "name": "offrampt.net",
@@ -430,7 +430,7 @@
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
    "pages": 803,
-   "stale": null
+   "stale": "2026-10-25"
   },
   {
    "name": "basque-tables",
