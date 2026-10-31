@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-10-31",
+ "read": "2026-11-01",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -18,13 +18,13 @@
   "corpora": 18,
   "records": 309409,
   "sites": 20,
-  "pages": 114196,
+  "pages": 114190,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 72,
-  "read": "2026-10-31"
+  "downloads": 71,
+  "read": "2026-11-01"
  },
  "corpora": [
   {
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 92857,
+     "value": 92850,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 101206,
+     "value": 101199,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -85,7 +85,7 @@
    "counts": [
     {
      "label": "listings",
-     "value": 20525,
+     "value": 20532,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 34,
+     "value": 33,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 101206,
+   "pages": 101199,
    "stale": null
   },
   {
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 160,
+   "pages": 161,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-10-31"
+   "stale": "2026-11-01"
   },
   {
    "name": "offrampt.net",
