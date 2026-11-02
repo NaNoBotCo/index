@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-10-21",
+ "read": "2026-11-02",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 304728,
+  "records": 309415,
   "sites": 20,
-  "pages": 110434,
+  "pages": 114200,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 71,
-  "read": "2026-10-21"
+  "downloads": 68,
+  "read": "2026-11-02"
  },
  "corpora": [
   {
@@ -38,14 +38,14 @@
     {
      "label": "manuscripts",
      "value": 6986,
-     "stale": null,
+     "stale": "2026-11-02",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     },
     {
      "label": "page images",
      "value": 120178,
-     "stale": null,
+     "stale": "2026-11-02",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -61,14 +61,14 @@
    "counts": [
     {
      "label": "place records",
-     "value": 89854,
+     "value": 92856,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
     },
     {
      "label": "pages",
-     "value": 97611,
+     "value": 101207,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -85,8 +85,8 @@
    "counts": [
     {
      "label": "listings",
-     "value": 18847,
-     "stale": null,
+     "value": 20532,
+     "stale": "2026-11-02",
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -109,7 +109,7 @@
     },
     {
      "label": "downloads",
-     "value": 16,
+     "value": 15,
      "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
@@ -133,7 +133,7 @@
     },
     {
      "label": "downloads",
-     "value": 12,
+     "value": 6,
      "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 12,
+     "value": 14,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 31,
+     "value": 33,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 97611,
+   "pages": 101207,
    "stale": null
   },
   {
@@ -395,7 +395,7 @@
    "url": "https://wichaa.net",
    "note": "the hub",
    "pages": 9921,
-   "stale": "2026-10-21"
+   "stale": null
   },
   {
    "name": "defiant.to",
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 13,
+   "pages": 163,
    "stale": null
   },
   {
@@ -416,13 +416,13 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-10-21"
+   "stale": "2026-11-02"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
-   "pages": 30,
+   "pages": 50,
    "stale": null
   },
   {

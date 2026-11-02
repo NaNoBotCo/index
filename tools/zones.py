@@ -23,6 +23,13 @@ requests   every request the edge answered, bots included
 pageviews  Cloudflare's own count of requests that looked like a page
 uniques    distinct client IPs, bots included. Not people.
 Today's row is the day so far and is rewritten on each run.
+
+PEOPLE (added 2026-11-02, ~/.claude/state/people.tsv: date, host, views, visits)
+Cloudflare Web Analytics, read per host. Its script runs only in a browser that
+runs the page, motdang.net and hongdam.net keep it off pages their classifier
+files as a machine or as ours, and NOT_PEOPLE drops headless Chrome and desktop
+browsers Cloudflare cannot name, so visits here are the nearest count of people. It samples one page load in ten and scales up: under ~50 is rough.
+Read with the fleet token in keys.json (Account Analytics Read).
 """
 from __future__ import annotations
 
@@ -37,6 +44,9 @@ sys.path.insert(0, "/Users/annikapeacock/Developer/claude code projects/manuscri
 import cfauth  # noqa: E402
 
 LEDGER = os.path.expanduser("~/.claude/state/traffic.tsv")
+PEOPLE = os.path.expanduser("~/.claude/state/people.tsv")
+PEOPLE_HEAD = "# date\thost\tviews\tvisits\n"
+KEYS = os.path.expanduser("~/.config/nanobotco/keys.json")
 API = "https://api.cloudflare.com/client/v4"
 HEAD = "# date\tzone\trequests\tpageviews\tuniques\n"
 
@@ -118,6 +128,10 @@ def main() -> None:
         time.sleep(1.5)
     save(rows)
     print(f"zones: {len(zones)} read, {skipped} refused · {read} zone-days · {LEDGER}")
+    try:
+        people(start, end)
+    except Exception as e:  # the edge count above is already saved
+        print(f"people: skipped ({str(e)[:90]})", file=sys.stderr)
 
     if "--show" in sys.argv:
         today = end.isoformat()
@@ -125,6 +139,53 @@ def main() -> None:
         for (day, name), r in sorted(rows.items()):
             if day == today:
                 print(f"  {name:<24} {int(r[2]):>9,} req · {int(r[3]):>8,} pv · {int(r[4]):>7,} uniq")
+
+
+PEOPLE_QUERY = """query($a:String!,$d:Date!){viewer{accounts(filter:{accountTag:$a}){
+rumPageloadEventsAdaptiveGroups(limit:2000,filter:{date:$d},orderBy:[count_DESC]){
+count sum{visits} dimensions{requestHost userAgentBrowser deviceType}}}}}"""
+# Not people: headless Chrome (our own test runs show here, 1,340 Thai visits on
+# 19 Oct–1 Nov) and a desktop browser Cloudflare cannot name (wichaa.net's US and
+# Singapore script runners, 1,550 visits; Thai readers showed none on desktop).
+NOT_PEOPLE = {("ChromeHeadless", "desktop"), ("ChromeHeadless", "mobile"), ("Unknown", "desktop")}
+
+
+def people(start: dt.date, end: dt.date) -> None:
+    """Web Analytics views and visits per host, one day per query (finer sampling)."""
+    cf = json.load(open(KEYS))["cloudflare"]
+    rows = {}
+    if os.path.exists(PEOPLE):
+        for line in open(PEOPLE, encoding="utf-8"):
+            p = line.rstrip("\n").split("\t")
+            if not line.startswith("#") and len(p) == 4:
+                rows[(p[0], p[1])] = p
+    day, n = start, 0
+    while day <= end:
+        body = json.dumps({"query": PEOPLE_QUERY, "variables": {"a": cf["account_id"], "d": day.isoformat()}}).encode()
+        req = urllib.request.Request(f"{API}/graphql", data=body, headers={
+            "Authorization": f"Bearer {cf['api_token']}", "Content-Type": "application/json"})
+        d = json.load(urllib.request.urlopen(req, timeout=40))
+        if d.get("errors"):
+            raise RuntimeError(str(d["errors"][0].get("message")))
+        for k in [k for k in rows if k[0] == day.isoformat()]:
+            del rows[k]
+        tally = {}
+        for g in d["data"]["viewer"]["accounts"][0]["rumPageloadEventsAdaptiveGroups"]:
+            dim = g["dimensions"]
+            if not dim["requestHost"] or (dim["userAgentBrowser"], dim["deviceType"]) in NOT_PEOPLE:
+                continue
+            v = tally.setdefault(dim["requestHost"], [0, 0])
+            v[0] += g["count"]
+            v[1] += g["sum"]["visits"]
+        for host, (views, vis) in tally.items():
+            rows[(day.isoformat(), host)] = [day.isoformat(), host, str(views), str(vis)]
+            n += 1
+        day += dt.timedelta(days=1)
+    with open(PEOPLE, "w", encoding="utf-8") as fh:
+        fh.write(PEOPLE_HEAD)
+        for key in sorted(rows):
+            fh.write("\t".join(rows[key]) + "\n")
+    print(f"people: {n} host-days · {PEOPLE}")
 
 
 if __name__ == "__main__":
