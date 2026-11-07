@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-11-07",
+ "read": "2026-11-08",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 309931,
+  "records": 309938,
   "sites": 20,
-  "pages": 114970,
+  "pages": 114971,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 89,
-  "read": "2026-11-07"
+  "downloads": 90,
+  "read": "2026-11-08"
  },
  "corpora": [
   {
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 92854,
+     "value": 92859,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -85,7 +85,7 @@
    "counts": [
     {
      "label": "listings",
-     "value": 21050,
+     "value": 21052,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 22,
+     "value": 23,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 925,
+   "pages": 926,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-11-07"
+   "stale": "2026-11-08"
   },
   {
    "name": "offrampt.net",

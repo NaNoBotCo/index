@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-11-07 · Peacock, Nan · nan@motdang.net
+Counted 2026-11-08 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 309,931 · sites 20 · pages 114,970 · repositories 75
-  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 89
+  corpora 18 · records 309,938 · sites 20 · pages 114,971 · repositories 75
+  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 90
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -22,14 +22,14 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    92,854 place records · 101,209 pages
+    92,859 place records · 101,209 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    21,050 listings
+    21,052 listings
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -50,7 +50,7 @@ CORPORA
 
   Thai place-name romanisation benchmark
     place-name words scored twice by translit.py, with the lexicon and by rules alone
-    153,948 rows · 22 downloads
+    153,948 rows · 23 downloads
     https://huggingface.co/datasets/NaNoBotCo/thai-place-name-romanisation-benchmark
     provenance: words from the Mot Dang register; scores from the published tool
     licence: CC BY 4.0 · DOI: none yet
@@ -147,7 +147,7 @@ SITES
   demo.motdang.net                  1 pages   white-label-ai, guest demo   https://demo.motdang.net
   wichaa.net                    9,921 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
-  hongdam.net                     925 pages   cards   https://hongdam.net
+  hongdam.net                     926 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
   offrampt.net                     56 pages   offramp   https://offrampt.net
   nanobotco.github.io             803 pages   portal and the HODIE ledger   https://nanobotco.github.io
