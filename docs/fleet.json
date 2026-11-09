@@ -840,6 +840,17 @@
       "repo": "https://github.com/NaNoBotCo/100-days"
     },
     {
+      "id": "hodie",
+      "name": "Hodie",
+      "th": "โฮดิเอ ขอบคุณนักบุญเอ็กซ์เปดิต",
+      "url": "https://nanobotco.github.io/hodie/",
+      "note": "Thank-you notice to Saint Expedite: a visa stamp dated before the ask",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/hodie/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/hodie"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",

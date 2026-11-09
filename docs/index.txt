@@ -1,11 +1,11 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-11-09 · Peacock, Nan · nan@motdang.net
+Counted 2026-11-10 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 309,938 · sites 20 · pages 114,973 · repositories 75
-  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 91
+  corpora 18 · records 310,169 · sites 20 · pages 114,977 · repositories 75
+  fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 93
 
 PRICE
   attribution: free, with attribution — name the work and link back
@@ -22,14 +22,14 @@ CORPORA
 
   Mot Dang
     Thai-first city directory for Chiang Mai and Chiang Rai: places, hours, phones, pins, shelves and answer pages
-    92,859 place records · 101,209 pages
+    92,852 place records · 101,210 pages
     https://motdang.net/
     provenance: record-level sources on every place; field-level provenance in the Hugging Face export
     licence: CC BY 4.0 · DOI: none yet
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    21,052 listings
+    21,290 listings
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -57,7 +57,7 @@ CORPORA
 
   Mot Dang export, Chiang Mai and Chiang Rai
     the directory as a dataset, with provenance, fields stated and fields derived on each row
-    42 downloads
+    44 downloads
     https://huggingface.co/datasets/NaNoBotCo/mot-dang-chiang-mai-chiang-rai
     provenance: per-field provenance table on most rows
     licence: CC BY 4.0 · DOI: none yet
@@ -141,15 +141,15 @@ CORPORA
 
 SITES
 ------------------------------------------------------------------------------
-  motdang.net                 101,209 pages   directory   https://motdang.net
+  motdang.net                 101,210 pages   directory   https://motdang.net
   ask.motdang.net                   1 pages   reader assistant   https://ask.motdang.net
   ai.motdang.net                    1 pages   white-label-ai, seats   https://ai.motdang.net
   demo.motdang.net                  1 pages   white-label-ai, guest demo   https://demo.motdang.net
   wichaa.net                    9,921 pages   the hub   https://wichaa.net
   defiant.to                      147 pages   the company   https://defiant.to
-  hongdam.net                     928 pages   cards   https://hongdam.net
+  hongdam.net                     929 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
-  offrampt.net                     56 pages   offramp   https://offrampt.net
+  offrampt.net                     58 pages   offramp   https://offrampt.net
   nanobotco.github.io             803 pages   portal and the HODIE ledger   https://nanobotco.github.io
   basque-tables                   206 pages   Basque dining rooms   https://nanobotco.github.io/basque-tables
   carolina-barbecue               199 pages   NC and SC barbecue   https://nanobotco.github.io/carolina-barbecue
