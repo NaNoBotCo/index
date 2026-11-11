@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-11-11",
+ "read": "2026-11-12",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 310184,
+  "records": 310181,
   "sites": 20,
-  "pages": 114972,
+  "pages": 114978,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 100,
-  "read": "2026-11-11"
+  "downloads": 103,
+  "read": "2026-11-12"
  },
  "corpora": [
   {
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 92858,
+     "value": 92855,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -69,7 +69,7 @@
     {
      "label": "pages",
      "value": 101204,
-     "stale": null,
+     "stale": "2026-11-12",
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
     }
@@ -103,14 +103,14 @@
     {
      "label": "rows",
      "value": 2185,
-     "stale": null,
+     "stale": "2026-11-12",
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
      "value": 17,
-     "stale": null,
+     "stale": "2026-11-12",
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
     }
@@ -127,14 +127,14 @@
     {
      "label": "rows",
      "value": 694,
-     "stale": null,
+     "stale": "2026-11-12",
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
      "value": 13,
-     "stale": null,
+     "stale": "2026-11-12",
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
     }
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 25,
+     "value": 27,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 45,
+     "value": 46,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 101204,
+   "pages": 101210,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-11-11"
+   "stale": "2026-11-12"
   },
   {
    "name": "offrampt.net",
@@ -430,7 +430,7 @@
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
    "pages": 803,
-   "stale": null
+   "stale": "2026-11-12"
   },
   {
    "name": "basque-tables",
