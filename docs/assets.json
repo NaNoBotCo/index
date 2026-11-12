@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-11-12",
+ "read": "2026-11-13",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -23,8 +23,8 @@
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 103,
-  "read": "2026-11-12"
+  "downloads": 106,
+  "read": "2026-11-13"
  },
  "corpora": [
   {
@@ -68,8 +68,8 @@
     },
     {
      "label": "pages",
-     "value": 101204,
-     "stale": "2026-11-12",
+     "value": 101210,
+     "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
     }
@@ -103,14 +103,14 @@
     {
      "label": "rows",
      "value": 2185,
-     "stale": "2026-11-12",
+     "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
-     "value": 17,
-     "stale": "2026-11-12",
+     "value": 19,
+     "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
     }
@@ -127,14 +127,14 @@
     {
      "label": "rows",
      "value": 694,
-     "stale": "2026-11-12",
+     "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_rows"
     },
     {
      "label": "downloads",
-     "value": 13,
-     "stale": "2026-11-12",
+     "value": 14,
+     "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
     }
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 27,
+     "value": 28,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 46,
+     "value": 45,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-11-12"
+   "stale": "2026-11-13"
   },
   {
    "name": "offrampt.net",
@@ -430,7 +430,7 @@
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
    "pages": 803,
-   "stale": "2026-11-12"
+   "stale": "2026-11-13"
   },
   {
    "name": "basque-tables",
