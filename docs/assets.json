@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-11-15",
+ "read": "2026-11-16",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 310178,
+  "records": 310436,
   "sites": 20,
-  "pages": 114983,
+  "pages": 114980,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 108,
-  "read": "2026-11-15"
+  "downloads": 94,
+  "read": "2026-11-16"
  },
  "corpora": [
   {
@@ -68,7 +68,7 @@
     },
     {
      "label": "pages",
-     "value": 101211,
+     "value": 101206,
      "stale": null,
      "source": "https://motdang.net/sitemap.xml",
      "method": "sitemap"
@@ -85,7 +85,7 @@
    "counts": [
     {
      "label": "listings",
-     "value": 21299,
+     "value": 21557,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
@@ -133,7 +133,7 @@
     },
     {
      "label": "downloads",
-     "value": 15,
+     "value": 16,
      "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 42,
+     "value": 27,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -366,7 +366,7 @@
    "name": "motdang.net",
    "url": "https://motdang.net",
    "note": "directory",
-   "pages": 101211,
+   "pages": 101206,
    "stale": null
   },
   {
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 932,
+   "pages": 934,
    "stale": null
   },
   {
@@ -416,7 +416,7 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-11-15"
+   "stale": "2026-11-16"
   },
   {
    "name": "offrampt.net",
