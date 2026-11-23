@@ -840,6 +840,39 @@
       "repo": "https://github.com/NaNoBotCo/100-days"
     },
     {
+      "id": "hodie",
+      "name": "Hodie",
+      "th": "โฮดิเอ ขอบคุณนักบุญเอ็กซ์เปดิต",
+      "url": "https://nanobotco.github.io/hodie/",
+      "note": "Thank-you notice to Saint Expedite: a visa stamp dated before the ask",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/hodie/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/hodie"
+    },
+    {
+      "id": "pells",
+      "name": "Pells",
+      "th": "เพลส์ · จากใบแจ้งยอดสู่ชุดเอกสาร",
+      "url": "https://nanobotco.github.io/pells/",
+      "note": "Bank and card statements in; a ledger checked against the printed balances and a Bates-numbered production out. A kit for a Mac.",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/pells/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/pells"
+    },
+    {
+      "id": "chirograph",
+      "name": "Chirograph",
+      "th": "ไคโรกราฟ · โต๊ะงานยอมความ",
+      "url": "https://nanobotco.github.io/chirograph/",
+      "note": "A settlement desk for California state court: the offer ladder with its CCP 998 clocks, a terms check of an agreement, a closing list that moves on evidence. A kit for a Mac.",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/chirograph/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chirograph"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",

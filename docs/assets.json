@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-11-02",
+ "read": "2026-11-22",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -16,15 +16,15 @@
  },
  "totals": {
   "corpora": 18,
-  "records": 309415,
+  "records": 310722,
   "sites": 20,
-  "pages": 114200,
+  "pages": 115157,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 68,
-  "read": "2026-11-02"
+  "downloads": 128,
+  "read": "2026-11-22"
  },
  "corpora": [
   {
@@ -38,14 +38,14 @@
     {
      "label": "manuscripts",
      "value": 6986,
-     "stale": "2026-11-02",
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     },
     {
      "label": "page images",
      "value": 120178,
-     "stale": "2026-11-02",
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -61,7 +61,7 @@
    "counts": [
     {
      "label": "place records",
-     "value": 92856,
+     "value": 92854,
      "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cm.json, /Users/annikapeacock/Developer/claude code projects/mot-dang/data/canonical/cr.json",
      "method": "local_json_len"
@@ -85,8 +85,8 @@
    "counts": [
     {
      "label": "listings",
-     "value": 20532,
-     "stale": "2026-11-02",
+     "value": 21841,
+     "stale": null,
      "source": "/Users/annikapeacock/Developer/claude code projects/manuscript-crawler/crawler/catalog.db",
      "method": "sqlite"
     }
@@ -109,7 +109,7 @@
     },
     {
      "label": "downloads",
-     "value": 15,
+     "value": 29,
      "stale": null,
      "source": "NaNoBotCo/thai-trade-words-chiang-mai",
      "method": "hf_downloads"
@@ -133,7 +133,7 @@
     },
     {
      "label": "downloads",
-     "value": 6,
+     "value": 25,
      "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 14,
+     "value": 37,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 33,
+     "value": 37,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -401,14 +401,14 @@
    "name": "defiant.to",
    "url": "https://defiant.to",
    "note": "the company",
-   "pages": 147,
+   "pages": 133,
    "stale": null
   },
   {
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 163,
+   "pages": 970,
    "stale": null
   },
   {
@@ -416,20 +416,20 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-11-02"
+   "stale": "2026-11-22"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
-   "pages": 50,
+   "pages": 66,
    "stale": null
   },
   {
    "name": "nanobotco.github.io",
    "url": "https://nanobotco.github.io",
    "note": "portal and the HODIE ledger",
-   "pages": 803,
+   "pages": 951,
    "stale": null
   },
   {
