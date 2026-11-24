@@ -873,6 +873,17 @@
       "repo": "https://github.com/NaNoBotCo/chirograph"
     },
     {
+      "id": "magnets",
+      "name": "Fucking Magnets",
+      "th": "แม่เหล็กแม่งเจ๋ง",
+      "url": "https://nanobotco.github.io/magnets/",
+      "note": "How magnets work, for the Juggalo family: two magnets to grab, an electron shelf to load, a crowd of atoms that lines up, a hatchet, a nail to wrap, a speaker to thump",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/magnets/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/magnets"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
