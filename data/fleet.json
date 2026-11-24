@@ -884,6 +884,17 @@
       "repo": "https://github.com/NaNoBotCo/magnets"
     },
     {
+      "id": "time-crystals",
+      "name": "Time Crystals, Drawn",
+      "th": "ผลึกเวลา วาดให้ดู",
+      "url": "https://nanobotco.github.io/time-crystals/",
+      "note": "Time crystals as toys you drive: guess a pattern, set the beat, knock a magnet, start a fire, nudge a light, levitate two foam beads, then build Chronos, a tabletop time crystal",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/time-crystals/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/time-crystals"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
