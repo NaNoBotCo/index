@@ -5,7 +5,7 @@
  "publisher": "NaNoBotCo",
  "contact": "nan@motdang.net",
  "home": "https://nanobotco.github.io/index/",
- "read": "2026-11-25",
+ "read": "2026-11-26",
  "price": {
   "attribution": "free, with attribution — name the work and link back",
   "commercial": "free too; CC BY 4.0 permits commercial use. Say where it came from."
@@ -18,13 +18,13 @@
   "corpora": 18,
   "records": 310901,
   "sites": 20,
-  "pages": 115164,
+  "pages": 115167,
   "repos": 75,
   "clones_14d": 6017,
   "cloners_14d": 3134,
   "viewers_14d": 46,
-  "downloads": 135,
-  "read": "2026-11-25"
+  "downloads": 146,
+  "read": "2026-11-26"
  },
  "corpora": [
   {
@@ -133,7 +133,7 @@
     },
     {
      "label": "downloads",
-     "value": 29,
+     "value": 31,
      "stale": null,
      "source": "NaNoBotCo/thai-rtgs-romanisation-lexicon",
      "method": "hf_downloads"
@@ -157,7 +157,7 @@
     },
     {
      "label": "downloads",
-     "value": 34,
+     "value": 36,
      "stale": null,
      "source": "NaNoBotCo/thai-place-name-romanisation-benchmark",
      "method": "hf_downloads"
@@ -174,7 +174,7 @@
    "counts": [
     {
      "label": "downloads",
-     "value": 40,
+     "value": 47,
      "stale": null,
      "source": "NaNoBotCo/mot-dang-chiang-mai-chiang-rai",
      "method": "hf_downloads"
@@ -408,7 +408,7 @@
    "name": "hongdam.net",
    "url": "https://hongdam.net",
    "note": "cards",
-   "pages": 974,
+   "pages": 975,
    "stale": null
   },
   {
@@ -416,13 +416,13 @@
    "url": "https://hakfarang.net",
    "note": "ฮักฝรั่ง",
    "pages": null,
-   "stale": "2026-11-25"
+   "stale": "2026-11-26"
   },
   {
    "name": "offrampt.net",
    "url": "https://offrampt.net",
    "note": "offramp",
-   "pages": 68,
+   "pages": 70,
    "stale": null
   },
   {
