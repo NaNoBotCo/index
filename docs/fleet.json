@@ -884,6 +884,28 @@
       "repo": "https://github.com/NaNoBotCo/magnets"
     },
     {
+      "id": "time-crystals",
+      "name": "Time Crystals, Drawn",
+      "th": "ผลึกเวลา วาดให้ดู",
+      "url": "https://nanobotco.github.io/time-crystals/",
+      "note": "Time crystals as toys you drive: guess a pattern, set the beat, knock a magnet, start a fire, nudge a light, levitate two foam beads, then build Chronos, a tabletop time crystal",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/time-crystals/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/time-crystals"
+    },
+    {
+      "id": "arun",
+      "name": "ARUN",
+      "th": "อรุณ",
+      "url": "https://nanobotco.github.io/arun/",
+      "note": "A laboratory for possible worlds: 21 live exhibits of computational foresight on a fictional Mekong valley, computed in the browser, in English, Thai and Khmer",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/arun/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/arun"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
