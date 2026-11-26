@@ -895,6 +895,17 @@
       "repo": "https://github.com/NaNoBotCo/time-crystals"
     },
     {
+      "id": "arun",
+      "name": "ARUN",
+      "th": "อรุณ",
+      "url": "https://nanobotco.github.io/arun/",
+      "note": "A laboratory for possible worlds: 21 live exhibits of computational foresight on a fictional Mekong valley, computed in the browser, in English, Thai and Khmer",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/arun/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/arun"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
