@@ -1,10 +1,10 @@
 THE INDEX
 Everything NaNoBotCo holds, counted once, at one address.
-Counted 2026-11-26 · Peacock, Nan · nan@motdang.net
+Counted 2026-11-27 · Peacock, Nan · nan@motdang.net
 ==============================================================================
 
 TOTALS
-  corpora 18 · records 310,901 · sites 20 · pages 115,167 · repositories 75
+  corpora 18 · records 311,077 · sites 20 · pages 115,168 · repositories 75
   fourteen days: 6,017 clones by 3,134 machines · 46 human viewers · dataset downloads 146
 
 PRICE
@@ -29,7 +29,7 @@ CORPORA
 
   Amulet market
     Thai amulet listings read from Lazada Thailand, with the vernacular vocabulary they carry
-    22,014 listings
+    22,190 listings
     https://wichaa.net/
     provenance: each item keeps its source id and the search page it came from
     licence: CC BY 4.0 · DOI: none yet
@@ -147,7 +147,7 @@ SITES
   demo.motdang.net                  1 pages   white-label-ai, guest demo   https://demo.motdang.net
   wichaa.net                    9,921 pages   the hub   https://wichaa.net
   defiant.to                      133 pages   the company   https://defiant.to
-  hongdam.net                     975 pages   cards   https://hongdam.net
+  hongdam.net                     976 pages   cards   https://hongdam.net
   hakfarang.net                     — pages   ฮักฝรั่ง   https://hakfarang.net
   offrampt.net                     70 pages   offramp   https://offrampt.net
   nanobotco.github.io             951 pages   portal and the HODIE ledger   https://nanobotco.github.io
