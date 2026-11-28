@@ -906,6 +906,17 @@
       "repo": "https://github.com/NaNoBotCo/arun"
     },
     {
+      "id": "rules-nobody-made",
+      "name": "Rules Nobody Made",
+      "th": "กฎที่ไม่มีใครตั้ง",
+      "url": "https://nanobotco.github.io/rules-nobody-made/",
+      "note": "a dated record of rules, pledges and creeds Claude Code sessions wrote into one person's work without her say, Aug–Nov 2026",
+      "lane": "meta",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/rules-nobody-made/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/rules-nobody-made"
+    },
+    {
       "id": "patreon",
       "name": "Patreon",
       "url": "https://www.patreon.com/nanobotco",
